@@ -82,11 +82,15 @@ Instagram uses direct links and an explicitly labeled inspiration gallery, not a
 
 ## Deploy
 
+Public review URL: [BRAA GRAPHIX](https://braa-graphics.meliodasin14.chatgpt.site). The GitHub source repository remains private.
+
+Sites deployment is configured in `.openai/hosting.json`, with `dist/` as the static output and SPA fallback for product/category links. Publish updates through the Sites workflow after building and saving the matching source commit; a GitHub push alone does not deploy the website.
+
 1. Run `npm ci`, `npm test`, and `npm run build`.
 2. Deploy `dist/` to a static host with HTTPS and SPA fallback to `/index.html`.
 3. Keep `/assets/*`, `/images/*`, `/fonts/*`, and `favicon.svg` serving as static assets.
 4. A `_redirects` rule is included for compatible hosts such as Netlify/Cloudflare Pages. `vercel.json` is included for Vercel.
-5. Set a real canonical URL and absolute Open Graph image after the production domain is known. No domain is invented in this project.
+5. Canonical and Open Graph URLs use the configured Sites origin. Update these if adding a custom domain.
 6. Check direct loads of `/product/mugs-1`, `/category/prints`, and `/gift-builder` on the chosen host.
 
 Use a dedicated repository for this project. Its source, original assets, font licenses, configuration and tests are versioned together. Build output and dependencies are regenerated with the commands above. Keep this project separate from the electronics-store repository.

@@ -145,6 +145,9 @@ function RouteEffects() {
       '/about': 'הסטודיו',
       '/contact': 'דברו איתנו'
     };
+    const canonicalUrl = new URL(location.pathname, 'https://braa-graphics.meliodasin14.chatgpt.site').href;
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', canonicalUrl);
+    document.querySelector('meta[property="og:url"]')?.setAttribute('content', canonicalUrl);
     document.title = `${t(pageNames[location.pathname] || 'עיצוב ומתנות אישיות')} · BRAA GRAPHIX`;
     document.querySelector('meta[name="description"]')?.setAttribute('content', t('תיאור האתר'));
     document.querySelector('meta[property="og:title"]')?.setAttribute('content', document.title);
