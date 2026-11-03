@@ -1,0 +1,2953 @@
+{
+  "דברים יפים מתחילים כאן.": {
+    "ar": "الجمال يبدأ من هنا.",
+    "en": "Beautiful things start here."
+  },
+  "דלגו פנימה": {
+    "ar": "تفضّلوا بالدخول",
+    "en": "Skip intro"
+  },
+  "מתנה קטנה. מחשבה גדולה. נגיעה שהיא רק שלכם.": {
+    "ar": "هدية صغيرة. اهتمام كبير. لمسة تخصّكم وحدكم.",
+    "en": "A little gift. A thoughtful gesture. A touch of you."
+  },
+  "BRAA GRAPHIX — לדף הבית": {
+    "ar": "BRAA GRAPHIX — الصفحة الرئيسية",
+    "en": "BRAA GRAPHIX — Home"
+  },
+  "ניווט ראשי": {
+    "ar": "التنقّل الرئيسي",
+    "en": "Main navigation"
+  },
+  "חיפוש מוצרים": {
+    "ar": "البحث عن المنتجات",
+    "en": "Search products"
+  },
+  "מועדפים, {0} פריטים": {
+    "ar": "المفضلة، {0} منتجات",
+    "en": "Favorites, {0} items"
+  },
+  "סל פניות, {0} פריטים": {
+    "ar": "سلة الطلبات، {0} منتجات",
+    "en": "Inquiry basket, {0} items"
+  },
+  "BRAA GRAPHIX ב־Instagram": {
+    "ar": "BRAA GRAPHIX على Instagram",
+    "en": "BRAA GRAPHIX on Instagram"
+  },
+  "דברו איתנו": {
+    "ar": "تواصلوا معنا",
+    "en": "Get in touch"
+  },
+  "פתיחת תפריט": {
+    "ar": "فتح القائمة",
+    "en": "Open menu"
+  },
+  "מה מחפשים?": {
+    "ar": "عمّ تبحثون؟",
+    "en": "What are you looking for?"
+  },
+  "ספל, מחברת, מארז…": {
+    "ar": "كوب، دفتر، صندوق هدايا…",
+    "en": "Mug, notebook, gift box…"
+  },
+  "לחפש": {
+    "ar": "بحث",
+    "en": "Search"
+  },
+  "סגירת חיפוש": {
+    "ar": "إغلاق البحث",
+    "en": "Close search"
+  },
+  "תפריט ניווט": {
+    "ar": "قائمة التنقّل",
+    "en": "Navigation menu"
+  },
+  "סגירת תפריט": {
+    "ar": "إغلاق القائمة",
+    "en": "Close menu"
+  },
+  "המועדפים שלי": {
+    "ar": "المفضلة",
+    "en": "My favorites"
+  },
+  "סל הפניות": {
+    "ar": "سلة الطلبات",
+    "en": "Inquiry basket"
+  },
+  "בואו נדבר": {
+    "ar": "لنتحدّث",
+    "en": "Let's talk"
+  },
+  "עיצובים אישיים, מתנות מרגשות": {
+    "ar": "تصاميم شخصية وهدايا تلامس القلب",
+    "en": "Personal designs, heartfelt gifts"
+  },
+  "ודברים קטנים שעושים טוב בלב.": {
+    "ar": "وتفاصيل صغيرة تُسعد القلب.",
+    "en": "and little things that bring joy."
+  },
+  "היי BRAA GRAPHIX, אשמח להתייעץ.": {
+    "ar": "مرحبًا BRAA GRAPHIX، أودّ الاستفسار.",
+    "en": "Hi BRAA GRAPHIX, I'd love some advice."
+  },
+  "משהו יפה לתת": {
+    "ar": "شيء جميل نهديه",
+    "en": "Something lovely to give"
+  },
+  "הקולקציה המלאה": {
+    "ar": "المجموعة الكاملة",
+    "en": "The full collection"
+  },
+  "בונים מתנה אישית": {
+    "ar": "صمّموا هديّتكم",
+    "en": "Build a personal gift"
+  },
+  "הדפסות לאירועים": {
+    "ar": "مطبوعات للمناسبات",
+    "en": "Event printing"
+  },
+  "הרעיונות ששמרתם": {
+    "ar": "أفكاركم المحفوظة",
+    "en": "Your saved ideas"
+  },
+  "קצת עלינו": {
+    "ar": "تعرّفوا علينا",
+    "en": "A little about us"
+  },
+  "על הסטודיו": {
+    "ar": "عن الاستوديو",
+    "en": "About the studio"
+  },
+  "שירותי עיצוב גרפי": {
+    "ar": "خدمات التصميم الجرافيكي",
+    "en": "Graphic design services"
+  },
+  "תיק עבודות": {
+    "ar": "أعمالنا",
+    "en": "Portfolio"
+  },
+  "בואו ניצור משהו ביחד": {
+    "ar": "لنصنع شيئًا جميلًا معًا",
+    "en": "Let's create something together"
+  },
+  "מתנה עם מחשבה מתחילה בשיחה.": {
+    "ar": "الهدية المدروسة تبدأ بمحادثة.",
+    "en": "A thoughtful gift starts with a conversation."
+  },
+  "פרטיות ומידע": {
+    "ar": "الخصوصية والمعلومات",
+    "en": "Privacy & information"
+  },
+  "למחוק מהמכשיר את כל התמונות, המועדפים, סל הפניות והטיוטות של האתר?": {
+    "ar": "هل تريدون حذف جميع صور الموقع والمفضلة والسلة والمسودات من هذا الجهاز؟",
+    "en": "Delete all this site's photos, favorites, basket items and drafts from this device?"
+  },
+  "לא ניתן להשלים את המחיקה. אפשר לנקות את נתוני האתר דרך הגדרות הדפדפן.": {
+    "ar": "تعذّر إتمام الحذف. يمكنكم مسح بيانات الموقع من إعدادات المتصفح.",
+    "en": "Couldn't complete deletion. You can clear site data in your browser settings."
+  },
+  "מחיקת הנתונים מהמכשיר": {
+    "ar": "حذف البيانات من الجهاز",
+    "en": "Clear data from this device"
+  },
+  "מתנות עם מחשבה": {
+    "ar": "هدايا بكل اهتمام",
+    "en": "Thoughtful gifts"
+  },
+  "הקולקציה": {
+    "ar": "المجموعة",
+    "en": "Collection"
+  },
+  "עיצוב גרפי": {
+    "ar": "التصميم الجرافيكي",
+    "en": "Graphic design"
+  },
+  "הסטודיו": {
+    "ar": "الاستوديو",
+    "en": "The studio"
+  },
+  "עיצוב ומתנות אישיות": {
+    "ar": "تصاميم وهدايا شخصية",
+    "en": "Personal designs & gifts"
+  },
+  "דילוג לתוכן": {
+    "ar": "الانتقال إلى المحتوى",
+    "en": "Skip to content"
+  },
+  "נראה שהלכנו קצת לאיבוד": {
+    "ar": "يبدو أننا ابتعدنا عن الطريق",
+    "en": "Looks like we took a little detour"
+  },
+  "בואו נחזור לדברים היפים.": {
+    "ar": "لنعد إلى الأشياء الجميلة.",
+    "en": "Let's get back to something lovely."
+  },
+  "בחזרה לבית": {
+    "ar": "العودة للرئيسية",
+    "en": "Back home"
+  },
+  "היי BRAA GRAPHIX, אשמח לעזרה בבחירת מתנה.": {
+    "ar": "مرحبًا BRAA GRAPHIX، أودّ المساعدة في اختيار هدية.",
+    "en": "Hi BRAA GRAPHIX, I'd love help choosing a gift."
+  },
+  "בואו נדבר ב־WhatsApp": {
+    "ar": "لنتحدّث عبر WhatsApp",
+    "en": "Let's chat on WhatsApp"
+  },
+  "אפשר לעזור?": {
+    "ar": "كيف نساعدكم؟",
+    "en": "Need a hand?"
+  },
+  "כל המחשבות הטובות, כאן.": {
+    "ar": "كل الأفكار الجميلة، هنا.",
+    "en": "All your thoughtful ideas, together."
+  },
+  "בודקים את הפרטים, ושולחים יחד לסטודיו להצעת מחיר.": {
+    "ar": "راجعوا التفاصيل وأرسلوها معًا للاستوديو للحصول على عرض سعر.",
+    "en": "Review the details and send them to the studio for a quote."
+  },
+  "הסל מחכה לרעיונות שלכם": {
+    "ar": "السلة تنتظر أفكاركم",
+    "en": "Your basket is waiting for your ideas"
+  },
+  "מוצר אישי או מארז שלם — מוסיפים לסל וממשיכים להתרגש.": {
+    "ar": "منتج شخصي أو صندوق كامل — أضيفوه إلى السلة وتابعوا الاختيار.",
+    "en": "A personal item or a complete gift box—add it and keep exploring."
+  },
+  "המארז האישי שלכם": {
+    "ar": "صندوق هداياكم الشخصي",
+    "en": "Your personal gift box"
+  },
+  "הסרת {0} מהסל": {
+    "ar": "إزالة {0} من السلة",
+    "en": "Remove {0} from basket"
+  },
+  "המארז": {
+    "ar": "الصندوق",
+    "en": "the gift box"
+  },
+  "סוגי מוצרים": {
+    "ar": "أنواع منتجات",
+    "en": "product types"
+  },
+  "עיצוב אישי": {
+    "ar": "تصميم شخصي",
+    "en": "Personal design"
+  },
+  "תמונות לצירוף ידני": {
+    "ar": "صور لإرفاقها يدويًا",
+    "en": "photos to attach manually"
+  },
+  "כמות": {
+    "ar": "الكمية",
+    "en": "Quantity"
+  },
+  "פרטי ההתאמה האישית": {
+    "ar": "تفاصيل التخصيص",
+    "en": "Personalization details"
+  },
+  "ממשיכים לגלות": {
+    "ar": "تابعوا الاكتشاف",
+    "en": "Keep exploring"
+  },
+  "עוד רגע שולחים": {
+    "ar": "اقترب وقت الإرسال",
+    "en": "Almost ready to send"
+  },
+  "בקשה אחת, הרבה מחשבה.": {
+    "ar": "طلب واحد، بكل اهتمام.",
+    "en": "One inquiry. Plenty of thought."
+  },
+  "פריטים / מארזים בפנייה": {
+    "ar": "المنتجات / الصناديق في الطلب",
+    "en": "Items / gift boxes in this inquiry"
+  },
+  "מחיר סופי, זמינות ומועד אספקה יימסרו על ידי הסטודיו לאחר בדיקת הבקשה.": {
+    "ar": "سيؤكّد الاستوديو السعر النهائي والتوفّر وموعد التسليم بعد مراجعة الطلب.",
+    "en": "The studio will confirm the final price, availability and delivery after reviewing your request."
+  },
+  "הערות לפנייה": {
+    "ar": "ملاحظات على الطلب",
+    "en": "Inquiry notes"
+  },
+  "מתי צריך את המתנה? יש בקשה מיוחדת?": {
+    "ar": "متى تحتاجون الهدية؟ هل لديكم طلب خاص؟",
+    "en": "When do you need it? Any special requests?"
+  },
+  "בדיקת הבקשה ושליחה": {
+    "ar": "مراجعة الطلب وإرساله",
+    "en": "Review & send inquiry"
+  },
+  "סל הפניות נשמר בדפדפן הזה. זו אינה הזמנה מאושרת, ואין חיוב באתר.": {
+    "ar": "تُحفظ السلة في هذا المتصفح. هذا ليس طلبًا مؤكّدًا، ولا يتم الدفع في الموقع.",
+    "en": "Your basket is saved in this browser. This isn't a confirmed order, and no payment is taken here."
+  },
+  "הקטגוריה לא נמצאה": {
+    "ar": "الفئة غير موجودة",
+    "en": "Category not found"
+  },
+  "בואו נמצא משהו יפה בקטלוג.": {
+    "ar": "لنجد شيئًا جميلًا في الكتالوج.",
+    "en": "Let's find something lovely in the catalog."
+  },
+  "כל המוצרים": {
+    "ar": "كل المنتجات",
+    "en": "All products"
+  },
+  "דברים ששמרתם בלב": {
+    "ar": "أشياء أحببتموها",
+    "en": "Saved with love"
+  },
+  "כל מה שיפה לתת": {
+    "ar": "كل ما يحلو إهداؤه",
+    "en": "Lovely things to give"
+  },
+  "הרעיונות האהובים שלכם, במקום אחד.": {
+    "ar": "أفكاركم المفضلة، في مكان واحد.",
+    "en": "Your favorite ideas, all in one place."
+  },
+  "מוצאים את המתנה, מוסיפים את הסיפור שלכם.": {
+    "ar": "اختاروا الهدية وأضيفوا حكايتكم.",
+    "en": "Find the gift. Add your story."
+  },
+  "הכול": {
+    "ar": "الكل",
+    "en": "All"
+  },
+  "חיפוש בקטלוג": {
+    "ar": "البحث في الكتالوج",
+    "en": "Search the catalog"
+  },
+  "איזו מתנה מחפשים?": {
+    "ar": "أيّ هدية تبحثون عنها؟",
+    "en": "What gift are you looking for?"
+  },
+  "סינון": {
+    "ar": "تصفية",
+    "en": "Filters"
+  },
+  "מיון": {
+    "ar": "ترتيب",
+    "en": "Sort"
+  },
+  "מיון מוצרים": {
+    "ar": "ترتيب المنتجات",
+    "en": "Sort products"
+  },
+  "בחירת הסטודיו": {
+    "ar": "اختيارات الاستوديو",
+    "en": "Studio picks"
+  },
+  "לפי שם": {
+    "ar": "حسب الاسم",
+    "en": "By name"
+  },
+  "חדש קודם": {
+    "ar": "الأحدث أولًا",
+    "en": "Newest first"
+  },
+  "קטגוריה": {
+    "ar": "الفئة",
+    "en": "Category"
+  },
+  "כל הקטגוריות": {
+    "ar": "كل الفئات",
+    "en": "All categories"
+  },
+  "לכבוד מה?": {
+    "ar": "ما المناسبة؟",
+    "en": "What's the occasion?"
+  },
+  "כל האירועים": {
+    "ar": "كل المناسبات",
+    "en": "All occasions"
+  },
+  "סוג מוצר": {
+    "ar": "نوع المنتج",
+    "en": "Product type"
+  },
+  "כל הסוגים": {
+    "ar": "كل الأنواع",
+    "en": "All types"
+  },
+  "כל האפשרויות": {
+    "ar": "كل الخيارات",
+    "en": "All options"
+  },
+  "רעיונות חדשים": {
+    "ar": "أفكار جديدة",
+    "en": "New ideas"
+  },
+  "איפוס סינון": {
+    "ar": "مسح الفلاتر",
+    "en": "Reset filters"
+  },
+  "רעיונות למתנה": {
+    "ar": "أفكار للهدايا",
+    "en": "gift ideas"
+  },
+  "התאמה אישית · מחיר וזמינות בתיאום": {
+    "ar": "تخصيص شخصي · السعر والتوفّر بالتنسيق",
+    "en": "Personalized · Price & availability on request"
+  },
+  "עוד לא שמרתם משהו אהוב": {
+    "ar": "لم تحفظوا شيئًا بعد",
+    "en": "Nothing saved just yet"
+  },
+  "לא מצאנו בדיוק את זה": {
+    "ar": "لم نجد ما تبحثون عنه",
+    "en": "We couldn't find that one"
+  },
+  "לחיצה על הלב ליד מוצר תשמור אותו כאן.": {
+    "ar": "اضغطوا على القلب بجانب المنتج لحفظه هنا.",
+    "en": "Tap the heart beside a product to save it here."
+  },
+  "נסו מילה אחרת או אפסו את המסננים.": {
+    "ar": "جرّبوا كلمة أخرى أو امسحوا الفلاتر.",
+    "en": "Try another search or reset the filters."
+  },
+  "הקטלוג מציג רעיונות להמחשה והתאמה אישית. התמונות הן הדמיות, והאפשרויות, המחיר והזמינות יאושרו עם הסטודיו.": {
+    "ar": "يعرض الكتالوج أفكارًا توضيحية قابلة للتخصيص. الصور نماذج تخيّلية، ويؤكّد الاستوديو الخيارات والأسعار والتوفّر.",
+    "en": "This catalog shows illustrative gift concepts. Images are mockups; options, price and availability are confirmed with the studio."
+  },
+  "קרם": {
+    "ar": "كريمي",
+    "en": "Cream"
+  },
+  "ורוד": {
+    "ar": "وردي",
+    "en": "Pink"
+  },
+  "לבנדר": {
+    "ar": "لافندر",
+    "en": "Lavender"
+  },
+  "תכלת": {
+    "ar": "أزرق فاتح",
+    "en": "Sky blue"
+  },
+  "חול": {
+    "ar": "رملي",
+    "en": "Sand"
+  },
+  "פרחוני": {
+    "ar": "زهري",
+    "en": "Floral"
+  },
+  "חגיגי": {
+    "ar": "احتفالي",
+    "en": "Celebration"
+  },
+  "הדמיית {0}": {
+    "ar": "نموذج توضيحي: {0}",
+    "en": "Mockup of {0}"
+  },
+  "התמונה שהוספתם להדמיה": {
+    "ar": "الصورة التي أضفتموها إلى المعاينة",
+    "en": "Your uploaded image in the preview"
+  },
+  "בדיוק בשבילך": {
+    "ar": "لكم خصيصًا",
+    "en": "Just for you"
+  },
+  "אפשר לגרור את הטקסט והתמונה, או להשתמש בבקרי המיקום": {
+    "ar": "اسحبوا النص والصورة، أو استخدموا أدوات تحديد الموضع",
+    "en": "Drag the text and image, or use the positioning controls"
+  },
+  "תצוגת הבקשה האישית שלכם": {
+    "ar": "معاينة طلبكم الشخصي",
+    "en": "Your personalized request preview"
+  },
+  "הדמיה רעיונית בלבד": {
+    "ar": "معاينة توضيحية فقط",
+    "en": "Illustrative preview only"
+  },
+  "של האריזה או כרטיס המתנה": {
+    "ar": "للعلبة أو بطاقة الهدية",
+    "en": "of the packaging or gift card"
+  },
+  ". מיקום ההדפסה, צבעים, אפשרויות": {
+    "ar": ". يُنسّق موضع الطباعة والألوان وخيارات",
+    "en": ". Print placement, colors, options for"
+  },
+  "והעיצוב הסופי יאושרו עם הסטודיו.": {
+    "ar": "والتصميم النهائي مع الاستوديو.",
+    "en": "and final artwork will be confirmed with the studio."
+  },
+  "אפשר לצרף עד 10 תמונות לכל מוצר.": {
+    "ar": "يمكن إرفاق حتى 10 صور لكل منتج.",
+    "en": "You can attach up to 10 images per product."
+  },
+  "התמונות נשמרו בדפדפן בלבד. יש לצרף אותן ידנית ב־WhatsApp.": {
+    "ar": "حُفظت الصور في المتصفح فقط. أرفقوها يدويًا في WhatsApp.",
+    "en": "Images are saved only in your browser. Please attach them manually in WhatsApp."
+  },
+  "לא ניתן להעלות את התמונה": {
+    "ar": "تعذّر تحميل الصورة",
+    "en": "Couldn't load the image"
+  },
+  "למשל, נועה": {
+    "ar": "مثلًا، نور",
+    "en": "For example, Noor"
+  },
+  "סגנון עיצוב": {
+    "ar": "أسلوب التصميم",
+    "en": "Design style"
+  },
+  "מינימליסטי": {
+    "ar": "بسيط",
+    "en": "Minimal"
+  },
+  "מילים מהלב": {
+    "ar": "كلمات من القلب",
+    "en": "Words from the heart"
+  },
+  "(לא חובה)": {
+    "ar": "(اختياري)",
+    "en": "(optional)"
+  },
+  "משהו קטן שיגרום לחיוך…": {
+    "ar": "كلمات صغيرة ترسم ابتسامة…",
+    "en": "A few words to bring a smile…"
+  },
+  "בחרו אפשרות": {
+    "ar": "اختاروا خيارًا",
+    "en": "Choose an option"
+  },
+  "דגם אחר": {
+    "ar": "طراز آخر",
+    "en": "Other model"
+  },
+  "דגם הטלפון המדויק *": {
+    "ar": "طراز الهاتف بالتحديد *",
+    "en": "Exact phone model *"
+  },
+  "לדוגמה: שם הדגם המלא": {
+    "ar": "مثلًا: الاسم الكامل للطراز",
+    "en": "For example: the full model name"
+  },
+  "גוון מבוקש": {
+    "ar": "اللون المطلوب",
+    "en": "Requested color"
+  },
+  "לאריזה": {
+    "ar": "للتغليف",
+    "en": "for the packaging"
+  },
+  "למוצר": {
+    "ar": "للمنتج",
+    "en": "for the product"
+  },
+  "שומרים את התמונה…": {
+    "ar": "جارٍ حفظ الصورة…",
+    "en": "Saving your image…"
+  },
+  "הוסיפו תמונה או עיצוב משלכם": {
+    "ar": "أضيفوا صورتكم أو تصميمكم",
+    "en": "Add your own photo or design"
+  },
+  "JPG, PNG, WebP · עד 10MB לתמונה · עד 10 תמונות": {
+    "ar": "JPG، PNG، WebP · حتى 10MB للصورة · حتى 10 صور",
+    "en": "JPG, PNG, WebP · Up to 10MB each · Up to 10 images"
+  },
+  "העלאת תמונה לעיצוב": {
+    "ar": "إضافة صورة للتصميم",
+    "en": "Upload an image for your design"
+  },
+  "הסרת {0} מהבקשה": {
+    "ar": "إزالة {0} من الطلب",
+    "en": "Remove {0} from the request"
+  },
+  "התמונות נשארות במכשיר הזה. יש לצרף אותן ידנית בשיחת WhatsApp; הן אינן נשלחות אוטומטית. בהדמיה מוצגת התמונה הראשונה.": {
+    "ar": "تبقى الصور على هذا الجهاز. أرفقوها يدويًا في محادثة WhatsApp؛ لا تُرسل تلقائيًا. تُعرض الصورة الأولى في المعاينة.",
+    "en": "Images stay on this device. Attach them manually in WhatsApp; they are not sent automatically. The preview shows the first image."
+  },
+  "לשחק עם העיצוב": {
+    "ar": "العبوا بالتفاصيل",
+    "en": "Fine-tune your design"
+  },
+  "גופן": {
+    "ar": "الخط",
+    "en": "Font"
+  },
+  "מודרני": {
+    "ar": "عصري",
+    "en": "Modern"
+  },
+  "קלאסי": {
+    "ar": "كلاسيكي",
+    "en": "Classic"
+  },
+  "סריף (אנגלית)": {
+    "ar": "سيريف (إنجليزي)",
+    "en": "Serif (English)"
+  },
+  "צבע טקסט": {
+    "ar": "لون النص",
+    "en": "Text color"
+  },
+  "מיקום טקסט אופקי": {
+    "ar": "موضع النص أفقيًا",
+    "en": "Horizontal text position"
+  },
+  "מיקום טקסט אנכי": {
+    "ar": "موضع النص عموديًا",
+    "en": "Vertical text position"
+  },
+  "גודל הטקסט": {
+    "ar": "حجم النص",
+    "en": "Text size"
+  },
+  "מיקום תמונה אופקי": {
+    "ar": "موضع الصورة أفقيًا",
+    "en": "Horizontal image position"
+  },
+  "מיקום תמונה אנכי": {
+    "ar": "موضع الصورة عموديًا",
+    "en": "Vertical image position"
+  },
+  "גודל התמונה": {
+    "ar": "حجم الصورة",
+    "en": "Image size"
+  },
+  "איפוס מיקומים": {
+    "ar": "إعادة ضبط المواضع",
+    "en": "Reset positions"
+  },
+  "הפחתת כמות": {
+    "ar": "تقليل الكمية",
+    "en": "Decrease quantity"
+  },
+  "הגדלת כמות": {
+    "ar": "زيادة الكمية",
+    "en": "Increase quantity"
+  },
+  "המחיר והזמינות יאושרו בשיחה": {
+    "ar": "يُؤكّد السعر والتوفّر في المحادثة",
+    "en": "Price and availability are confirmed in chat"
+  },
+  "הערות לסטודיו": {
+    "ar": "ملاحظات للاستوديو",
+    "en": "Notes for the studio"
+  },
+  "משהו נוסף שחשוב לנו לדעת?": {
+    "ar": "هل هناك ما تودّون أن نعرفه؟",
+    "en": "Anything else we should know?"
+  },
+  "המידות, הגוונים והאפשרויות מציינים העדפה לבדיקת הסטודיו, ואינם אישור זמינות.": {
+    "ar": "المقاسات والألوان والخيارات هي تفضيلات يراجعها الاستوديو، وليست تأكيدًا للتوفّر.",
+    "en": "Sizes, colors and options are preferences for the studio to review, not confirmation of availability."
+  },
+  "ההתאמה האישית היא לאריזה ולכרטיס; חריטה אינה כלולה.": {
+    "ar": "التخصيص للتغليف والبطاقة فقط؛ لا يشمل النقش.",
+    "en": "Personalization applies to the packaging and card; engraving is not included."
+  },
+  "ההתאמה היא לאריזה בלבד; אין שינוי או ייצור של הבושם.": {
+    "ar": "التخصيص للتغليف فقط؛ لا نغيّر تركيبة العطر أو نصنعه.",
+    "en": "Personalization is for the packaging only; the perfume is not reformulated or manufactured."
+  },
+  "התאמה לדגם הטלפון מחייבת אישור לפני הזמנה.": {
+    "ar": "يجب تأكيد ملاءمة الغطاء لطراز الهاتف قبل الطلب.",
+    "en": "Compatibility with your phone must be confirmed before ordering."
+  },
+  "האירוע": {
+    "ar": "المناسبة",
+    "en": "Occasion"
+  },
+  "הקופסה": {
+    "ar": "الصندوق",
+    "en": "Box"
+  },
+  "המתנות": {
+    "ar": "الهدايا",
+    "en": "Gifts"
+  },
+  "הנגיעה שלכם": {
+    "ar": "لمستكم",
+    "en": "Your touch"
+  },
+  "הברכה": {
+    "ar": "التهنئة",
+    "en": "Greeting"
+  },
+  "מבט אחרון": {
+    "ar": "المراجعة",
+    "en": "Review"
+  },
+  "לסטודיו": {
+    "ar": "للإرسال",
+    "en": "Send"
+  },
+  "הדמיה: {0}": {
+    "ar": "نموذج توضيحي: {0}",
+    "en": "Mockup: {0}"
+  },
+  "ללא שם": {
+    "ar": "بدون اسم",
+    "en": "No name"
+  },
+  "· כמות": {
+    "ar": "· الكمية",
+    "en": "· Quantity"
+  },
+  "ל": {
+    "ar": "إلى ",
+    "en": "To "
+  },
+  "מישהו מיוחד": {
+    "ar": "شخص مميز",
+    "en": "someone special"
+  },
+  "הערות:": {
+    "ar": "ملاحظات:",
+    "en": "Notes:"
+  },
+  "אפשר להוסיף עד 9 סוגי מוצרים. ניתן לשנות את הכמות בכל מוצר.": {
+    "ar": "يمكن إضافة حتى 9 أنواع منتجات، وتعديل كمية كل منتج.",
+    "en": "Add up to 9 product types. You can adjust the quantity of each."
+  },
+  "בואו נבנה משהו משמח.": {
+    "ar": "لنصنع شيئًا يُسعد القلب.",
+    "en": "Let's build a little happiness."
+  },
+  "בחרו את הרגע, אספו דברים אהובים והוסיפו את עצמכם.": {
+    "ar": "اختاروا المناسبة، اجمعوا الأشياء المحبوبة وأضيفوا لمستكم.",
+    "en": "Choose the moment, gather favorite things, and add your touch."
+  },
+  "שלבי בניית מתנה": {
+    "ar": "خطوات تصميم الهدية",
+    "en": "Gift-building steps"
+  },
+  "להתחיל את המארז מחדש? הבחירות במארז הזה יימחקו.": {
+    "ar": "هل تريدون البدء من جديد؟ ستُحذف اختيارات هذا الصندوق.",
+    "en": "Start this gift again? Its current selections will be removed."
+  },
+  "התחלה חדשה": {
+    "ar": "بداية جديدة",
+    "en": "Start again"
+  },
+  "איזה רגע חוגגים?": {
+    "ar": "أيّ لحظة نحتفل بها؟",
+    "en": "What are we celebrating?"
+  },
+  "כל סיבה היא סיבה טובה לשמח.": {
+    "ar": "كل سبب جميل يستحقّ هدية.",
+    "en": "There's always a reason to make someone smile."
+  },
+  "מתחילים מבחוץ": {
+    "ar": "نبدأ من الخارج",
+    "en": "Start with the wrapping"
+  },
+  "בחרו סגנון קופסה. הגודל הסופי יתואם לפי התכולה.": {
+    "ar": "اختاروا شكل الصندوق. يُحدّد الحجم النهائي حسب المحتويات.",
+    "en": "Choose a box style. Its final size will be agreed based on the contents."
+  },
+  "קופסה קלאסית": {
+    "ar": "صندوق كلاسيكي",
+    "en": "Classic box"
+  },
+  "מארז עם סרט": {
+    "ar": "صندوق بشريط",
+    "en": "Ribbon gift box"
+  },
+  "סל מתנות": {
+    "ar": "سلة هدايا",
+    "en": "Gift basket"
+  },
+  "נקייה, אישית ומלאת מחשבה": {
+    "ar": "بسيط وشخصي ومدروس",
+    "en": "Simple, personal and thoughtful"
+  },
+  "טאץ׳ חגיגי, עד הפרט האחרון": {
+    "ar": "لمسة احتفالية في كل تفصيل",
+    "en": "A celebratory touch in every detail"
+  },
+  "כל הדברים האהובים, ביחד": {
+    "ar": "كل الأشياء المفضلة، معًا",
+    "en": "All their favorites, together"
+  },
+  "העדפת צבע": {
+    "ar": "اللون المفضّل",
+    "en": "Preferred color"
+  },
+  "ורוד עתיק": {
+    "ar": "وردي معتّق",
+    "en": "Dusty pink"
+  },
+  "קראפט טבעי": {
+    "ar": "كرافت طبيعي",
+    "en": "Natural kraft"
+  },
+  "מה נכנס למתנה שלכם?": {
+    "ar": "ماذا نضع في هديّتكم؟",
+    "en": "What goes in your gift?"
+  },
+  "אפשר לשלב עד 9 סוגי מוצרים. התאמת התכולה לקופסה תיבדק בסטודיו.": {
+    "ar": "يمكن الجمع بين 9 أنواع منتجات كحد أقصى. سيتأكّد الاستوديو من ملاءمتها للصندوق.",
+    "en": "Combine up to 9 product types. The studio will check how they fit in the box."
+  },
+  "מוצרים לפי קטגוריה": {
+    "ar": "المنتجات حسب الفئة",
+    "en": "Products by category"
+  },
+  "אותה מתנה. הסיפור שלכם.": {
+    "ar": "الهدية نفسها. حكايتكم أنتم.",
+    "en": "The same gift. Your own story."
+  },
+  "לכל פריט אפשר להוסיף נגיעה אחרת.": {
+    "ar": "يمكن إضافة لمسة مختلفة لكل قطعة.",
+    "en": "Give each item a different personal touch."
+  },
+  "כמה מילים, ישר מהלב": {
+    "ar": "كلمات قليلة، من القلب",
+    "en": "A few words, straight from the heart"
+  },
+  "כרטיס קטן שיישאר גם אחרי שפותחים את המתנה.": {
+    "ar": "بطاقة صغيرة تبقى حتى بعد فتح الهدية.",
+    "en": "A little card to keep long after the gift is opened."
+  },
+  "למי המתנה?": {
+    "ar": "لمن الهدية؟",
+    "en": "Who is the gift for?"
+  },
+  "שם מקבל/ת המתנה": {
+    "ar": "اسم متلقّي الهدية",
+    "en": "Recipient's name"
+  },
+  "הברכה שלכם": {
+    "ar": "رسالة التهنئة",
+    "en": "Your greeting"
+  },
+  "יש דברים שפשוט מגיע לך לשמוע…": {
+    "ar": "هناك كلمات جميلة تستحقّ أن تُقال…",
+    "en": "Some things deserve to be said…"
+  },
+  "/ 1000 · אפשר להשאיר ריק": {
+    "ar": "/ 1000 · يمكن تركه فارغًا",
+    "en": "/ 1000 · Optional"
+  },
+  "המילים שלכם יופיעו כאן…": {
+    "ar": "ستظهر كلماتكم هنا…",
+    "en": "Your words will appear here…"
+  },
+  "יש כאן משהו מיוחד.": {
+    "ar": "هناك شيء مميز هنا.",
+    "en": "There's something special here."
+  },
+  "מבט אחרון על הבחירות שלכם לפני ששולחים לסטודיו.": {
+    "ar": "نظرة أخيرة على اختياراتكم قبل إرسالها للاستوديو.",
+    "en": "Take one last look before sending your request to the studio."
+  },
+  "עוד משהו שחשוב לכם?": {
+    "ar": "هل تودّون إضافة شيء؟",
+    "en": "Anything else that matters?"
+  },
+  "מועד מבוקש, משלוח או בקשה מיוחדת": {
+    "ar": "موعد مطلوب، توصيل أو طلب خاص",
+    "en": "Preferred date, delivery or a special request"
+  },
+  "המחיר, הזמינות, התאמת התכולה והעיצוב יאושרו בשיחה. עדיין לא בוצעה הזמנה.": {
+    "ar": "يُؤكّد السعر والتوفّر والمحتوى والتصميم في المحادثة. لم يتم تأكيد طلب بعد.",
+    "en": "Price, availability, contents and design are confirmed in chat. No order has been placed yet."
+  },
+  "נותנים למחשבה צורה.": {
+    "ar": "نعطي الفكرة شكلًا.",
+    "en": "Let's bring the thought to life."
+  },
+  "הבקשה שלכם מוכנה לשיחה עם הסטודיו.": {
+    "ar": "طلبكم جاهز للمحادثة مع الاستوديو.",
+    "en": "Your request is ready to share with the studio."
+  },
+  "שמירת המארז בסל הפניות": {
+    "ar": "حفظ الصندوق في سلة الطلبات",
+    "en": "Save gift box to inquiry basket"
+  },
+  "חזרה": {
+    "ar": "رجوع",
+    "en": "Back"
+  },
+  "לבקשת הצעת מחיר": {
+    "ar": "لطلب عرض سعر",
+    "en": "Request a quote"
+  },
+  "ממשיכים": {
+    "ar": "متابعة",
+    "en": "Continue"
+  },
+  "קצת אהבה בקופסה": {
+    "ar": "قليل من الحبّ في صندوق",
+    "en": "A little love in a box"
+  },
+  "הדמיית השראה למארז מתנה": {
+    "ar": "صورة توضيحية لصندوق هدايا",
+    "en": "Gift-box inspiration mockup"
+  },
+  "תמונת השראה · הבחירות שלכם מפורטות למטה": {
+    "ar": "صورة للإلهام · اختياراتكم مذكورة أدناه",
+    "en": "Inspiration image · Your selections are listed below"
+  },
+  "נגיעה אישית בדרך": {
+    "ar": "لمسة شخصية في الطريق",
+    "en": "A personal touch is on its way"
+  },
+  "יח׳": {
+    "ar": "قطع",
+    "en": "pcs"
+  },
+  "הסרת {0} מהמארז": {
+    "ar": "إزالة {0} من الصندوق",
+    "en": "Remove {0} from the gift box"
+  },
+  "המתנה שלכם מחכה לרעיונות ✧": {
+    "ar": "هديّتكم تنتظر أفكاركم ✧",
+    "en": "Your gift is waiting for your ideas ✧"
+  },
+  "הבחירות נשמרות בדפדפן הזה": {
+    "ar": "تُحفظ الاختيارات في هذا المتصفح",
+    "en": "Your choices are saved in this browser"
+  },
+  "המחיר לפי התכולה וההתאמה האישית.": {
+    "ar": "السعر حسب المحتويات والتخصيص.",
+    "en": "Price depends on contents and personalization."
+  },
+  "כמה דברים קטנים.\nמתנה אחת גדולה מהלב.": {
+    "ar": "أشياء صغيرة.\nهدية كبيرة من القلب.",
+    "en": "A few little things.\nOne heartfelt gift."
+  },
+  "ספל עם שם, נר עם הקדשה, משהו מתוק — בונים מארז שיש בו את כל מה שאוהבים.": {
+    "ar": "كوب باسم، شمعة بإهداء وشيء حلو — اجمعوا كل ما يحبّونه في صندوق.",
+    "en": "A named mug, a candle with a message, something sweet—put their favorites together."
+  },
+  "בואו נבנה מתנה": {
+    "ar": "لنصمّم هدية",
+    "en": "Let's build a gift"
+  },
+  "הקפה של הבוקר,\nעם נגיעה שהיא רק שלכם.": {
+    "ar": "قهوة الصباح،\nبلمسة تخصّكم.",
+    "en": "Your morning coffee,\nwith a personal touch."
+  },
+  "שם, תמונה או משפט שעושה לכם טוב. משהו אישי בכל לגימה.": {
+    "ar": "اسم، صورة أو عبارة تُسعدكم. لمسة شخصية مع كل رشفة.",
+    "en": "A name, photo or a few happy words. Something personal in every sip."
+  },
+  "לגלות את הספלים": {
+    "ar": "اكتشفوا الأكواب",
+    "en": "Explore the mugs"
+  },
+  "רגעים שלא רוצים\nלשכוח.": {
+    "ar": "لحظات لا نريد\nأن ننساها.",
+    "en": "Moments you want\nto keep forever."
+  },
+  "מהתמונה הראשונה ועד החגיגה האחרונה — זיכרונות שנשארים קרוב.": {
+    "ar": "من الصورة الأولى إلى آخر احتفال — ذكريات تبقى قريبة.",
+    "en": "From the first photo to the latest celebration—keep those memories close."
+  },
+  "לאלבומי התמונות": {
+    "ar": "لألبومات الصور",
+    "en": "Explore photo albums"
+  },
+  "הקסם נמצא\nבפרטים הקטנים.": {
+    "ar": "السحر يكمن\nفي التفاصيل الصغيرة.",
+    "en": "The magic is\nin the little details."
+  },
+  "הזמנות, עטיפות שוקולד ומזכרות שעושות את האירוע שלכם.": {
+    "ar": "دعوات وأغلفة شوكولاتة وتذكارات تجعل مناسبتكم مميزة.",
+    "en": "Invitations, chocolate wrappers and keepsakes to make the occasion yours."
+  },
+  "לעיצובים לאירוע": {
+    "ar": "لتصاميم المناسبات",
+    "en": "Explore event designs"
+  },
+  "רעיון שאפשר\nללבוש.": {
+    "ar": "فكرة يمكنكم\nارتداؤها.",
+    "en": "An idea you\ncan wear."
+  },
+  "חולצות עם שמות, הדפסים אישיים ורגעים ששווה לחגוג יחד.": {
+    "ar": "قمصان بأسماء وطبعات شخصية ولحظات تستحقّ الاحتفال معًا.",
+    "en": "Named shirts, personal prints and moments worth celebrating together."
+  },
+  "לביגוד אישי": {
+    "ar": "للملابس المخصّصة",
+    "en": "Explore custom clothing"
+  },
+  "מתנה שהיא\nבדיוק אתם.": {
+    "ar": "هدية تشبهكم\nتمامًا.",
+    "en": "A gift that's\njust like you."
+  },
+  "מהרעיון הראשון ועד ההקדשה האחרונה — בוחרים, מעצבים ומוסיפים אהבה.": {
+    "ar": "من الفكرة الأولى إلى آخر كلمة إهداء — نختار ونصمّم ونضيف الحبّ.",
+    "en": "From the first idea to the final message—choose, design and add a little love."
+  },
+  "לכל המתנות האישיות": {
+    "ar": "لكل الهدايا الشخصية",
+    "en": "All personalized gifts"
+  },
+  "קרוסלה": {
+    "ar": "عرض شرائح",
+    "en": "Carousel"
+  },
+  "רעיונות למתנות": {
+    "ar": "أفكار للهدايا",
+    "en": "Gift inspiration"
+  },
+  "הדמיה להשראה של מתנה אישית": {
+    "ar": "صورة توضيحية لهدية شخصية",
+    "en": "Personalized gift inspiration mockup"
+  },
+  "הדמיה להשראה": {
+    "ar": "صورة توضيحية للإلهام",
+    "en": "Illustrative mockup"
+  },
+  "המבצע הקודם": {
+    "ar": "الشريحة السابقة",
+    "en": "Previous slide"
+  },
+  "שקופית {0}: {1}": {
+    "ar": "الشريحة {0}: {1}",
+    "en": "Slide {0}: {1}"
+  },
+  "המבצע הבא": {
+    "ar": "الشريحة التالية",
+    "en": "Next slide"
+  },
+  "הפעלת סבב שקופיות": {
+    "ar": "تشغيل العرض التلقائي",
+    "en": "Start slideshow"
+  },
+  "עצירת סבב שקופיות": {
+    "ar": "إيقاف العرض التلقائي",
+    "en": "Pause slideshow"
+  },
+  "דברים יפים. אנשים אהובים.": {
+    "ar": "أشياء جميلة. أشخاص نحبّهم.",
+    "en": "Lovely things. Favorite people."
+  },
+  "הופכים רעיונות": {
+    "ar": "نحوّل الأفكار",
+    "en": "Turning ideas"
+  },
+  "למתנות": {
+    "ar": "إلى هدايا ",
+    "en": "into "
+  },
+  "מיוחדות": {
+    "ar": "مميزة",
+    "en": "special gifts"
+  },
+  "עיצובים אישיים, מתנות מרגשות והדפסות יצירתיות.": {
+    "ar": "تصاميم شخصية، هدايا من القلب ومطبوعات إبداعية.",
+    "en": "Personal designs, heartfelt gifts and creative prints."
+  },
+  "קצת דמיון, הרבה אהבה — ובדיוק אתם.": {
+    "ar": "قليل من الخيال، كثير من الحبّ — ولمستكم أنتم.",
+    "en": "A little imagination, a lot of love—and a touch of you."
+  },
+  "לגלות את הקולקציה": {
+    "ar": "اكتشفوا المجموعة",
+    "en": "Explore the collection"
+  },
+  "נוצר עם מחשבה. ניתן מכל הלב.": {
+    "ar": "نصنعها باهتمام. تُهدى من القلب.",
+    "en": "Thoughtfully made. Given from the heart."
+  },
+  "הדמיית מארז מתנה פתוח עם ספל, מחברת ורודה ונר, קשור בסרט ורוד": {
+    "ar": "صورة توضيحية لصندوق هدايا مفتوح مع كوب ودفتر وردي وشمعة وشريط وردي",
+    "en": "Mockup of an open gift box with a mug, pink notebook, candle and pink ribbon"
+  },
+  "השם שלכם. הסיפור שלכם.": {
+    "ar": "اسمكم. حكايتكم.",
+    "en": "Your name. Your story."
+  },
+  "אנחנו נוסיף את הטאץ׳ האישי.": {
+    "ar": "ونحن نضيف اللمسة الشخصية.",
+    "en": "We'll add the personal touch."
+  },
+  "מתנות עם משמעות": {
+    "ar": "هدايا تحمل معنى",
+    "en": "Gifts with meaning"
+  },
+  "עיצוב שהוא רק שלכם": {
+    "ar": "تصميم يخصّكم",
+    "en": "A design that's yours"
+  },
+  "לכל רגע ששווה לחגוג": {
+    "ar": "لكل لحظة تستحقّ الاحتفال",
+    "en": "For moments worth celebrating"
+  },
+  "פרטים קטנים, אהבה גדולה": {
+    "ar": "تفاصيل صغيرة، حبّ كبير",
+    "en": "Little details, lots of love"
+  },
+  "מה ישמח אתכם היום?": {
+    "ar": "ما الذي يُسعدكم اليوم؟",
+    "en": "What would make you smile?"
+  },
+  "רעיונות קטנים למתנות עם הרבה אישיות.": {
+    "ar": "أفكار صغيرة لهدايا مليئة بالشخصية.",
+    "en": "Little gift ideas with plenty of personality."
+  },
+  "לכל הקטגוריות": {
+    "ar": "كل الفئات",
+    "en": "All categories"
+  },
+  "הדמיה להשראה: {0}": {
+    "ar": "صورة توضيحية للإلهام: {0}",
+    "en": "Inspiration mockup: {0}"
+  },
+  "המוצרים האהובים שלנו": {
+    "ar": "منتجات نحبّها",
+    "en": "Our studio favorites"
+  },
+  "קצת השראה, לפני שמוסיפים את הנגיעה שלכם.": {
+    "ar": "قليل من الإلهام قبل إضافة لمستكم.",
+    "en": "A little inspiration before you make it yours."
+  },
+  "שלכם, בכל פרט.": {
+    "ar": "لكم، في كل تفصيل.",
+    "en": "Yours, in every detail."
+  },
+  "אנחנו כאן כדי להפוך רעיון קטן": {
+    "ar": "نحوّل معكم فكرة صغيرة",
+    "en": "We're here to turn a little idea"
+  },
+  "למתנה שמרגישים.": {
+    "ar": "إلى هدية تلامس القلب.",
+    "en": "into a gift they can feel."
+  },
+  "בוחרים משהו יפה": {
+    "ar": "اختاروا شيئًا جميلًا",
+    "en": "Choose something lovely"
+  },
+  "מוצר אהוב או מארז שאתם בונים.": {
+    "ar": "منتج تحبّونه أو صندوق تصمّمونه.",
+    "en": "A favorite product or a gift box you build."
+  },
+  "מוסיפים את עצמכם": {
+    "ar": "أضيفوا لمستكم",
+    "en": "Make it personal"
+  },
+  "שם, תמונה, הקדשה או רעיון.": {
+    "ar": "اسم، صورة، إهداء أو فكرة.",
+    "en": "A name, photo, message or idea."
+  },
+  "מדייקים יחד": {
+    "ar": "نُتقن التفاصيل معًا",
+    "en": "Refine it together"
+  },
+  "מתאמים עיצוב, מחיר ופרטים עם הסטודיו.": {
+    "ar": "ننسّق التصميم والسعر والتفاصيل مع الاستوديو.",
+    "en": "Agree on the design, price and details with the studio."
+  },
+  "משמחים מישהו": {
+    "ar": "أسعدوا شخصًا تحبّونه",
+    "en": "Make someone's day"
+  },
+  "מאשרים את ההזמנה ואת מועד האספקה.": {
+    "ar": "نؤكّد الطلب وموعد التسليم.",
+    "en": "Confirm the order and delivery date."
+  },
+  "חדש בסטודיו": {
+    "ar": "جديد الاستوديو",
+    "en": "New in the studio"
+  },
+  "עוד רעיונות, עוד דרכים להעניק.": {
+    "ar": "أفكار أكثر، وطرق أكثر للإهداء.",
+    "en": "More ideas. More ways to give."
+  },
+  "לכל הרעיונות החדשים": {
+    "ar": "لكل الأفكار الجديدة",
+    "en": "All new ideas"
+  },
+  "קומפוזיציית סטודיו להשראה": {
+    "ar": "تكوين بصري من الاستوديو للإلهام",
+    "en": "Original studio inspiration composition"
+  },
+  "יש לכם רעיון?": {
+    "ar": "لديكم فكرة؟",
+    "en": "Have an idea?"
+  },
+  "ניתן לו צורה.": {
+    "ar": "لنعطِها شكلًا.",
+    "en": "Let's give it shape."
+  },
+  "ממיתוג עסק ועד להזמנה לחגיגה — עיצוב גרפי שמתחיל בסיפור שלכם ומגיע עד לפרט הקטן.": {
+    "ar": "من هوية مشروع إلى دعوة للاحتفال — تصميم يبدأ بحكايتكم ويصل إلى أصغر التفاصيل.",
+    "en": "From a brand identity to a celebration invitation—design that begins with your story and considers every detail."
+  },
+  "מגלים את שירותי העיצוב": {
+    "ar": "اكتشفوا خدمات التصميم",
+    "en": "Explore design services"
+  },
+  "קצת צבע בפיד שלכם": {
+    "ar": "قليل من الألوان في صفحتكم",
+    "en": "A little color in your feed"
+  },
+  "לוח השראה מהסטודיו · הדמיות מקוריות, לא פוסטים חיים": {
+    "ar": "لوحة إلهام من الاستوديو · صور توضيحية أصلية وليست منشورات مباشرة",
+    "en": "Studio inspiration · Original mockups, not live posts"
+  },
+  "לביקור ב־Instagram של BRAA GRAPHIX": {
+    "ar": "زيارة BRAA GRAPHIX على Instagram",
+    "en": "Visit BRAA GRAPHIX on Instagram"
+  },
+  "תמונת השראה {0}: {1}": {
+    "ar": "صورة للإلهام {0}: {1}",
+    "en": "Inspiration image {0}: {1}"
+  },
+  "מחברת אישית": {
+    "ar": "دفتر شخصي",
+    "en": "personal notebook"
+  },
+  "עיצוב לאירוע": {
+    "ar": "تصميم لمناسبة",
+    "en": "event design"
+  },
+  "מארז מתנה": {
+    "ar": "صندوق هدايا",
+    "en": "gift box"
+  },
+  "תכשיט במתנה": {
+    "ar": "قطعة مجوهرات كهدية",
+    "en": "jewelry gift"
+  },
+  "המתנות הכי יפות מתחילות ב": {
+    "ar": "أجمل الهدايا تبدأ بـ",
+    "en": "The loveliest gifts begin with"
+  },
+  "מחשבה על מישהו.": {
+    "ar": "التفكير في شخص نحبّه.",
+    "en": "someone in mind."
+  },
+  "על מי אתם חושבים היום?": {
+    "ar": "بمن تفكّرون اليوم؟",
+    "en": "Who are you thinking of today?"
+  },
+  "פרטי הבקשה הועתקו. אפשר להדביק בשיחת WhatsApp.": {
+    "ar": "نُسخت تفاصيل الطلب. يمكنكم لصقها في WhatsApp.",
+    "en": "Inquiry details copied. You can paste them into WhatsApp."
+  },
+  "העתקה אוטומטית אינה זמינה. סמנו את הטקסט בתיבה והעתיקו.": {
+    "ar": "النسخ التلقائي غير متاح. حدّدوا النص في المربع وانسخوه.",
+    "en": "Automatic copying isn't available. Select and copy the text in the box."
+  },
+  "כמעט שם": {
+    "ar": "اقتربنا",
+    "en": "Almost there"
+  },
+  "בודקים רגע, ושולחים לסטודיו.": {
+    "ar": "نراجع التفاصيل ثم نرسل للاستوديو.",
+    "en": "One last look, then off to the studio."
+  },
+  "זו בקשת הצעת מחיר. הזמנה תתואם ותאושר בשיחה אישית.": {
+    "ar": "هذا طلب عرض سعر. يُنسّق الطلب ويُؤكّد في محادثة شخصية.",
+    "en": "This is a quote request. Your order will be arranged and confirmed in a personal conversation."
+  },
+  "לצפייה בכל פרטי ההודעה": {
+    "ar": "عرض تفاصيل الرسالة كاملة",
+    "en": "View the full message"
+  },
+  "פרטי הפנייה ל־WhatsApp": {
+    "ar": "تفاصيل طلب WhatsApp",
+    "en": "WhatsApp inquiry details"
+  },
+  "העתקת הבקשה": {
+    "ar": "نسخ الطلب",
+    "en": "Copy inquiry"
+  },
+  "שמירת הבקשה": {
+    "ar": "حفظ الطلب",
+    "en": "Save inquiry"
+  },
+  "זו בקשה ארוכה. העתיקו או שמרו אותה, ואז הדביקו או צרפו את הקובץ בשיחת WhatsApp.": {
+    "ar": "هذا طلب طويل. انسخوه أو احفظوه، ثم الصقوا النص أو أرفقوا الملف في WhatsApp.",
+    "en": "This is a long request. Copy or save it, then paste the text or attach the file in WhatsApp."
+  },
+  "היי BRAA GRAPHIX, אשמח להצעת מחיר. מספר פנייה: {0}. אצרף מיד את פרטי הבקשה המלאים.": {
+    "ar": "مرحبًا BRAA GRAPHIX، أودّ عرض سعر. رقم الطلب: {0}. سأرفق التفاصيل الكاملة مباشرة.",
+    "en": "Hi BRAA GRAPHIX, I'd like a quote. Reference: {0}. I'll attach the full request details shortly."
+  },
+  "פתיחת הבקשה ב־WhatsApp": {
+    "ar": "فتح الطلب في WhatsApp",
+    "en": "Open inquiry in WhatsApp"
+  },
+  "פתיחת WhatsApp אינה אישור הזמנה. תמונות שהעליתם אינן נשלחות — יש לצרף אותן ידנית בשיחה.": {
+    "ar": "فتح WhatsApp لا يؤكّد الطلب. الصور التي حمّلتموها لا تُرسل تلقائيًا — أرفقوها يدويًا في المحادثة.",
+    "en": "Opening WhatsApp does not confirm an order. Uploaded images are not sent automatically—please attach them in the conversation."
+  },
+  "הקטלוג": {
+    "ar": "الكتالوج",
+    "en": "Catalog"
+  },
+  "העיצוב שלכם": {
+    "ar": "تصميمكم",
+    "en": "Your design"
+  },
+  "תמונת השראה": {
+    "ar": "صورة للإلهام",
+    "en": "Inspiration image"
+  },
+  "הדמיה להשראה עבור {0}": {
+    "ar": "صورة توضيحية للإلهام: {0}",
+    "en": "Inspiration mockup for {0}"
+  },
+  "הדמיית קטגוריה מקורית להשראה. אינה צילום מוצר קיים.": {
+    "ar": "صورة أصلية توضيحية للفئة. ليست صورة لمنتج فعلي.",
+    "en": "Original category mockup for inspiration. Not a photo of an actual product."
+  },
+  "נגיעה אישית": {
+    "ar": "لمسة شخصية",
+    "en": "A personal touch"
+  },
+  "עיצוב בתיאום": {
+    "ar": "تصميم بالتنسيق",
+    "en": "Design agreed together"
+  },
+  "אספקה בתיאום": {
+    "ar": "تسليم بالتنسيق",
+    "en": "Delivery by arrangement"
+  },
+  "מחיר לפי התאמה אישית": {
+    "ar": "السعر حسب التخصيص",
+    "en": "Price depends on personalization"
+  },
+  "נכין לכם הצעת מחיר לפי הבקשה.": {
+    "ar": "سنُعدّ عرض سعر حسب طلبكم.",
+    "en": "We'll prepare a quote for your request."
+  },
+  "רוצים לבחור מה נכנס למארז? בונים אותו כאן": {
+    "ar": "هل تريدون اختيار محتويات الصندوق؟ صمّموه هنا",
+    "en": "Want to choose what's inside? Build your gift here"
+  },
+  "עכשיו, הנגיעה שלכם": {
+    "ar": "والآن، لمستكم الخاصة",
+    "en": "Now, make it yours"
+  },
+  "איפוס העיצוב": {
+    "ar": "إعادة ضبط التصميم",
+    "en": "Reset design"
+  },
+  "הוספה לסל הפניות": {
+    "ar": "إضافة إلى سلة الطلبات",
+    "en": "Add to inquiry basket"
+  },
+  "שמירה למועדפים": {
+    "ar": "حفظ في المفضلة",
+    "en": "Save to favorites"
+  },
+  "בדיקת הבקשה ושליחה ב־WhatsApp": {
+    "ar": "مراجعة الطلب وإرساله عبر WhatsApp",
+    "en": "Review & send via WhatsApp"
+  },
+  "הכנה, איסוף ומשלוח": {
+    "ar": "التحضير والاستلام والتوصيل",
+    "en": "Production, pickup & delivery"
+  },
+  "זמן ההכנה יימסר בהצעת המחיר, לאחר בדיקת המוצר והעיצוב.": {
+    "ar": "سيُحدّد وقت التحضير في عرض السعر بعد مراجعة المنتج والتصميم.",
+    "en": "Production time will be included in your quote after the product and design are reviewed."
+  },
+  "אישור העיצוב וההתאמה האישית": {
+    "ar": "تأكيد التصميم والتخصيص",
+    "en": "Design & personalization approval"
+  },
+  "התצוגה היא הדמיה בלבד. הסטודיו יתאם איתכם את האפשרויות הזמינות, מחיר, התאמת הקבצים והעיצוב הסופי לפני אישור ההזמנה.": {
+    "ar": "هذه معاينة توضيحية فقط. سينسّق الاستوديو معكم الخيارات المتاحة والسعر وملاءمة الملفات والتصميم النهائي قبل تأكيد الطلب.",
+    "en": "This is an illustrative preview. The studio will confirm available options, price, file suitability and final artwork before you approve the order."
+  },
+  "אולי תאהבו גם": {
+    "ar": "قد يعجبكم أيضًا",
+    "en": "You might also love"
+  },
+  "לא מצאנו את המוצר הזה": {
+    "ar": "لم نجد هذا المنتج",
+    "en": "We couldn't find this product"
+  },
+  "יש עוד הרבה רעיונות יפים בקטלוג.": {
+    "ar": "تنتظركم أفكار جميلة أخرى في الكتالوج.",
+    "en": "There are plenty of lovely ideas in the catalog."
+  },
+  "הסיפורים שלנו, בעיצוב.": {
+    "ar": "حكاياتنا، بالتصميم.",
+    "en": "Our stories, through design."
+  },
+  "כאן יופיעו עבודות אמיתיות של הסטודיו. בינתיים, הנה שלושה כיוונים מקוריים להשראה.": {
+    "ar": "ستظهر هنا أعمال الاستوديو الحقيقية. إلى ذلك الحين، إليكم ثلاثة اتجاهات أصلية للإلهام.",
+    "en": "Real studio projects will appear here. For now, explore three original creative directions."
+  },
+  "קומפוזיציה מקורית להשראה בלבד. זו אינה עבודה עבור לקוח.": {
+    "ar": "تكوين أصلي للإلهام فقط، وليس عملًا لعميل.",
+    "en": "An original inspiration composition, not client work."
+  },
+  "היי BRAA GRAPHIX, אהבתי את הכיוון של {0} ואשמח לעיצוב אישי.": {
+    "ar": "مرحبًا BRAA GRAPHIX، أعجبني اتجاه {0} وأودّ تصميمًا شخصيًا.",
+    "en": "Hi BRAA GRAPHIX, I like the direction of {0} and would love a personal design."
+  },
+  "ליצור משהו משלכם": {
+    "ar": "اصنعوا شيئًا يخصّكم",
+    "en": "Create something of your own"
+  },
+  "הפרויקט הבא יכול להתחיל ברעיון שלכם.": {
+    "ar": "قد يبدأ المشروع القادم بفكرتكم.",
+    "en": "The next project could begin with your idea."
+  },
+  "שתפו אותנו במחשבה, בסגנון ובמה שחשוב לכם להעביר.": {
+    "ar": "شاركونا الفكرة والأسلوب والرسالة التي تودّون إيصالها.",
+    "en": "Tell us about the idea, style and message you want to share."
+  },
+  "היי BRAA GRAPHIX, אשמח לדבר על פרויקט עיצוב חדש.": {
+    "ar": "مرحبًا BRAA GRAPHIX، أودّ مناقشة مشروع تصميم جديد.",
+    "en": "Hi BRAA GRAPHIX, I'd love to discuss a new design project."
+  },
+  "רעיון טוב. עיצוב שמרגישים.": {
+    "ar": "فكرة جميلة. تصميم يُلامس القلب.",
+    "en": "A good idea. Design you can feel."
+  },
+  "מהסיפור שלכם לשפה חזותית עם אופי. עיצוב אישי לעסקים, לחגיגות ולרעיונות שעוד לא קיבלו צורה.": {
+    "ar": "من حكايتكم إلى هوية بصرية لها شخصية. تصميم للمشاريع والمناسبات والأفكار التي تنتظر شكلها.",
+    "en": "Your story, expressed through a visual language with character. Personal design for businesses, celebrations and ideas waiting to take shape."
+  },
+  "היי BRAA GRAPHIX, אשמח לשמוע על {0}.": {
+    "ar": "مرحبًا BRAA GRAPHIX، أودّ معرفة المزيد عن {0}.",
+    "en": "Hi BRAA GRAPHIX, I'd like to hear about {0}."
+  },
+  "בואו נדבר על העיצוב": {
+    "ar": "لنتحدّث عن التصميم",
+    "en": "Let's talk design"
+  },
+  "קומפוזיציה להשראה · מחיר לפי היקף הפרויקט": {
+    "ar": "تكوين للإلهام · السعر حسب نطاق المشروع",
+    "en": "Inspiration composition · Price depends on project scope"
+  },
+  "לכל פרויקט מגיע סיפור משלו.": {
+    "ar": "لكل مشروع حكاية تستحقّ أن تُروى.",
+    "en": "Every project deserves its own story."
+  },
+  "תיק העבודות יתעדכן כאן עם עבודות אמיתיות של הסטודיו.": {
+    "ar": "سيُحدَّث معرض الأعمال هنا بمشاريع الاستوديو الحقيقية.",
+    "en": "This portfolio will be updated with real studio work."
+  },
+  "בינתיים, ספרו לנו על הרעיון שלכם ונבדוק יחד את הכיוון.": {
+    "ar": "إلى ذلك الحين، أخبرونا عن فكرتكم لنكتشف الاتجاه معًا.",
+    "en": "In the meantime, tell us your idea and we'll explore the direction together."
+  },
+  "היי BRAA GRAPHIX, יש לי רעיון לעיצוב ואשמח להתייעץ.": {
+    "ar": "مرحبًا BRAA GRAPHIX، لديّ فكرة تصميم وأودّ الاستشارة.",
+    "en": "Hi BRAA GRAPHIX, I have a design idea and would love some advice."
+  },
+  "יוצרים דברים. נוגעים באנשים.": {
+    "ar": "نصنع أشياء. نلامس القلوب.",
+    "en": "Creating things. Connecting people."
+  },
+  "BRAA GRAPHIX הוא סטודיו לעיצוב גרפי, מתנות אישיות והדפסות יצירתיות.": {
+    "ar": "BRAA GRAPHIX استوديو للتصميم الجرافيكي والهدايا الشخصية والمطبوعات الإبداعية.",
+    "en": "BRAA GRAPHIX is a studio for graphic design, personalized gifts and creative printing."
+  },
+  "אנחנו מאמינים ששם קטן על ספל,": {
+    "ar": "نؤمن بأن اسمًا صغيرًا على كوب،",
+    "en": "We believe a little name on a mug,"
+  },
+  "מילים על כרטיס ותמונה בתוך מסגרת": {
+    "ar": "وكلمات على بطاقة وصورة داخل إطار",
+    "en": "words on a card and a framed photo"
+  },
+  "יכולים להפוך מתנה ל": {
+    "ar": "يمكنها أن تجعل الهدية ",
+    "en": "can turn a gift into "
+  },
+  "משהו שמרגישים.": {
+    "ar": "شيئًا يلامس القلب.",
+    "en": "something you can feel."
+  },
+  "הסיפור שלכם, בעיצוב שלנו": {
+    "ar": "حكايتكم، بتصميمنا",
+    "en": "Your story, our design"
+  },
+  "כאן אפשר לגלות רעיונות למתנות, להוסיף שם או הקדשה, לבנות מארז ולתאם את הפרטים ישירות עם הסטודיו. כל בקשה היא התחלה של שיחה.": {
+    "ar": "اكتشفوا هنا أفكار الهدايا، أضيفوا اسمًا أو إهداء، صمّموا صندوقًا ونسّقوا التفاصيل مباشرة مع الاستوديو. كل طلب هو بداية محادثة.",
+    "en": "Explore gift ideas, add a name or message, build a box and arrange the details directly with the studio. Every request starts a conversation."
+  },
+  "מחשבה עד הפרט הקטן": {
+    "ar": "اهتمام حتى بأصغر التفاصيل",
+    "en": "Thoughtful down to the last detail"
+  },
+  "בוחרים את הכיוון, בודקים את האפשרויות ומאשרים יחד את העיצוב והמחיר. מהרעיון הראשון ועד לתיאום האספקה, הפרטים נסגרים באופן אישי.": {
+    "ar": "نختار الاتجاه ونتحقّق من الخيارات ونُقرّ التصميم والسعر معًا. من الفكرة الأولى إلى تنسيق التسليم، كل تفصيل يُرتّب بشكل شخصي.",
+    "en": "Choose a direction, explore the options and agree on the design and price together. From the first idea to delivery arrangements, the details are handled personally."
+  },
+  "היי BRAA GRAPHIX, אשמח להכיר את הסטודיו ולשמוע על האפשרויות.": {
+    "ar": "مرحبًا BRAA GRAPHIX، أودّ التعرّف على الاستوديو والخيارات المتاحة.",
+    "en": "Hi BRAA GRAPHIX, I'd love to learn about the studio and the possibilities."
+  },
+  "מתנה אישית": {
+    "ar": "هدية شخصية",
+    "en": "Personalized gift"
+  },
+  "כל רעיון מתחיל בשיחה.": {
+    "ar": "كل فكرة تبدأ بمحادثة.",
+    "en": "Every idea starts with a conversation."
+  },
+  "יש לכם מתנה בראש, אירוע בדרך או רעיון לעיצוב? נשמח לשמוע.": {
+    "ar": "لديكم هدية في البال، مناسبة قريبة أو فكرة تصميم؟ يسعدنا سماعها.",
+    "en": "A gift in mind, a celebration coming up or a design idea? We'd love to hear it."
+  },
+  "נעים להכיר ♡": {
+    "ar": "سعداء بالتعرّف عليكم ♡",
+    "en": "Lovely to meet you ♡"
+  },
+  "פרטי איסוף, משלוח וזמני הכנה יימסרו בשיחה לפי הבקשה.": {
+    "ar": "تُحدّد تفاصيل الاستلام والتوصيل ووقت التحضير في المحادثة حسب الطلب.",
+    "en": "Pickup, delivery and production times will be discussed based on your request."
+  },
+  "איך קוראים לכם?": {
+    "ar": "ما اسمكم؟",
+    "en": "What's your name?"
+  },
+  "השם שלכם": {
+    "ar": "اسمكم",
+    "en": "Your name"
+  },
+  "על מה מדברים?": {
+    "ar": "عمّ نتحدّث؟",
+    "en": "What shall we talk about?"
+  },
+  "הדפסות לאירוע": {
+    "ar": "مطبوعات لمناسبة",
+    "en": "Printing for an event"
+  },
+  "משהו אחר": {
+    "ar": "شيء آخر",
+    "en": "Something else"
+  },
+  "ספרו לנו קצת": {
+    "ar": "أخبرونا قليلًا",
+    "en": "Tell us a little"
+  },
+  "מה הייתם שמחים ליצור?": {
+    "ar": "ماذا تودّون أن نصنع؟",
+    "en": "What would you love to create?"
+  },
+  "הכנת הודעה": {
+    "ar": "تحضير الرسالة",
+    "en": "Prepare message"
+  },
+  "ההודעה מוכנה. נמשיך לשיחה אישית?": {
+    "ar": "الرسالة جاهزة. هل نتابع المحادثة؟",
+    "en": "Your message is ready. Shall we continue the conversation?"
+  },
+  "היי BRAA GRAPHIX, אני": {
+    "ar": "مرحبًا BRAA GRAPHIX، أنا ",
+    "en": "Hi BRAA GRAPHIX, I'm "
+  },
+  "נושא:": {
+    "ar": "الموضوع: ",
+    "en": "Subject: "
+  },
+  "פתיחה ב־WhatsApp": {
+    "ar": "فتح في WhatsApp",
+    "en": "Open WhatsApp"
+  },
+  "הטופס מכין הודעה בלבד. שום מידע אינו נשלח עד שתשלחו את ההודעה ב־WhatsApp.": {
+    "ar": "يُحضّر النموذج رسالة فقط. لا تُرسل أي معلومات حتى تُرسلوا الرسالة بأنفسكم عبر WhatsApp.",
+    "en": "This form only prepares a message. Nothing is sent until you send it yourself in WhatsApp."
+  },
+  "הפרטיות שלכם": {
+    "ar": "خصوصيتكم",
+    "en": "Your privacy"
+  },
+  "שמירה בדפדפן שלכם": {
+    "ar": "الحفظ في متصفحكم",
+    "en": "Saved in your browser"
+  },
+  "סל הפניות, המועדפים, המארז והטיוטות נשמרים באחסון המקומי של הדפדפן במכשיר הזה. התמונות נשמרות מקומית ב־IndexedDB ואינן מועלות לשרת או מוצגות לאנשים אחרים. מידע שנשמר אינו מסתנכרן בין מכשירים. במכשיר משותף, למי שמשתמש באותו פרופיל דפדפן עשויה להיות גישה לטיוטות.": {
+    "ar": "تُحفظ السلة والمفضلة والصندوق والمسودات في التخزين المحلي لهذا المتصفح على هذا الجهاز. تُحفظ الصور محليًا في IndexedDB ولا تُرفع إلى خادم أو تُعرض للآخرين. لا تتزامن البيانات بين الأجهزة. في الجهاز المشترك، قد يتمكّن مستخدمو ملف المتصفح نفسه من الوصول إلى المسودات.",
+    "en": "Your basket, favorites, gift box and drafts are stored locally in this browser on this device. Images are stored in IndexedDB and are not uploaded to a server or shown to others. Data does not sync between devices. On a shared device, others using the same browser profile may be able to access these drafts."
+  },
+  "פנייה לסטודיו": {
+    "ar": "التواصل مع الاستوديو",
+    "en": "Contacting the studio"
+  },
+  "הקישור ל־WhatsApp כולל את פרטי הבקשה שבחרתם. עליכם לשלוח את ההודעה בעצמכם ולצרף ידנית את התמונות. השימוש ב־WhatsApp וב־Instagram כפוף לתנאים שלהם. פתיחת שיחה אינה אישור הזמנה.": {
+    "ar": "يتضمّن رابط WhatsApp تفاصيل الطلب التي اخترتموها. عليكم إرسال الرسالة وإرفاق الصور يدويًا بأنفسكم. يخضع استخدام WhatsApp وInstagram لشروطهما. فتح المحادثة لا يؤكّد الطلب.",
+    "en": "The WhatsApp link includes your selected request details. You must send the message and attach images manually. WhatsApp and Instagram are governed by their own terms. Opening a conversation does not confirm an order."
+  },
+  "ניהול המידע": {
+    "ar": "إدارة بياناتكم",
+    "en": "Managing your data"
+  },
+  "אפשר להסיר פריטים מהסל או מהמועדפים. למחיקת כל הטיוטות, הפריטים והתמונות המקומיות, השתמשו ב״מחיקת הנתונים מהמכשיר״ בתחתית האתר או נקו את נתוני האתר דרך הדפדפן.": {
+    "ar": "يمكن إزالة المنتجات من السلة أو المفضلة. لحذف جميع المسودات والمنتجات والصور المحلية، استخدموا «حذف البيانات من الجهاز» أسفل الموقع، أو امسحوا بيانات الموقع من المتصفح.",
+    "en": "You can remove items from your basket or favorites. To delete all local drafts, items and images, use “Clear data from this device” in the footer or clear site data in your browser."
+  },
+  "תמונות ותוכן באתר": {
+    "ar": "الصور والمحتوى",
+    "en": "Images and content"
+  },
+  "תמונות המוצרים הן הדמיות מקוריות להשראה. אין באתר מערכת תשלום, מעקב פרסומי או חיבור לפיד Instagram חי. מחירים, מידות, אפשרויות, זמני הכנה ואספקה יאושרו מול הסטודיו לפני הזמנה.": {
+    "ar": "صور المنتجات نماذج أصلية للإلهام. لا يتضمّن الموقع نظام دفع أو تتبّعًا إعلانيًا أو اتصالًا مباشرًا بمنشورات Instagram. تُؤكّد الأسعار والمقاسات والخيارات ومواعيد التحضير والتسليم مع الاستوديو قبل الطلب.",
+    "en": "Product images are original inspiration mockups. The site has no payment system, advertising tracking or live Instagram feed. Prices, sizes, options, production and delivery times are confirmed with the studio before ordering."
+  },
+  "היי BRAA GRAPHIX, יש לי שאלה לגבי פרטיות או נתונים.": {
+    "ar": "مرحبًا BRAA GRAPHIX، لديّ سؤال عن الخصوصية أو البيانات.",
+    "en": "Hi BRAA GRAPHIX, I have a question about privacy or data."
+  },
+  "אפשרויות איסוף ומשלוח יתואמו עם הסטודיו בהתאם למוצר ולכתובת.": {
+    "ar": "تُنسّق خيارات الاستلام والتوصيل مع الاستوديو حسب المنتج والعنوان.",
+    "en": "Pickup and delivery options are arranged with the studio based on the product and address."
+  },
+  "מותג אחר": {
+    "ar": "علامة أخرى",
+    "en": "Other brand"
+  },
+  "ספלים וכוסות בעיצוב אישי": {
+    "ar": "أكواب بتصميم شخصي",
+    "en": "Personalized mugs & cups"
+  },
+  "ספלים וכוסות": {
+    "ar": "الأكواب",
+    "en": "Mugs & cups"
+  },
+  "רגע קטן של קפה, עם נגיעה שהיא רק שלכם.": {
+    "ar": "لحظة قهوة صغيرة، بلمسة تخصّكم.",
+    "en": "A little coffee moment, with a touch that's yours."
+  },
+  "שם להדפסה": {
+    "ar": "الاسم للطباعة",
+    "en": "Name to print"
+  },
+  "גימור מבוקש": {
+    "ar": "التشطيب المطلوب",
+    "en": "Requested finish"
+  },
+  "לבן קלאסי": {
+    "ar": "أبيض كلاسيكي",
+    "en": "Classic white"
+  },
+  "ידית צבעונית": {
+    "ar": "مقبض ملوّن",
+    "en": "Colored handle"
+  },
+  "בהמלצת הסטודיו": {
+    "ar": "بتوصية الاستوديو",
+    "en": "Studio recommendation"
+  },
+  "מחברות וכלי כתיבה": {
+    "ar": "دفاتر وقرطاسية",
+    "en": "Notebooks & stationery"
+  },
+  "מחברות ונייר": {
+    "ar": "دفاتر وورق",
+    "en": "Notebooks & paper"
+  },
+  "מקום יפה לרעיונות, לחלומות ולכל מה שבדרך.": {
+    "ar": "مساحة جميلة للأفكار والأحلام وكل ما يأتي بعدها.",
+    "en": "A lovely place for ideas, dreams and everything along the way."
+  },
+  "שם על הכריכה": {
+    "ar": "الاسم على الغلاف",
+    "en": "Name on the cover"
+  },
+  "עיצוב כריכה": {
+    "ar": "تصميم الغلاف",
+    "en": "Cover design"
+  },
+  "איור אישי": {
+    "ar": "رسم شخصي",
+    "en": "Custom illustration"
+  },
+  "סוג דפים מבוקש": {
+    "ar": "نوع الصفحات المطلوب",
+    "en": "Preferred page style"
+  },
+  "שורות": {
+    "ar": "مسطّرة",
+    "en": "Lined"
+  },
+  "נקודות": {
+    "ar": "منقّطة",
+    "en": "Dotted"
+  },
+  "חלק": {
+    "ar": "سادة",
+    "en": "Plain"
+  },
+  "אלבומי תמונות": {
+    "ar": "ألبومات صور",
+    "en": "Photo albums"
+  },
+  "הזיכרונות האהובים, בסיפור שתוכלו להחזיק ביד.": {
+    "ar": "ذكرياتكم المفضلة، في حكاية تمسكونها بأيديكم.",
+    "en": "Favorite memories, in a story you can hold."
+  },
+  "כותרת האלבום": {
+    "ar": "عنوان الألبوم",
+    "en": "Album title"
+  },
+  "גודל מבוקש": {
+    "ar": "الحجم المطلوب",
+    "en": "Requested size"
+  },
+  "קטן": {
+    "ar": "صغير",
+    "en": "Small"
+  },
+  "בינוני": {
+    "ar": "متوسط",
+    "en": "Medium"
+  },
+  "גדול": {
+    "ar": "كبير",
+    "en": "Large"
+  },
+  "סוג כריכה": {
+    "ar": "نوع الغلاف",
+    "en": "Cover type"
+  },
+  "קשיחה": {
+    "ar": "صلب",
+    "en": "Hardcover"
+  },
+  "רכה": {
+    "ar": "مرن",
+    "en": "Softcover"
+  },
+  "מספר עמודים מבוקש": {
+    "ar": "عدد الصفحات المطلوب",
+    "en": "Requested page count"
+  },
+  "לתיאום": {
+    "ar": "بالتنسيق",
+    "en": "To be arranged"
+  },
+  "תמונות ומסגרות": {
+    "ar": "صور وإطارات",
+    "en": "Pictures & frames"
+  },
+  "לתת לרגעים שלכם את המקום שמגיע להם.": {
+    "ar": "امنحوا لحظاتكم المكان الذي تستحقّه.",
+    "en": "Give your moments the place they deserve."
+  },
+  "כותרת או שם": {
+    "ar": "عنوان أو اسم",
+    "en": "Title or name"
+  },
+  "מידה מבוקשת (ס״מ)": {
+    "ar": "المقاس المطلوب (سم)",
+    "en": "Requested size (cm)"
+  },
+  "צבע מסגרת מבוקש": {
+    "ar": "لون الإطار المطلوب",
+    "en": "Requested frame color"
+  },
+  "עץ טבעי": {
+    "ar": "خشب طبيعي",
+    "en": "Natural wood"
+  },
+  "לבן": {
+    "ar": "أبيض",
+    "en": "White"
+  },
+  "שחור": {
+    "ar": "أسود",
+    "en": "Black"
+  },
+  "כיוון": {
+    "ar": "الاتجاه",
+    "en": "Orientation"
+  },
+  "לאורך": {
+    "ar": "عمودي",
+    "en": "Portrait"
+  },
+  "לרוחב": {
+    "ar": "أفقي",
+    "en": "Landscape"
+  },
+  "סוג הדפס": {
+    "ar": "نوع الطباعة",
+    "en": "Print type"
+  },
+  "נייר צילום": {
+    "ar": "ورق صور",
+    "en": "Photo paper"
+  },
+  "קנבס": {
+    "ar": "كانفاس",
+    "en": "Canvas"
+  },
+  "נרות בעיצוב אישי": {
+    "ar": "شموع بتصميم شخصي",
+    "en": "Personalized candles"
+  },
+  "נרות ורגעים": {
+    "ar": "شموع ولحظات",
+    "en": "Candles & moments"
+  },
+  "אור רך, הקדשה אישית והרבה מחשבה.": {
+    "ar": "ضوء هادئ وإهداء شخصي وكثير من الاهتمام.",
+    "en": "Soft light, a personal message and plenty of thought."
+  },
+  "שם על התווית": {
+    "ar": "الاسم على الملصق",
+    "en": "Name on the label"
+  },
+  "סגנון תווית": {
+    "ar": "أسلوب الملصق",
+    "en": "Label style"
+  },
+  "נקי ואלגנטי": {
+    "ar": "بسيط وأنيق",
+    "en": "Clean & elegant"
+  },
+  "העדפת ריח": {
+    "ar": "الرائحة المفضّلة",
+    "en": "Scent preference"
+  },
+  "לבחירה לאחר בדיקת זמינות": {
+    "ar": "الاختيار بعد التحقّق من التوفّر",
+    "en": "Choose after availability check"
+  },
+  "ללא ריח, אם זמין": {
+    "ar": "بدون رائحة، إن توفّر",
+    "en": "Unscented, if available"
+  },
+  "ביגוד בהדפסה אישית": {
+    "ar": "ملابس بطباعة شخصية",
+    "en": "Custom-printed clothing"
+  },
+  "ביגוד אישי": {
+    "ar": "ملابس شخصية",
+    "en": "Personalized clothing"
+  },
+  "ללבוש רעיון, לחגוג יחד, להיות אתם.": {
+    "ar": "ارتدوا فكرة، احتفلوا معًا وكونوا أنفسكم.",
+    "en": "Wear an idea, celebrate together and be yourselves."
+  },
+  "שם או כותרת להדפסה": {
+    "ar": "اسم أو عنوان للطباعة",
+    "en": "Name or heading to print"
+  },
+  "מידה מבוקשת": {
+    "ar": "المقاس المطلوب",
+    "en": "Requested size"
+  },
+  "מידת ילדים — לציין בהערות": {
+    "ar": "مقاس أطفال — يُذكر في الملاحظات",
+    "en": "Child size—specify in notes"
+  },
+  "מיקום הדפס": {
+    "ar": "موضع الطباعة",
+    "en": "Print placement"
+  },
+  "קדמי": {
+    "ar": "أمامي",
+    "en": "Front"
+  },
+  "אחורי": {
+    "ar": "خلفي",
+    "en": "Back"
+  },
+  "קדמי ואחורי": {
+    "ar": "أمامي وخلفي",
+    "en": "Front & back"
+  },
+  "בשמים ומתנות טיפוח": {
+    "ar": "عطور وهدايا عناية",
+    "en": "Perfume & beauty gifts"
+  },
+  "בשמים וטיפוח": {
+    "ar": "عطور وعناية",
+    "en": "Perfume & beauty"
+  },
+  "הפרטים שעושים את האריזה לאישית.": {
+    "ar": "تفاصيل تجعل التغليف شخصيًا.",
+    "en": "The details that make the packaging personal."
+  },
+  "שם על האריזה בלבד": {
+    "ar": "الاسم على التغليف فقط",
+    "en": "Name on packaging only"
+  },
+  "התאמת אריזה": {
+    "ar": "تخصيص التغليف",
+    "en": "Packaging personalization"
+  },
+  "תווית אישית": {
+    "ar": "ملصق شخصي",
+    "en": "Personalized label"
+  },
+  "כרטיס ברכה": {
+    "ar": "بطاقة تهنئة",
+    "en": "Greeting card"
+  },
+  "אריזת מתנה": {
+    "ar": "تغليف هدية",
+    "en": "Gift wrapping"
+  },
+  "תכשיטים ואקססוריז": {
+    "ar": "مجوهرات وإكسسوارات",
+    "en": "Jewelry & accessories"
+  },
+  "מחווה עדינה, עם אריזה שמספרת את הסיפור.": {
+    "ar": "لفتة رقيقة، بتغليف يروي الحكاية.",
+    "en": "A delicate gesture, with packaging that tells the story."
+  },
+  "שם על כרטיס המתנה": {
+    "ar": "الاسم على بطاقة الهدية",
+    "en": "Name on the gift card"
+  },
+  "זהוב": {
+    "ar": "ذهبي",
+    "en": "Gold tone"
+  },
+  "כסוף": {
+    "ar": "فضي",
+    "en": "Silver tone"
+  },
+  "אריזה": {
+    "ar": "التغليف",
+    "en": "Packaging"
+  },
+  "קופסת מתנה": {
+    "ar": "علبة هدية",
+    "en": "Gift box"
+  },
+  "כרטיס אישי": {
+    "ar": "بطاقة شخصية",
+    "en": "Personal card"
+  },
+  "כיסויים לטלפון בהדפסה אישית": {
+    "ar": "أغطية هواتف بطباعة شخصية",
+    "en": "Custom-printed phone cases"
+  },
+  "כיסויים לטלפון": {
+    "ar": "أغطية هواتف",
+    "en": "Phone cases"
+  },
+  "התמונה, השם או האיור שלכם, תמיד איתכם.": {
+    "ar": "صورتكم أو اسمكم أو رسمتكم، دائمًا معكم.",
+    "en": "Your photo, name or illustration, always with you."
+  },
+  "מותג טלפון": {
+    "ar": "علامة الهاتف",
+    "en": "Phone brand"
+  },
+  "דגם הטלפון": {
+    "ar": "طراز الهاتف",
+    "en": "Phone model"
+  },
+  "סוג כיסוי מבוקש": {
+    "ar": "نوع الغطاء المطلوب",
+    "en": "Requested case type"
+  },
+  "שקוף": {
+    "ar": "شفاف",
+    "en": "Clear"
+  },
+  "אטום": {
+    "ar": "غير شفاف",
+    "en": "Opaque"
+  },
+  "בקבוקים בעיצוב אישי": {
+    "ar": "زجاجات بتصميم شخصي",
+    "en": "Personalized bottles"
+  },
+  "בקבוקים": {
+    "ar": "زجاجات",
+    "en": "Bottles"
+  },
+  "לכל הרפתקה, עם השם שלכם.": {
+    "ar": "لكل مغامرة، ومعكم اسمكم.",
+    "en": "For every adventure, with your name on it."
+  },
+  "שם על הבקבוק": {
+    "ar": "الاسم على الزجاجة",
+    "en": "Name on the bottle"
+  },
+  "סוג בקבוק מבוקש": {
+    "ar": "نوع الزجاجة المطلوب",
+    "en": "Requested bottle type"
+  },
+  "נירוסטה": {
+    "ar": "ستانلس ستيل",
+    "en": "Stainless steel"
+  },
+  "ספורט": {
+    "ar": "رياضية",
+    "en": "Sports"
+  },
+  "לילדים": {
+    "ar": "للأطفال",
+    "en": "For children"
+  },
+  "עיצוב": {
+    "ar": "التصميم",
+    "en": "Design"
+  },
+  "שם בלבד": {
+    "ar": "الاسم فقط",
+    "en": "Name only"
+  },
+  "איור ושם": {
+    "ar": "رسم واسم",
+    "en": "Illustration & name"
+  },
+  "אירועים וחגיגות": {
+    "ar": "مناسبات واحتفالات",
+    "en": "Events & celebrations"
+  },
+  "מההזמנה ועד המתנה הקטנה, כל פרט חוגג איתכם.": {
+    "ar": "من الدعوة إلى الهدية الصغيرة، كل تفصيل يحتفل معكم.",
+    "en": "From the invitation to the little favor, every detail celebrates with you."
+  },
+  "שמות בעלי השמחה": {
+    "ar": "أسماء أصحاب المناسبة",
+    "en": "Names of the celebrants"
+  },
+  "סוג האירוע": {
+    "ar": "نوع المناسبة",
+    "en": "Occasion type"
+  },
+  "יום הולדת": {
+    "ar": "عيد ميلاد",
+    "en": "Birthday"
+  },
+  "חתונה": {
+    "ar": "زفاف",
+    "en": "Wedding"
+  },
+  "אירוסין": {
+    "ar": "خطوبة",
+    "en": "Engagement"
+  },
+  "לידה": {
+    "ar": "مولود جديد",
+    "en": "New baby"
+  },
+  "אירוע אחר": {
+    "ar": "مناسبة أخرى",
+    "en": "Another occasion"
+  },
+  "תאריך האירוע": {
+    "ar": "تاريخ المناسبة",
+    "en": "Event date"
+  },
+  "סגנון": {
+    "ar": "الأسلوب",
+    "en": "Style"
+  },
+  "צבעוני": {
+    "ar": "ملوّن",
+    "en": "Colorful"
+  },
+  "עיצוב מותאם": {
+    "ar": "تصميم مخصّص",
+    "en": "Custom design"
+  },
+  "מארזי מתנה בהתאמה אישית": {
+    "ar": "صناديق هدايا حسب الطلب",
+    "en": "Custom gift boxes"
+  },
+  "מארזי מתנה": {
+    "ar": "صناديق هدايا",
+    "en": "Gift boxes"
+  },
+  "כמה דברים קטנים. הרבה אהבה בקופסה אחת.": {
+    "ar": "أشياء صغيرة. كثير من الحبّ في صندوق واحد.",
+    "en": "A few little things. A lot of love in one box."
+  },
+  "לכבוד": {
+    "ar": "بمناسبة",
+    "en": "For"
+  },
+  "יום נישואין": {
+    "ar": "ذكرى زواج",
+    "en": "Anniversary"
+  },
+  "סיום לימודים": {
+    "ar": "تخرّج",
+    "en": "Graduation"
+  },
+  "חברות": {
+    "ar": "صداقة",
+    "en": "Friendship"
+  },
+  "סתם כי אוהבים": {
+    "ar": "لمجرّد المحبة",
+    "en": "Just because"
+  },
+  "גודל מארז מבוקש": {
+    "ar": "حجم الصندوق المطلوب",
+    "en": "Requested box size"
+  },
+  "יום האהבה": {
+    "ar": "عيد الحبّ",
+    "en": "Valentine's Day"
+  },
+  "ספל עם השם שלכם": {
+    "ar": "كوب يحمل اسمكم",
+    "en": "A mug with your name"
+  },
+  "ספל עם תמונה אהובה": {
+    "ar": "كوب بصورة تحبّونها",
+    "en": "A mug with a favorite photo"
+  },
+  "זוג ספלים, סיפור אחד": {
+    "ar": "كوبان، حكاية واحدة",
+    "en": "Two mugs, one story"
+  },
+  "ספל יום הולדת": {
+    "ar": "كوب عيد ميلاد",
+    "en": "Birthday mug"
+  },
+  "כוס בעיצוב אישי": {
+    "ar": "كأس بتصميم شخصي",
+    "en": "Custom-designed cup"
+  },
+  "ספל קרמיקה קלאסי": {
+    "ar": "كوب سيراميك كلاسيكي",
+    "en": "Classic ceramic mug"
+  },
+  "מחברת מלאה בחלומות": {
+    "ar": "دفتر مليء بالأحلام",
+    "en": "A notebook full of dreams"
+  },
+  "יומן אישי": {
+    "ar": "مذكّرات شخصية",
+    "en": "Personal journal"
+  },
+  "פלנר עם השם שלכם": {
+    "ar": "مخطّط يحمل اسمكم",
+    "en": "A planner with your name"
+  },
+  "מחברת לבית הספר": {
+    "ar": "دفتر للمدرسة",
+    "en": "School notebook"
+  },
+  "מארז כלי כתיבה": {
+    "ar": "طقم قرطاسية",
+    "en": "Stationery set"
+  },
+  "עט עם שם": {
+    "ar": "قلم باسم",
+    "en": "Named pen"
+  },
+  "אלבום החתונה שלנו": {
+    "ar": "ألبوم زفافنا",
+    "en": "Our wedding album"
+  },
+  "השנה הראשונה שלי": {
+    "ar": "عامي الأول",
+    "en": "My first year"
+  },
+  "אלבום יום הולדת": {
+    "ar": "ألبوم عيد ميلاد",
+    "en": "Birthday album"
+  },
+  "הסיפור הזוגי שלנו": {
+    "ar": "حكايتنا معًا",
+    "en": "Our story together"
+  },
+  "אלבום משפחתי": {
+    "ar": "ألبوم العائلة",
+    "en": "Family album"
+  },
+  "ספר תמונות אישי": {
+    "ar": "كتاب صور شخصي",
+    "en": "Personal photo book"
+  },
+  "רגע בתוך מסגרת": {
+    "ar": "لحظة داخل إطار",
+    "en": "A moment in a frame"
+  },
+  "תמונת קנבס": {
+    "ar": "صورة على كانفاس",
+    "en": "Canvas print"
+  },
+  "הדפס אמנותי לקיר": {
+    "ar": "طبعة فنية للجدار",
+    "en": "Art print for your wall"
+  },
+  "דיוקן מאויר אישי": {
+    "ar": "بورتريه مرسوم شخصي",
+    "en": "Custom illustrated portrait"
+  },
+  "קולאז׳ של זיכרונות": {
+    "ar": "كولاج ذكريات",
+    "en": "A collage of memories"
+  },
+  "תמונה זוגית": {
+    "ar": "صورة للثنائي",
+    "en": "Couple photo print"
+  },
+  "נר עם הקדשה אישית": {
+    "ar": "شمعة بإهداء شخصي",
+    "en": "A candle with your message"
+  },
+  "נר ריחני במתנה": {
+    "ar": "شمعة معطّرة كهدية",
+    "en": "Scented candle gift"
+  },
+  "נר קטן לאורחים": {
+    "ar": "شمعة صغيرة للضيوف",
+    "en": "A little candle for guests"
+  },
+  "נר יום הולדת": {
+    "ar": "شمعة عيد ميلاد",
+    "en": "Birthday candle"
+  },
+  "נר עם שם": {
+    "ar": "شمعة باسم",
+    "en": "Named candle"
+  },
+  "נר דקורטיבי": {
+    "ar": "شمعة للزينة",
+    "en": "Decorative candle"
+  },
+  "טי שירט, בדיוק אתם": {
+    "ar": "تيشيرت يشبهكم",
+    "en": "A T-shirt that's so you"
+  },
+  "קפוצ׳ון בעיצוב אישי": {
+    "ar": "هودي بتصميم شخصي",
+    "en": "Custom hoodie"
+  },
+  "בגד לתינוק עם שם": {
+    "ar": "ملابس مولود باسم",
+    "en": "Baby clothing with a name"
+  },
+  "חולצות זוגיות": {
+    "ar": "قمصان للثنائي",
+    "en": "Couple shirts"
+  },
+  "חולצות לאירוע": {
+    "ar": "قمصان للمناسبات",
+    "en": "Event shirts"
+  },
+  "חולצת יום הולדת": {
+    "ar": "قميص عيد ميلاد",
+    "en": "Birthday shirt"
+  },
+  "מארז בושם במתנה": {
+    "ar": "طقم عطر كهدية",
+    "en": "Perfume gift set"
+  },
+  "אריזת בושם אישית": {
+    "ar": "تغليف عطر شخصي",
+    "en": "Personalized perfume packaging"
+  },
+  "תווית לבושם": {
+    "ar": "ملصق عطر",
+    "en": "Perfume label"
+  },
+  "קופסת מתנות טיפוח": {
+    "ar": "صندوق هدايا عناية",
+    "en": "Beauty gift box"
+  },
+  "אביזר טיפוח באריזת מתנה": {
+    "ar": "إكسسوار عناية بتغليف هدية",
+    "en": "Beauty accessory in gift packaging"
+  },
+  "עגילים באריזת מתנה": {
+    "ar": "أقراط في علبة هدية",
+    "en": "Earrings in gift packaging"
+  },
+  "שרשרת עם כרטיס אישי": {
+    "ar": "قلادة مع بطاقة شخصية",
+    "en": "Necklace with a personal card"
+  },
+  "צמיד במתנה": {
+    "ar": "سوار كهدية",
+    "en": "Bracelet gift"
+  },
+  "מחזיק מפתחות אישי": {
+    "ar": "ميدالية مفاتيح شخصية",
+    "en": "Personalized keychain"
+  },
+  "אקססוריז באריזה אישית": {
+    "ar": "إكسسوارات بتغليف شخصي",
+    "en": "Accessories in personal packaging"
+  },
+  "אריזת מתנה לתכשיט": {
+    "ar": "علبة هدية للمجوهرات",
+    "en": "Jewelry gift packaging"
+  },
+  "כיסוי עם תמונה": {
+    "ar": "غطاء هاتف بصورة",
+    "en": "Photo phone case"
+  },
+  "כיסוי עם שם": {
+    "ar": "غطاء هاتف باسم",
+    "en": "Named phone case"
+  },
+  "כיסויים לזוג": {
+    "ar": "أغطية هواتف للثنائي",
+    "en": "Couple phone cases"
+  },
+  "כיסוי עם איור אישי": {
+    "ar": "غطاء هاتف برسم شخصي",
+    "en": "Custom illustration phone case"
+  },
+  "כיסוי בהדפס אישי": {
+    "ar": "غطاء هاتف بطباعة شخصية",
+    "en": "Custom-printed phone case"
+  },
+  "בקבוק עם השם שלכם": {
+    "ar": "زجاجة تحمل اسمكم",
+    "en": "A bottle with your name"
+  },
+  "בקבוק עם הקדשה": {
+    "ar": "زجاجة بإهداء",
+    "en": "A bottle with a message"
+  },
+  "בקבוק עם הדפס": {
+    "ar": "زجاجة بطباعة شخصية",
+    "en": "Printed bottle"
+  },
+  "בקבוק ספורט אישי": {
+    "ar": "زجاجة رياضية شخصية",
+    "en": "Personalized sports bottle"
+  },
+  "בקבוק לילדים": {
+    "ar": "زجاجة للأطفال",
+    "en": "Children's bottle"
+  },
+  "בקבוק באריזת מתנה": {
+    "ar": "زجاجة في علبة هدية",
+    "en": "Bottle in gift packaging"
+  },
+  "שוקולד עם סיפור אישי": {
+    "ar": "شوكولاتة بحكاية شخصية",
+    "en": "Chocolate with a personal story"
+  },
+  "מזכרת ליום הולדת": {
+    "ar": "تذكار عيد ميلاد",
+    "en": "Birthday favor"
+  },
+  "מזכרת לאורחי חתונה": {
+    "ar": "تذكار لضيوف الزفاف",
+    "en": "Wedding guest favor"
+  },
+  "מתנה קטנה לאירוסין": {
+    "ar": "هدية صغيرة للخطوبة",
+    "en": "A little engagement gift"
+  },
+  "מזכרת לחגיגת לידה": {
+    "ar": "تذكار احتفال بمولود",
+    "en": "New baby celebration favor"
+  },
+  "תוויות למסיבה": {
+    "ar": "ملصقات للحفلات",
+    "en": "Party labels"
+  },
+  "הזמנה מעוצבת": {
+    "ar": "دعوة مصمّمة",
+    "en": "Designed invitation"
+  },
+  "כרטיס תודה אישי": {
+    "ar": "بطاقة شكر شخصية",
+    "en": "Personal thank-you card"
+  },
+  "מדבקות מעוצבות": {
+    "ar": "ملصقات مصمّمة",
+    "en": "Custom stickers"
+  },
+  "אריזות לאירוע": {
+    "ar": "تغليف للمناسبات",
+    "en": "Event packaging"
+  },
+  "מארז יום הולדת": {
+    "ar": "صندوق عيد ميلاد",
+    "en": "Birthday gift box"
+  },
+  "מארז ליום נישואין": {
+    "ar": "صندوق ذكرى زواج",
+    "en": "Anniversary gift box"
+  },
+  "מארז זוגי": {
+    "ar": "صندوق للثنائي",
+    "en": "Couple gift box"
+  },
+  "מארז לסיום הלימודים": {
+    "ar": "صندوق تخرّج",
+    "en": "Graduation gift box"
+  },
+  "מארז לאמא": {
+    "ar": "صندوق للأم",
+    "en": "A gift box for Mum"
+  },
+  "מארז לחברה": {
+    "ar": "صندوق لصديقة",
+    "en": "A gift box for a friend"
+  },
+  "סל מתנות אישי": {
+    "ar": "سلة هدايا شخصية",
+    "en": "Personalized gift basket"
+  },
+  "{0} בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "{0} اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "{0} Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "גוון עט מבוקש": {
+    "ar": "لون القلم المطلوب",
+    "en": "Requested pen color"
+  },
+  "מידת תינוק מבוקשת": {
+    "ar": "مقاس المولود المطلوب",
+    "en": "Requested baby size"
+  },
+  "0–3 חודשים": {
+    "ar": "0–3 أشهر",
+    "en": "0–3 months"
+  },
+  "3–6 חודשים": {
+    "ar": "3–6 أشهر",
+    "en": "3–6 months"
+  },
+  "6–12 חודשים": {
+    "ar": "6–12 شهرًا",
+    "en": "6–12 months"
+  },
+  "12–18 חודשים": {
+    "ar": "12–18 شهرًا",
+    "en": "12–18 months"
+  },
+  "מיתוג וזהות חזותית": {
+    "ar": "العلامة والهوية البصرية",
+    "en": "Branding & visual identity"
+  },
+  "לוגו, צבעים ושפה עיצובית שמספרים מי אתם.": {
+    "ar": "شعار وألوان ولغة بصرية تروي من أنتم.",
+    "en": "A logo, colors and visual language that tell your story."
+  },
+  "הזמנות וניירת לאירועים": {
+    "ar": "دعوات وورقيات للمناسبات",
+    "en": "Invitations & event stationery"
+  },
+  "עיצוב שמתחיל את החגיגה עוד לפני שנפגשים.": {
+    "ar": "تصميم يبدأ الاحتفال قبل اللقاء.",
+    "en": "Design that starts the celebration before you meet."
+  },
+  "עיצוב לרשתות חברתיות": {
+    "ar": "تصميم للشبكات الاجتماعية",
+    "en": "Social media design"
+  },
+  "פוסטים וגרפיקה פרסומית עם שפה אישית ונוכחות.": {
+    "ar": "منشورات ورسومات إعلانية بأسلوب شخصي وحضور مميز.",
+    "en": "Posts and advertising graphics with a personal style and presence."
+  },
+  "כרטיסי ביקור ודפוס": {
+    "ar": "بطاقات عمل ومطبوعات",
+    "en": "Business cards & print"
+  },
+  "כרטיסי ביקור, פליירים וחומרי פרסום מוקפדים.": {
+    "ar": "بطاقات عمل ومنشورات ومواد دعائية متقنة.",
+    "en": "Thoughtfully designed business cards, flyers and promotional materials."
+  },
+  "איורים אישיים": {
+    "ar": "رسوم شخصية",
+    "en": "Custom illustrations"
+  },
+  "רעיון, אדם או רגע שהופכים לאיור עם אופי.": {
+    "ar": "فكرة أو شخص أو لحظة تتحوّل إلى رسمة لها روح.",
+    "en": "An idea, person or moment turned into an illustration with character."
+  },
+  "עיצוב בהתאמה אישית": {
+    "ar": "تصميم حسب الطلب",
+    "en": "Bespoke design"
+  },
+  "יש לכם רעיון אחר? נבנה יחד כיוון שמתאים לכם.": {
+    "ar": "لديكم فكرة أخرى؟ لنطوّر اتجاهًا يناسبكم معًا.",
+    "en": "Have something else in mind? Let's find a direction that fits."
+  },
+  "הסרת": {
+    "ar": "إزالة",
+    "en": "Remove"
+  },
+  "שמירת": {
+    "ar": "حفظ",
+    "en": "Save"
+  },
+  "מהמועדפים": {
+    "ar": "من المفضلة",
+    "en": "from favorites"
+  },
+  "למועדפים": {
+    "ar": "في المفضلة",
+    "en": "to favorites"
+  },
+  "לעיצוב {0}": {
+    "ar": "تصميم {0}",
+    "en": "Personalize {0}"
+  },
+  "מחיר לפי התאמה": {
+    "ar": "السعر حسب التخصيص",
+    "en": "Price on request"
+  },
+  "לכל המוצרים": {
+    "ar": "كل المنتجات",
+    "en": "All products"
+  },
+  "לגלות את הקטלוג": {
+    "ar": "اكتشفوا الكتالوج",
+    "en": "Explore the catalog"
+  },
+  "פירורי לחם": {
+    "ar": "مسار التنقّل",
+    "en": "Breadcrumb navigation"
+  },
+  "בית": {
+    "ar": "الرئيسية",
+    "en": "Home"
+  },
+  "המוצר לא נמצא": {
+    "ar": "المنتج غير موجود",
+    "en": "Product not found"
+  },
+  "יש להזין כמות של 1 עד 999": {
+    "ar": "أدخلوا كمية صحيحة من 1 إلى 999",
+    "en": "Enter a whole-number quantity from 1 to 999"
+  },
+  "יש לבחור {0}": {
+    "ar": "يرجى اختيار {0}",
+    "en": "Please choose {0}"
+  },
+  "יש לציין את דגם הטלפון המדויק": {
+    "ar": "يرجى تحديد طراز الهاتف بدقة",
+    "en": "Please specify the exact phone model"
+  },
+  "יש לקצר את ההקדשה": {
+    "ar": "يرجى تقصير الإهداء",
+    "en": "Please shorten the dedication"
+  },
+  "בחרו את האירוע שלכם": {
+    "ar": "اختاروا مناسبتكم",
+    "en": "Choose your occasion"
+  },
+  "בחרו קופסה למארז": {
+    "ar": "اختاروا صندوقًا للهدية",
+    "en": "Choose a gift box"
+  },
+  "הוסיפו לפחות מוצר אחד למתנה": {
+    "ar": "أضيفوا منتجًا واحدًا على الأقل",
+    "en": "Add at least one product to your gift"
+  },
+  "מוצר: {0}": {
+    "ar": "المنتج: {0}",
+    "en": "Product: {0}"
+  },
+  "כמות: {0}": {
+    "ar": "الكمية: {0}",
+    "en": "Quantity: {0}"
+  },
+  "הקדשה: {0}": {
+    "ar": "الإهداء: {0}",
+    "en": "Message: {0}"
+  },
+  "דגם מדויק": {
+    "ar": "الطراز بالتحديد",
+    "en": "Exact model"
+  },
+  "סגנון: {0}": {
+    "ar": "الأسلوب: {0}",
+    "en": "Style: {0}"
+  },
+  "גופן: {0}": {
+    "ar": "الخط: {0}",
+    "en": "Font: {0}"
+  },
+  "צבע טקסט: {0}": {
+    "ar": "لون النص: {0}",
+    "en": "Text color: {0}"
+  },
+  "גוון מבוקש: {0}": {
+    "ar": "اللون المطلوب: {0}",
+    "en": "Requested color: {0}"
+  },
+  "מיקום טקסט: {0}% / {1}%, גודל: {2}%": {
+    "ar": "موضع النص: {0}% / {1}%، الحجم: {2}%",
+    "en": "Text position: {0}% / {1}%, size: {2}%"
+  },
+  "קבצים לצירוף ידני ב-WhatsApp: {0}": {
+    "ar": "ملفات لإرفاقها يدويًا في WhatsApp: {0}",
+    "en": "Files to attach manually in WhatsApp: {0}"
+  },
+  "מיקום תמונה: {0}% / {1}%, קנה מידה: {2}%": {
+    "ar": "موضع الصورة: {0}% / {1}%، المقياس: {2}%",
+    "en": "Image position: {0}% / {1}%, scale: {2}%"
+  },
+  "הערות: {0}": {
+    "ar": "ملاحظات: {0}",
+    "en": "Notes: {0}"
+  },
+  "מארז מתנה אישי": {
+    "ar": "صندوق هدايا شخصي",
+    "en": "Personalized gift box"
+  },
+  "אירוע: {0}": {
+    "ar": "المناسبة: {0}",
+    "en": "Occasion: {0}"
+  },
+  "קופסה: {0}": {
+    "ar": "الصندوق: {0}",
+    "en": "Box: {0}"
+  },
+  "צבע קופסה: {0}": {
+    "ar": "لون الصندوق: {0}",
+    "en": "Box color: {0}"
+  },
+  "לכבוד: {0}": {
+    "ar": "إلى: {0}",
+    "en": "For: {0}"
+  },
+  "פריט {0}:": {
+    "ar": "القطعة {0}:",
+    "en": "Item {0}:"
+  },
+  "כרטיס ברכה: {0}": {
+    "ar": "بطاقة التهنئة: {0}",
+    "en": "Greeting card: {0}"
+  },
+  "הערות למארז: {0}": {
+    "ar": "ملاحظات الصندوق: {0}",
+    "en": "Gift-box notes: {0}"
+  },
+  "היי BRAA GRAPHIX, אשמח להצעת מחיר 🌷": {
+    "ar": "مرحبًا BRAA GRAPHIX، أودّ الحصول على عرض سعر 🌷",
+    "en": "Hi BRAA GRAPHIX, I'd love a quote 🌷"
+  },
+  "מספר פנייה: {0}": {
+    "ar": "رقم الطلب: {0}",
+    "en": "Inquiry reference: {0}"
+  },
+  "— בקשה {0} —": {
+    "ar": "— الطلب {0} —",
+    "en": "— Request {0} —"
+  },
+  "הערות כלליות: {0}": {
+    "ar": "ملاحظات عامة: {0}",
+    "en": "General notes: {0}"
+  },
+  "האפשרויות הן בקשה לבדיקה מול הסטודיו. אשמח לאישור זמינות, מחיר, עיצוב ומועד אספקה.": {
+    "ar": "الخيارات هي طلب للمراجعة مع الاستوديو. أرجو تأكيد التوفّر والسعر والتصميم وموعد التسليم.",
+    "en": "These options are a request for the studio to review. Please confirm availability, price, design and delivery date."
+  },
+  "אצרף את התמונות ידנית בשיחה.": {
+    "ar": "سأرفق الصور يدويًا في المحادثة.",
+    "en": "I'll attach the photos manually in the conversation."
+  },
+  "הבקשה זמינה כרגע, אך לא ניתן לשמור אותה בדפדפן.": {
+    "ar": "الطلب متاح حاليًا، لكن تعذّر حفظه في المتصفح.",
+    "en": "Your request is available now, but couldn't be saved in this browser."
+  },
+  "נוסף לסל הפניות שלכם ♡": {
+    "ar": "أُضيف إلى سلة طلباتكم ♡",
+    "en": "Added to your inquiry basket ♡"
+  },
+  "אפשר להעלות קובצי JPG, PNG או WebP בלבד.": {
+    "ar": "يمكن إضافة ملفات JPG أو PNG أو WebP فقط.",
+    "en": "Please choose a JPG, PNG or WebP image."
+  },
+  "גודל כל תמונה צריך להיות עד 10MB.": {
+    "ar": "يجب ألا يتجاوز حجم الصورة 10MB.",
+    "en": "Each image must be no larger than 10MB."
+  },
+  "לא ניתן לקרוא את התמונה. בחרו קובץ תמונה תקין.": {
+    "ar": "تعذّرت قراءة الصورة. اختاروا ملف صورة صالحًا.",
+    "en": "Couldn't read the image. Please choose a valid image file."
+  },
+  "לא ניתן לשמור את התמונה בדפדפן. נסו לפנות מקום.": {
+    "ar": "تعذّر حفظ الصورة في المتصفح. جرّبوا تحرير بعض المساحة.",
+    "en": "Couldn't save the image in your browser. Try freeing some storage space."
+  },
+  "רגע קטן של קפה, עם נגיעה שהיא רק שלכם. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "لحظة قهوة صغيرة، بلمسة تخصّكم. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "A little coffee moment, with a touch that's yours. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "מקום יפה לרעיונות, לחלומות ולכל מה שבדרך. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "مساحة جميلة للأفكار والأحلام وكل ما يأتي بعدها. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "A lovely place for ideas, dreams and everything along the way. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "הזיכרונות האהובים, בסיפור שתוכלו להחזיק ביד. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "ذكرياتكم المفضلة، في حكاية تمسكونها بأيديكم. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "Favorite memories, in a story you can hold. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "לתת לרגעים שלכם את המקום שמגיע להם. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "امنحوا لحظاتكم المكان الذي تستحقّه. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "Give your moments the place they deserve. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "אור רך, הקדשה אישית והרבה מחשבה. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "ضوء هادئ وإهداء شخصي وكثير من الاهتمام. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "Soft light, a personal message and plenty of thought. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "ללבוש רעיון, לחגוג יחד, להיות אתם. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "ارتدوا فكرة، احتفلوا معًا وكونوا أنفسكم. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "Wear an idea, celebrate together and be yourselves. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "הפרטים שעושים את האריזה לאישית. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "تفاصيل تجعل التغليف شخصيًا. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "The details that make the packaging personal. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "מחווה עדינה, עם אריזה שמספרת את הסיפור. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "لفتة رقيقة، بتغليف يروي الحكاية. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "A delicate gesture, with packaging that tells the story. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "התמונה, השם או האיור שלכם, תמיד איתכם. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "صورتكم أو اسمكم أو رسمتكم، دائمًا معكم. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "Your photo, name or illustration, always with you. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "לכל הרפתקה, עם השם שלכם. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "لكل مغامرة، ومعكم اسمكم. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "For every adventure, with your name on it. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "מההזמנה ועד המתנה הקטנה, כל פרט חוגג איתכם. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "من الدعوة إلى الهدية الصغيرة، كل تفصيل يحتفل معكم. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "From the invitation to the little favor, every detail celebrates with you. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "כמה דברים קטנים. הרבה אהבה בקופסה אחת. בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.": {
+    "ar": "أشياء صغيرة. كثير من الحبّ في صندوق واحد. اختاروا الأسلوب، أضيفوا إهداء، ولنجعل الفكرة هدية شخصية مع الاستوديو.",
+    "en": "A few little things. A lot of love in one box. Choose a style, add a message, and work with the studio to turn your idea into a personal gift."
+  },
+  "שפת האתר": {
+    "ar": "لغة الموقع",
+    "en": "Site language",
+    "he": "שפת האתר"
+  },
+  "a little gift, a lot of love.": {
+    "ar": "هدية صغيرة، حبّ كبير.",
+    "en": "a little gift, a lot of love.",
+    "he": "מתנה קטנה, הרבה אהבה."
+  },
+  "a little gift, a lot of love": {
+    "ar": "هدية صغيرة، حبّ كبير",
+    "en": "a little gift, a lot of love",
+    "he": "מתנה קטנה, הרבה אהבה"
+  },
+  "BRAA GRAPHIX. Made with love.": {
+    "ar": "BRAA GRAPHIX. صُنع بحبّ.",
+    "en": "BRAA GRAPHIX. Made with love.",
+    "he": "BRAA GRAPHIX. נוצר באהבה."
+  },
+  "YOUR LITTLE COLLECTION": {
+    "ar": "مجموعتكم الصغيرة",
+    "en": "YOUR LITTLE COLLECTION",
+    "he": "האוסף הקטן שלכם"
+  },
+  "YOUR PERSONAL TOUCH": {
+    "ar": "لمستكم الشخصية",
+    "en": "YOUR PERSONAL TOUCH",
+    "he": "הנגיעה שלכם"
+  },
+  "A LITTLE OF THIS. A LOT OF LOVE.": {
+    "ar": "تفاصيل صغيرة. حبّ كبير.",
+    "en": "A LITTLE OF THIS. A LOT OF LOVE.",
+    "he": "כמה דברים קטנים. הרבה אהבה."
+  },
+  "just for you": {
+    "ar": "لكم خصيصًا",
+    "en": "just for you",
+    "he": "בדיוק בשבילכם"
+  },
+  "packed": {
+    "ar": "مغلّفة",
+    "en": "packed",
+    "he": "ארוז"
+  },
+  "with love": {
+    "ar": "بالحبّ",
+    "en": "with love",
+    "he": "באהבה"
+  },
+  "MADE JUST": {
+    "ar": "صُنعت",
+    "en": "MADE JUST",
+    "he": "נוצר"
+  },
+  "for you": {
+    "ar": "لكم",
+    "en": "for you",
+    "he": "בשבילכם"
+  },
+  "WITH LOVE ♡": {
+    "ar": "بحبّ ♡",
+    "en": "WITH LOVE ♡",
+    "he": "באהבה ♡"
+  },
+  "FIND YOUR LITTLE SOMETHING": {
+    "ar": "اعثروا على ما تحبّونه",
+    "en": "FIND YOUR LITTLE SOMETHING",
+    "he": "מוצאים משהו קטן ומשמח"
+  },
+  "THE STUDIO EDIT": {
+    "ar": "اختيارات الاستوديو",
+    "en": "THE STUDIO EDIT",
+    "he": "בחירת הסטודיו"
+  },
+  "FROM AN IDEA TO A LITTLE JOY": {
+    "ar": "من فكرة إلى فرحة صغيرة",
+    "en": "FROM AN IDEA TO A LITTLE JOY",
+    "he": "מרעיון לשמחה קטנה"
+  },
+  "FRESH FROM THE STUDIO": {
+    "ar": "جديد من الاستوديو",
+    "en": "FRESH FROM THE STUDIO",
+    "he": "חדש מהסטודיו"
+  },
+  "your brand,": {
+    "ar": "علامتكم،",
+    "en": "your brand,",
+    "he": "המותג שלכם,"
+  },
+  "but make": {
+    "ar": "بلمسة",
+    "en": "but make",
+    "he": "עם נגיעה"
+  },
+  "it": {
+    "ar": "تشبه",
+    "en": "it",
+    "he": "שהיא"
+  },
+  "you.": {
+    "ar": "شخصيتكم.",
+    "en": "you.",
+    "he": "אתם."
+  },
+  "GOOD DESIGN. GREAT FEELING.": {
+    "ar": "تصميم جميل. إحساس أجمل.",
+    "en": "GOOD DESIGN. GREAT FEELING.",
+    "he": "עיצוב טוב. תחושה נהדרת."
+  },
+  "A LITTLE MORE OF OUR WORLD": {
+    "ar": "المزيد من عالمنا",
+    "en": "A LITTLE MORE OF OUR WORLD",
+    "he": "עוד קצת מהעולם שלנו"
+  },
+  "MADE PERSONAL, MADE FOR YOU": {
+    "ar": "شخصية، وصُنعت لكم",
+    "en": "MADE PERSONAL, MADE FOR YOU",
+    "he": "אישי. בדיוק בשבילכם."
+  },
+  "A LITTLE MORE INSPIRATION": {
+    "ar": "المزيد من الإلهام",
+    "en": "A LITTLE MORE INSPIRATION",
+    "he": "עוד קצת השראה"
+  },
+  "ROOM FOR BEAUTIFUL STORIES": {
+    "ar": "مساحة لحكايات جميلة",
+    "en": "ROOM FOR BEAUTIFUL STORIES",
+    "he": "מקום לסיפורים יפים"
+  },
+  "LET YOUR IDEAS TAKE SHAPE": {
+    "ar": "دعوا أفكاركم تأخذ شكلًا",
+    "en": "LET YOUR IDEAS TAKE SHAPE",
+    "he": "נותנים לרעיונות צורה"
+  },
+  "a little": {
+    "ar": "قليل من",
+    "en": "a little",
+    "he": "קצת"
+  },
+  "creative": {
+    "ar": "الإبداع",
+    "en": "creative",
+    "he": "יצירתיות"
+  },
+  "magic.": {
+    "ar": "والسحر.",
+    "en": "magic.",
+    "he": "וקסם."
+  },
+  "GOOD THINGS START WITH HELLO": {
+    "ar": "الأشياء الجميلة تبدأ بمرحبًا",
+    "en": "GOOD THINGS START WITH HELLO",
+    "he": "דברים טובים מתחילים בשלום"
+  },
+  "YOUR IDEAS STAY YOURS": {
+    "ar": "أفكاركم تبقى لكم",
+    "en": "YOUR IDEAS STAY YOURS",
+    "he": "הרעיונות שלכם נשארים שלכם"
+  },
+  "A LITTLE BOX. A LOT OF LOVE.": {
+    "ar": "صندوق صغير. حبّ كبير.",
+    "en": "A LITTLE BOX. A LOT OF LOVE.",
+    "he": "קופסה קטנה. הרבה אהבה."
+  },
+  "YOUR EVERYDAY, PERSONALIZED.": {
+    "ar": "يومكم، بلمستكم.",
+    "en": "YOUR EVERYDAY, PERSONALIZED.",
+    "he": "היומיום שלכם, בנגיעה אישית."
+  },
+  "KEEP THE LITTLE MOMENTS.": {
+    "ar": "احتفظوا باللحظات الصغيرة.",
+    "en": "KEEP THE LITTLE MOMENTS.",
+    "he": "שומרים את הרגעים הקטנים."
+  },
+  "CELEBRATE EVERY DETAIL.": {
+    "ar": "احتفلوا بكل تفصيل.",
+    "en": "CELEBRATE EVERY DETAIL.",
+    "he": "חוגגים כל פרט."
+  },
+  "WEAR YOUR OWN STORY.": {
+    "ar": "ارتدوا حكايتكم.",
+    "en": "WEAR YOUR OWN STORY.",
+    "he": "לובשים את הסיפור שלכם."
+  },
+  "MADE TO MAKE YOU SMILE.": {
+    "ar": "صُنعت لترسم ابتسامة.",
+    "en": "MADE TO MAKE YOU SMILE.",
+    "he": "נוצר כדי לשמח אתכם."
+  },
+  "SAVED WITH LOVE": {
+    "ar": "محفوظة بحبّ",
+    "en": "SAVED WITH LOVE",
+    "he": "נשמר באהבה"
+  },
+  "A WORLD OF LITTLE JOYS": {
+    "ar": "عالم من الأفراح الصغيرة",
+    "en": "A WORLD OF LITTLE JOYS",
+    "he": "עולם של שמחות קטנות"
+  },
+  "IDENTITY": {
+    "ar": "الهوية",
+    "en": "IDENTITY",
+    "he": "זהות"
+  },
+  "CELEBRATIONS": {
+    "ar": "المناسبات",
+    "en": "CELEBRATIONS",
+    "he": "חגיגות"
+  },
+  "SOCIAL": {
+    "ar": "التواصل الاجتماعي",
+    "en": "SOCIAL",
+    "he": "רשתות חברתיות"
+  },
+  "PRINT": {
+    "ar": "الطباعة",
+    "en": "PRINT",
+    "he": "דפוס"
+  },
+  "ILLUSTRATION": {
+    "ar": "الرسم",
+    "en": "ILLUSTRATION",
+    "he": "איור"
+  },
+  "YOUR IDEA": {
+    "ar": "فكرتكم",
+    "en": "YOUR IDEA",
+    "he": "הרעיון שלכם"
+  },
+  "תיאור האתר": {
+    "ar": "هدايا شخصية وتصميم جرافيكي ومطبوعات إبداعية من BRAA GRAPHIX. صمّموا هديّتكم وتواصلوا مع الاستوديو.",
+    "en": "Personalized gifts, graphic design and creative printing by BRAA GRAPHIX. Design your gift and contact the studio.",
+    "he": "מתנות אישיות, עיצוב גרפי והדפסות יצירתיות של BRAA GRAPHIX. עצבו מתנה אישית וצרו קשר עם הסטודיו."
+  },
+  "בונים מתנה": {
+    "ar": "صمّموا هدية",
+    "en": "Build a gift"
+  },
+  "חוגגים רגעים": {
+    "ar": "المناسبات",
+    "en": "Occasions"
+  }
+}
