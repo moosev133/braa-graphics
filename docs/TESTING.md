@@ -57,7 +57,7 @@ Verified November 3, 2026. Local development and production builds; no messages 
 - No WhatsApp message was sent. The generated content, destination and encoding were inspected before the external handoff.
 - Brand logo and introduction-post image were not present in the attachment. The wordmark is temporary; product images are labeled generated demos.
 - Product concepts and requested options remain subject to business confirmation. Prices and production time are unset.
-- No repository or production domain was supplied. Nothing was pushed or published, and the electronics-store project was not modified.
+- Source repository: `https://github.com/moosev133/braa-graphics` (private). No production website deployment or domain is configured. The electronics-store project was not modified.
 
 ## Review images
 

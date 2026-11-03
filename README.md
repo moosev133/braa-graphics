@@ -1,5 +1,7 @@
 # BRAA GRAPHIX
 
+Source repository: [moosev133/braa-graphics](https://github.com/moosev133/braa-graphics) (private).
+
 An Arabic-first, trilingual creative boutique catalog built with React, TypeScript, Vite, and React Router. An inquiry storefront, with browser-local personalization and a structured WhatsApp handoff.
 
 ## Run locally
