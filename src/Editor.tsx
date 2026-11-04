@@ -1,7 +1,7 @@
 import { t, localizeError } from "./i18n";
 import { useEffect, useRef, useState, type PointerEvent } from 'react';
 import { ImagePlus, Move, RotateCcw, Trash2, ChevronDown, Plus, Minus } from 'lucide-react';
-import { categoryById, imagePath, phoneModels, productFields, supportsPhoto, type Product } from './catalog';
+import { categoryById, imagePath, phoneModels, productFields, supportsPhoto, isPackagingProduct, personalizationNameLabel, type Product } from './catalog';
 import { attachmentBlob, saveAttachment } from './storage';
 import { blankPersonalization, type Personalization } from './order';
 import { useStore } from './state';
@@ -56,7 +56,7 @@ export function Preview({
   const [layer, setLayer] = useState<'text' | 'image'>('text');
   const [drag, setDrag] = useState(false);
   const category = categoryById(product.category)!;
-  const isPackaging = ['beauty', 'jewelry'].includes(product.category);
+  const isPackaging = isPackagingProduct(product);
   const updatePosition = (event: PointerEvent) => {
     if (!bounds.current || !onChange) return;
     const rect = bounds.current.getBoundingClientRect();
@@ -124,7 +124,6 @@ export function CustomizationForm({
   } = useStore();
   const [uploading, setUploading] = useState(false);
   const [uploadError, setUploadError] = useState('');
-  const category = categoryById(product.category)!;
   const set = (key: keyof Personalization, v: unknown) => onChange({
     ...value,
     [key]: v
@@ -166,10 +165,10 @@ export function CustomizationForm({
       setUploading(false);
     }
   }
-  return <div className="customization-form"><div className="form-row"><label>{t(category.nameLabel)}<input value={value.name} maxLength={70} placeholder={t("למשל, נועה")} onChange={e => set('name', e.target.value)} /></label><label>{t("סגנון עיצוב")}<select value={value.template} onChange={e => set('template', e.target.value)}><option value={"מינימליסטי"}>{t("מינימליסטי")}</option><option value={"פרחוני"}>{t("פרחוני")}</option><option value={"חגיגי"}>{t("חגיגי")}</option></select></label></div>
+  return <div className="customization-form"><div className="form-row"><label>{t(personalizationNameLabel(product))}<input value={value.name} maxLength={70} placeholder={t("למשל, נועה")} onChange={e => set('name', e.target.value)} /></label><label>{t("סגנון עיצוב")}<select value={value.template} onChange={e => set('template', e.target.value)}><option value={"מינימליסטי"}>{t("מינימליסטי")}</option><option value={"פרחוני"}>{t("פרחוני")}</option><option value={"חגיגי"}>{t("חגיגי")}</option></select></label></div>
     <label>{t("מילים מהלב ")}<span className="optional">{t("(לא חובה)")}</span><textarea rows={2} value={value.text} maxLength={300} placeholder={t("משהו קטן שיגרום לחיוך…")} onChange={e => set('text', e.target.value)} /></label>
     <div className="form-row">{productFields(product).map(field => <label key={field.key}>{t(field.label)}{field.required && <span aria-hidden="true"> *</span>}{field.type === 'select' ? <select required={field.required} value={value.options[field.key] || ''} onChange={e => updateOption(field.key, e.target.value)}><option value="">{t("בחרו אפשרות")}</option>{(field.key === 'model' ? phoneModels[value.options.brand] || [] : field.options || []).map(option => <option key={option} value={option}>{t(option)}</option>)}</select> : <input type={field.type} value={value.options[field.key] || ''} onChange={e => updateOption(field.key, e.target.value)} />}</label>)}{value.options.model === 'דגם אחר' && <label>{t("דגם הטלפון המדויק *")}<input required value={value.options.modelOther || ''} onChange={e => updateOption('modelOther', e.target.value)} placeholder={t("לדוגמה: שם הדגם המלא")} /></label>}</div>
-    <fieldset className="color-field"><legend>{t("גוון מבוקש ")}{['beauty', 'jewelry'].includes(product.category) ? t('לאריזה') : t('למוצר')}</legend><div className="color-options">{colors.map(color => <button type="button" key={color.value} className={value.productColor === color.value ? 'active' : ''} style={{
+    <fieldset className="color-field"><legend>{t("גוון מבוקש ")}{isPackagingProduct(product) ? t('לאריזה') : t('למוצר')}</legend><div className="color-options">{colors.map(color => <button type="button" key={color.value} className={value.productColor === color.value ? 'active' : ''} style={{
           backgroundColor: color.value
         }} aria-label={t(color.name)} aria-pressed={value.productColor === color.value} onClick={() => set('productColor', color.value)} title={t(color.name)} />)}<span>{t(colors.find(c => c.value === value.productColor)?.name)}</span></div></fieldset>
     {supportsPhoto(product) && <><label className={`upload-area ${uploading ? 'disabled' : ''}`}><ImagePlus size={24} /><strong>{uploading ? t('שומרים את התמונה…') : t('הוסיפו תמונה או עיצוב משלכם')}</strong><span>{t("JPG, PNG, WebP · עד 10MB לתמונה · עד 10 תמונות")}</span><input type="file" accept="image/jpeg,image/png,image/webp" multiple disabled={uploading} onChange={e => {

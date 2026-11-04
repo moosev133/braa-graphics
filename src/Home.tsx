@@ -1,8 +1,9 @@
+import { catalogRoots, catalogPath } from './catalog-taxonomy';
 import { t } from "./i18n";
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight, Gift, Heart, Palette, Package, Sparkles, Instagram, Pause, Play, PenLine } from 'lucide-react';
-import { categories, featuredIds, imagePath, products, studio } from './catalog';
+import { featuredIds, imagePath, products, studio } from './catalog';
 import { ProductCard, SectionHeading } from './components';
 const slides = [{
   label: 'A LITTLE BOX. A LOT OF LOVE.',
@@ -11,7 +12,7 @@ const slides = [{
   image: 'gift-box',
   to: '/gift-builder',
   button: 'בואו נבנה מתנה',
-  color: '#EAE2F3'
+  color: '#e4f1ed'
 }, {
   label: 'YOUR EVERYDAY, PERSONALIZED.',
   title: 'הקפה של הבוקר,\nעם נגיעה שהיא רק שלכם.',
@@ -19,7 +20,7 @@ const slides = [{
   image: 'mug',
   to: '/category/mugs',
   button: 'לגלות את הספלים',
-  color: '#F6E2E5'
+  color: '#f2eae6'
 }, {
   label: 'KEEP THE LITTLE MOMENTS.',
   title: 'רגעים שלא רוצים\nלשכוח.',
@@ -33,7 +34,7 @@ const slides = [{
   title: 'הקסם נמצא\nבפרטים הקטנים.',
   text: 'הזמנות, עטיפות שוקולד ומזכרות שעושות את האירוע שלכם.',
   image: 'event-printing',
-  to: '/category/events',
+  to: '/category/printing/paper/favors',
   button: 'לעיצובים לאירוע',
   color: '#FAEBD4'
 }, {
@@ -41,7 +42,7 @@ const slides = [{
   title: 'רעיון שאפשר\nללבוש.',
   text: 'חולצות עם שמות, הדפסים אישיים ורגעים ששווה לחגוג יחד.',
   image: 'tshirt',
-  to: '/category/clothing',
+  to: '/category/printing/products/clothing',
   button: 'לביגוד אישי',
   color: '#E5EAF1'
 }, {
@@ -51,7 +52,7 @@ const slides = [{
   image: 'notebook',
   to: '/catalog',
   button: 'לכל המתנות האישיות',
-  color: '#F2E1EA'
+  color: '#f1e8e2'
 }];
 function Promotions() {
   const [index, setIndex] = useState(0);
@@ -79,9 +80,8 @@ export default function Home() {
   return <>
   <section className="hero container"><div className="hero-copy"><div className="hero-kicker"><span />{t("דברים יפים. אנשים אהובים.")}</div><h1>{t("הופכים רעיונות")}<br />{t("למתנות ")}<span className="highlight">{t("מיוחדות")}<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 11 Q 145 -2 294 10 M30 17 Q150 5 275 15" /></svg></span><span className="heading-spark">✳</span></h1><p>{t("עיצובים אישיים, מתנות מרגשות והדפסות יצירתיות.")}<br />{t("קצת דמיון, הרבה אהבה — ובדיוק אתם.")}</p><div className="hero-actions"><Link className="button berry" to="/catalog">{t("לגלות את הקולקציה")}<ArrowLeft size={18} /></Link><Link className="button outline" to="/gift-builder"><Gift size={18} />{t("בונים מתנה אישית")}</Link></div><div className="hero-footnote"><span className="tiny-star">✦</span>{t(" נוצר עם מחשבה. ניתן מכל הלב.")}</div></div><div className="hero-art"><img src={imagePath('hero')} alt={t("הדמיית מארז מתנה פתוח עם ספל, מחברת ורודה ונר, קשור בסרט ורוד")} loading="eager" width="1536" height="1024" /><div className="hero-badge" dir="ltr"><span>{t("MADE JUST")}</span><b>{t("for you")}</b><span>{t("WITH LOVE ♡")}</span></div><div className="hero-note"><span className="note-icon"><PenLine size={21} /></span><div><strong>{t("השם שלכם. הסיפור שלכם.")}</strong><span>{t("אנחנו נוסיף את הטאץ׳ האישי.")}</span></div><Sparkles size={21} /></div><span className="hero-image-note">{t("הדמיה להשראה")}</span><span className="floating-spark">✧</span></div></section>
   <div className="brand-ribbon"><span>{t("מתנות עם משמעות ")}<Heart size={17} /></span><i>✳</i><span>{t("עיצוב שהוא רק שלכם ")}<Palette size={17} /></span><i>✳</i><span>{t("לכל רגע ששווה לחגוג ")}<Gift size={17} /></span><i>✳</i><span>{t("פרטים קטנים, אהבה גדולה ")}<Sparkles size={17} /></span></div>
-  <section className="section container categories-section"><SectionHeading eyebrow={t("FIND YOUR LITTLE SOMETHING")} title={t("מה ישמח אתכם היום?")} description={t("רעיונות קטנים למתנות עם הרבה אישיות.")} link="/catalog" label={t("לכל הקטגוריות")} /><div className="category-grid">{['mugs', 'stationery', 'prints', 'candles', 'events', 'boxes'].map(id => {
-          const c = categories.find(x => x.id === id)!;
-          return <Link key={id} to={`/category/${id}`} className="category-card" style={{
+  <section className="section container categories-section"><SectionHeading eyebrow={t("FIND YOUR LITTLE SOMETHING")} title={t("מה ישמח אתכם היום?")} description={t("רעיונות קטנים למתנות עם הרבה אישיות.")} link="/catalog" label={t("לכל הקטגוריות")} /><div className="category-grid">{catalogRoots.map(c => {
+          return <Link key={c.id} to={catalogPath(c.id)} className="category-card" style={{
             '--category-color': c.color
           } as CSSProperties}><div className="category-image"><img src={imagePath(c.image)} alt={t("הדמיה להשראה: {0}", [t(c.short)])} loading="lazy" width="400" height="400" /><span><ArrowLeft size={18} /></span></div><h3>{t(c.short)}</h3></Link>;
         })}</div></section>

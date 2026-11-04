@@ -1,6 +1,6 @@
 # Validation report
 
-Verified November 3, 2026. Local development and production builds; no messages sent and no orders submitted.
+Original checks November 3, 2026; catalog update checked November 4, 2026. Local development and production builds; no messages sent and no orders submitted.
 
 ## Automated checks
 
@@ -66,3 +66,16 @@ Verified November 3, 2026. Local development and production builds; no messages 
 - `english-preview.jpg`: English production homepage at desktop width.
 
 Start the project with the README commands to repeat interactive review. Temporary QA preview servers were stopped after the checks.
+
+## November 4 catalog and palette update
+
+- 21 automated tests pass, including seven hierarchy/localization/compatibility tests. TypeScript checks pass.
+- 11 main categories; all 46 nodes have products. Parent membership includes all descendants without duplicate cards. Printing shows 53 distinct concepts across boards (4), paper (25), and products (28); four notebook concepts belong to both paper and product printing.
+- Browser checks: printing → boards → wood; nested tabs and ancestor breadcrumbs; paper → business cards; products → phone cases; cups ready/custom; notebooks ready/custom; handmade accessories. Observed counts match the data.
+- Arabic, Hebrew and English switch category titles, all tabs and product content, with RTL/LTR and English wordmark retained.
+- Responsive checks at 1440, 390 and 320 CSS pixels: no horizontal document overflow on the checked catalog, home, or ready-made product pages.
+- Six new category images load; new incense product offers gift-card/wrapping personalization and no image-printing upload.
+- Old `/category/cases` redirects to `/category/printing/products/phone-cases`; all original 75 product IDs resolve for stored drafts and baskets.
+- Gift-builder board filter shows four matching products. Existing two-item gift content was retained and its final review step restored after inspection.
+- Browser console: no errors or warnings during these checks. No WhatsApp messages sent.
+- Interface colors changed to deep teal, warm ivory, soft peach and sage. Product customization color values and stored customer selections remain unchanged.

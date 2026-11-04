@@ -1,8 +1,9 @@
+import { catalogPath, catalogTrail, primaryCatalogCategory } from './catalog-taxonomy';
 import { t, localizeError } from "./i18n";
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, Heart, Plus, ShieldCheck, Truck, Sparkles, RotateCcw, Image as ImageIcon } from 'lucide-react';
-import { categoryById, imagePath, productById, products, studio, type Product as ProductType } from './catalog';
+import { isPackagingProduct, imagePath, productById, products, studio, type Product as ProductType } from './catalog';
 import { blankPersonalization, validateCustomization, type Personalization } from './order';
 import { Breadcrumbs, EmptyState, ProductCard, SectionHeading } from './components';
 import { CustomizationForm, Preview } from './Editor';
@@ -22,7 +23,7 @@ function ProductEditor({
   const [errors, setErrors] = useState<string[]>([]);
   const [review, setReview] = useState(false);
   const [view, setView] = useState('design');
-  const category = categoryById(product.category)!;
+  const category = primaryCatalogCategory(product);
   function validate() {
     const next = validateCustomization(product.id, custom);
     setErrors(next);
@@ -36,12 +37,9 @@ function ProductEditor({
   return <div className="container product-page"><Breadcrumbs items={[{
       label: 'הקטלוג',
       to: '/catalog'
-    }, {
-      label: category.short,
-      to: `/category/${category.id}`
-    }, {
+    }, ...catalogTrail(category?.id || '').map(node => ({label:node.title,to:catalogPath(node.id)})), {
       label: product.title
-    }]} /><div className="product-layout"><div className="product-visual"><div className="preview-tabs"><button className={view === 'design' ? 'active' : ''} onClick={() => setView('design')}><Sparkles size={16} />{t("העיצוב שלכם")}</button><button className={view === 'photo' ? 'active' : ''} onClick={() => setView('photo')}><ImageIcon size={16} />{t("תמונת השראה")}</button></div>{view === 'design' ? <Preview product={product} value={custom} onChange={update} /> : <div className="product-photo"><img src={imagePath(product.image)} alt={t("הדמיה להשראה עבור {0}", [t(product.title)])} /><p className="fine-print">{t("הדמיית קטגוריה מקורית להשראה. אינה צילום מוצר קיים.")}</p></div>}<div className="product-promises"><span><Heart size={17} />{t("נגיעה אישית")}</span><span><ShieldCheck size={17} />{t("עיצוב בתיאום")}</span><span><Truck size={17} />{t("אספקה בתיאום")}</span></div></div><div className="product-information"><span className="eyebrow" dir="auto">{t("MADE PERSONAL, MADE FOR YOU")}</span><h1>{t(product.title)}</h1><p className="product-description">{t(product.description)}</p><div className="product-price">{product.price === null ? t('מחיר לפי התאמה אישית') : `₪${product.price}`}<span>{t("נכין לכם הצעת מחיר לפי הבקשה.")}</span></div>{product.category === 'boxes' && <Link className="builder-callout" to="/gift-builder"><Sparkles size={19} />{t("רוצים לבחור מה נכנס למארז? בונים אותו כאן")}<ArrowLeft size={17} /></Link>}<div className="personalize-title"><span>01</span><h2>{t("עכשיו, הנגיעה שלכם")}</h2><button className="icon-button" title={t("איפוס העיצוב")} aria-label={t("איפוס העיצוב")} onClick={() => update(blankPersonalization())}><RotateCcw size={16} /></button></div><CustomizationForm product={product} value={custom} onChange={update} />{errors.length > 0 && <div className="form-error" role="alert">{errors.map(e => <p key={e}>{localizeError(e)}</p>)}</div>}<div className="product-actions"><button className="button dark" onClick={() => {
+    }]} /><div className="product-layout"><div className="product-visual"><div className="preview-tabs"><button className={view === 'design' ? 'active' : ''} onClick={() => setView('design')}><Sparkles size={16} />{t("העיצוב שלכם")}</button><button className={view === 'photo' ? 'active' : ''} onClick={() => setView('photo')}><ImageIcon size={16} />{t("תמונת השראה")}</button></div>{view === 'design' ? <Preview product={product} value={custom} onChange={update} /> : <div className="product-photo"><img src={imagePath(product.image)} alt={t("הדמיה להשראה עבור {0}", [t(product.title)])} /><p className="fine-print">{t("הדמיית קטגוריה מקורית להשראה. אינה צילום מוצר קיים.")}</p></div>}<div className="product-promises"><span><Heart size={17} />{t("נגיעה אישית")}</span><span><ShieldCheck size={17} />{t("עיצוב בתיאום")}</span><span><Truck size={17} />{t("אספקה בתיאום")}</span></div></div><div className="product-information"><span className="eyebrow" dir="auto">{t("MADE PERSONAL, MADE FOR YOU")}</span><h1>{t(product.title)}</h1><p className="product-description">{t(product.description)}</p><div className="product-price">{product.price === null ? t('מחיר לפי התאמה אישית') : `₪${product.price}`}<span>{t("נכין לכם הצעת מחיר לפי הבקשה.")}</span></div>{product.category === 'boxes' && <Link className="builder-callout" to="/gift-builder"><Sparkles size={19} />{t("רוצים לבחור מה נכנס למארז? בונים אותו כאן")}<ArrowLeft size={17} /></Link>}{isPackagingProduct(product) && <p className="notice ready-product-note">{t('هذا المنتج جاهز. الاسم والإهداء يُضافان إلى بطاقة الهدية أو التغليف.')}</p>}<div className="personalize-title"><span>01</span><h2>{t(isPackagingProduct(product) ? 'تخصيص بطاقة الهدية والتغليف' : 'עכשיו, הנגיעה שלכם')}</h2><button className="icon-button" title={t("איפוס העיצוב")} aria-label={t("איפוס העיצוב")} onClick={() => update(blankPersonalization())}><RotateCcw size={16} /></button></div><CustomizationForm product={product} value={custom} onChange={update} />{errors.length > 0 && <div className="form-error" role="alert">{errors.map(e => <p key={e}>{localizeError(e)}</p>)}</div>}<div className="product-actions"><button className="button dark" onClick={() => {
             if (validate()) addItem({
               productId: product.id,
               custom

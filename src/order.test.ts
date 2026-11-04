@@ -1,11 +1,13 @@
+import { catalogRoots, inCatalogCategory } from './catalog-taxonomy';
 import { describe, expect, it } from 'vitest';
-import { categories, matchesRequestedOptions, productById, productFields, products, supportsPhoto } from './catalog';
+import { allProducts, matchesRequestedOptions, productById, productFields, products, supportsPhoto } from './catalog';
 import { blankGift, blankPersonalization, filterProducts, giftErrors, inquiryMessage, validateCustomization, whatsappUrl } from './order';
 
 describe('catalog and product rules',()=>{
-  it('covers all twelve categories with unique routable products and optional prices',()=>{
-    expect(categories).toHaveLength(12);expect(new Set(products.map(p=>p.id)).size).toBe(products.length);
-    for(const category of categories)expect(products.some(p=>p.category===category.id)).toBe(true);
+  it('covers the updated catalog with unique routable products and optional prices',()=>{
+    expect(catalogRoots).toHaveLength(11);expect(new Set(products.map(p=>p.id)).size).toBe(products.length);
+    for(const category of catalogRoots)expect(products.some(p=>inCatalogCategory(p,category.id))).toBe(true);
+    expect(allProducts.length).toBeGreaterThan(products.length);
     expect(products.every(p=>p.price===null)).toBe(true);
   });
   it('filters Hebrew search, category, occasion and new arrivals together',()=>{

@@ -1,3 +1,4 @@
+import { primaryCatalogCategory } from './catalog-taxonomy';
 import { t } from "./i18n";
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Heart, Plus, MessageCircle, Sparkles } from 'lucide-react';
@@ -41,7 +42,7 @@ export function ProductCard({
     {product.isNew && <span className="product-badge">{t("נגיעה אישית ")}<Sparkles size={12} /></span>}
     <span className="demo-label">{t("הדמיה להשראה")}</span>
     <Link className="product-quick" to={`/product/${product.id}`} aria-label={t("לעיצוב {0}", [t(product.title)])}><Plus size={20} /></Link>
-  </div><div className="product-meta"><span>{t(category.short)}</span><span>{product.price === null ? t('מחיר לפי התאמה') : `₪${product.price}`}</span></div><Link className="product-title" to={`/product/${product.id}`}>{t(product.title)}</Link></article>;
+  </div><div className="product-meta"><span>{t(primaryCatalogCategory(product)?.short || category.short)}</span><span>{product.price === null ? t('מחיר לפי התאמה') : `₪${product.price}`}</span></div><Link className="product-title" to={`/product/${product.id}`}>{t(product.title)}</Link></article>;
 }
 export function SectionHeading({
   eyebrow,
