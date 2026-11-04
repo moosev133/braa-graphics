@@ -79,3 +79,9 @@ Start the project with the README commands to repeat interactive review. Tempora
 - Gift-builder board filter shows four matching products. Existing two-item gift content was retained and its final review step restored after inspection.
 - Browser console: no errors or warnings during these checks. No WhatsApp messages sent.
 - Interface colors changed to deep teal, warm ivory, soft peach and sage. Product customization color values and stored customer selections remain unchanged.
+
+## Original palette restored — November 4
+
+The user requested keeping the original pink palette until replacement colors are supplied. Restored the exact original base stylesheet, Home/product color values, favicon, and browser theme color from the pre-catalog version. Added category panels use matching blush and lavender tones. Source comparisons confirm category definitions, memberships, routing, and personalization behavior are unchanged apart from color values. The established 21-test catalog validation remains applicable.
+
+Verified the restored cream background, plum text, blush announcement bar and pink/lavender category panels in the browser. Desktop and 390px mobile catalog views retain all nested tabs and the four board-printing products without horizontal overflow.

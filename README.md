@@ -26,7 +26,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 ## Included
 
 - 11 main categories and 46 browsable category nodes, with All/subcategory navigation at every level. The 94 active product concepts have individual product pages; all 75 historical product IDs still resolve for saved drafts and baskets.
-- Deep teal, warm ivory, sage and soft peach interface, preserving the established layout and English wordmark.
+- Original cream, blush pink and plum palette, preserving the established layout and English wordmark. Keep these colors until the owner supplies the replacement palette.
 - Arabic by default, with Arabic / Hebrew / English language selectors in desktop navigation, the mobile announcement bar, and the mobile menu. Choice persists on this browser.
 - Automatic RTL/LTR layout, local Tajawal / Heebo fonts, keyboard controls and reduced-motion support.
 - A short, skippable entrance that runs once per browser tab session.

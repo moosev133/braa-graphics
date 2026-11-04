@@ -12,7 +12,7 @@ const slides = [{
   image: 'gift-box',
   to: '/gift-builder',
   button: 'בואו נבנה מתנה',
-  color: '#e4f1ed'
+  color: '#EAE2F3'
 }, {
   label: 'YOUR EVERYDAY, PERSONALIZED.',
   title: 'הקפה של הבוקר,\nעם נגיעה שהיא רק שלכם.',
@@ -20,7 +20,7 @@ const slides = [{
   image: 'mug',
   to: '/category/mugs',
   button: 'לגלות את הספלים',
-  color: '#f2eae6'
+  color: '#F6E2E5'
 }, {
   label: 'KEEP THE LITTLE MOMENTS.',
   title: 'רגעים שלא רוצים\nלשכוח.',
@@ -52,7 +52,7 @@ const slides = [{
   image: 'notebook',
   to: '/catalog',
   button: 'לכל המתנות האישיות',
-  color: '#f1e8e2'
+  color: '#F2E1EA'
 }];
 function Promotions() {
   const [index, setIndex] = useState(0);

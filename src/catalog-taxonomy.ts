@@ -8,7 +8,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أكواب",
     "short": "أكواب",
     "image": "mug",
-    "color": "#E5ECE7",
+    "color": "#F5DEE4",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -17,7 +17,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "ألبومات الصور",
     "short": "ألبومات الصور",
     "image": "album",
-    "color": "#E5ECE7",
+    "color": "#F4E8DC",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -26,7 +26,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "دفاتر Notebooks",
     "short": "دفاتر Notebooks",
     "image": "notebook",
-    "color": "#E5ECE7",
+    "color": "#E7E1F1",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -35,7 +35,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "براويز",
     "short": "براويز",
     "image": "framed-art",
-    "color": "#E5ECE7",
+    "color": "#E8E4D9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -44,7 +44,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "قناني",
     "short": "قناني",
     "image": "bottle",
-    "color": "#E5ECE7",
+    "color": "#DDEAE9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -53,7 +53,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "بطاقات تحفيزية",
     "short": "بطاقات تحفيزية",
     "image": "motivational-cards",
-    "color": "#E5ECE7",
+    "color": "#E7E1F1",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -62,7 +62,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "شموع وروائح",
     "short": "شموع وروائح",
     "image": "candle",
-    "color": "#E5ECE7",
+    "color": "#FAE8CA",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -71,7 +71,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "إكسسوارات هاند ميد",
     "short": "إكسسوارات هاند ميد",
     "image": "jewelry",
-    "color": "#E5ECE7",
+    "color": "#F2E5D8",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -80,7 +80,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "مباخر",
     "short": "مباخر",
     "image": "incense-burner",
-    "color": "#E5ECE7",
+    "color": "#FAE8CA",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -89,7 +89,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "ميداليات",
     "short": "ميداليات",
     "image": "keychains",
-    "color": "#E5ECE7",
+    "color": "#F2E5D8",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
@@ -98,7 +98,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "طباعات",
     "short": "طباعات",
     "image": "print-boards",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "على الألواح، على الورق أو على منتج تحبّونه. اختاروا نوع الطباعة لتكتشفوا التفاصيل."
   },
   {
@@ -107,7 +107,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أكواب جاهزة",
     "short": "أكواب جاهزة",
     "image": "mug",
-    "color": "#E5ECE7",
+    "color": "#F5DEE4",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "mugs"
   },
@@ -117,7 +117,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أكواب للطباعة",
     "short": "أكواب للطباعة",
     "image": "mug",
-    "color": "#E5ECE7",
+    "color": "#F5DEE4",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "mugs"
   },
@@ -127,7 +127,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "دفاتر جاهزة",
     "short": "دفاتر جاهزة",
     "image": "notebook",
-    "color": "#E5ECE7",
+    "color": "#E7E1F1",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "notebooks"
   },
@@ -137,7 +137,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "دفاتر بتصميم خاص",
     "short": "دفاتر بتصميم خاص",
     "image": "notebook",
-    "color": "#E5ECE7",
+    "color": "#E7E1F1",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "notebooks"
   },
@@ -147,7 +147,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "خواتم",
     "short": "خواتم",
     "image": "jewelry",
-    "color": "#E5ECE7",
+    "color": "#F2E5D8",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "handmade"
   },
@@ -157,7 +157,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "حلق",
     "short": "حلق",
     "image": "jewelry",
-    "color": "#E5ECE7",
+    "color": "#F2E5D8",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "handmade"
   },
@@ -167,7 +167,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أساور",
     "short": "أساور",
     "image": "jewelry",
-    "color": "#E5ECE7",
+    "color": "#F2E5D8",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "handmade"
   },
@@ -177,7 +177,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "عقود",
     "short": "عقود",
     "image": "jewelry",
-    "color": "#E5ECE7",
+    "color": "#F2E5D8",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "handmade"
   },
@@ -187,7 +187,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "طباعات على ألواح",
     "short": "طباعات على ألواح",
     "image": "print-boards",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing"
   },
@@ -197,7 +197,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "طباعات ورقية",
     "short": "طباعات ورقية",
     "image": "event-printing",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing"
   },
@@ -207,7 +207,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "طباعة على منتجات",
     "short": "طباعة على منتجات",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing"
   },
@@ -217,7 +217,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "طباعة على خشب",
     "short": "طباعة على خشب",
     "image": "print-boards",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-boards"
   },
@@ -227,7 +227,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "كانفاس",
     "short": "كانفاس",
     "image": "framed-art",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-boards"
   },
@@ -237,7 +237,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "رول أب",
     "short": "رول أب",
     "image": "print-boards",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-boards"
   },
@@ -247,7 +247,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "كابا",
     "short": "كابا",
     "image": "print-boards",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-boards"
   },
@@ -257,7 +257,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "دفاتر",
     "short": "دفاتر",
     "image": "notebook",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-paper"
   },
@@ -267,7 +267,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "بطاقات عمل",
     "short": "بطاقات عمل",
     "image": "event-printing",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-paper"
   },
@@ -277,7 +277,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أقلام",
     "short": "أقلام",
     "image": "notebook",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-paper"
   },
@@ -287,7 +287,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "لاصقات",
     "short": "لاصقات",
     "image": "event-printing",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-paper"
   },
@@ -297,7 +297,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "توزيعات",
     "short": "توزيعات",
     "image": "event-printing",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-paper"
   },
@@ -307,7 +307,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "صناديق هدايا",
     "short": "صناديق هدايا",
     "image": "gift-box",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-paper"
   },
@@ -317,7 +317,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أكواب زجاج",
     "short": "أكواب زجاج",
     "image": "drinkware",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -327,7 +327,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أكواب ستانلي",
     "short": "أكواب ستانلي",
     "image": "drinkware",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -337,7 +337,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "أغطية هواتف",
     "short": "أغطية هواتف",
     "image": "phone-case",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -347,7 +347,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "دفاتر للطباعة",
     "short": "دفاتر للطباعة",
     "image": "notebook",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -357,7 +357,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "مغناطيس",
     "short": "مغناطيس",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -367,7 +367,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "فواصل قراءة",
     "short": "فواصل قراءة",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -377,7 +377,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "حقائب",
     "short": "حقائب",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -387,7 +387,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "علب ألوان",
     "short": "علب ألوان",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -397,7 +397,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "ستاند للهاتف",
     "short": "ستاند للهاتف",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -407,7 +407,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "دروع",
     "short": "دروع",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -417,7 +417,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "ميداليات للطباعة",
     "short": "ميداليات للطباعة",
     "image": "keychains",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -427,7 +427,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "مقالم",
     "short": "مقالم",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -437,7 +437,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "علب Lunch box",
     "short": "علب Lunch box",
     "image": "printed-accessories",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   },
@@ -447,7 +447,7 @@ export const catalogCategories: CatalogCategory[] = [
     "title": "طباعة على ملابس",
     "short": "طباعة على ملابس",
     "image": "tshirt",
-    "color": "#E5ECE7",
+    "color": "#F3DCD9",
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة.",
     "parentId": "printing-products"
   }
