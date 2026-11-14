@@ -100,3 +100,10 @@ Verified the restored cream background, plum text, blush announcement bar and pi
 - All 27 tests pass. Shared supplied-photo checks cover both collections: parent and child membership, image integrity, collection links and cards, photo-first product pages, and inquiry details in Arabic, Hebrew and English. Existing catalog and saved-product checks also pass.
 - Static React rendering verifies the new subcategory link and its five supplied-photo cards. Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings.
 - The original pink styling and all existing category/product IDs are unchanged. No WhatsApp message was sent.
+
+## Eight ready-made cup photos — November 15, 2026
+
+- Added the eight supplied JPEGs under Cups → Ready-made cups (`/category/mugs/ready`), also visible in the main Cups “All” view. Each supplied photo has a separate product page; checksums match the original uploads in `docs/ready-mugs-images.json`.
+- All 30 tests pass. Shared supplied-photo checks now cover the quote mugs, Stanley tumblers, and ready-made cups, including category membership, image integrity, photo-first product pages and translated inquiry details. The two existing ready-made cup entries remain in the same collection.
+- Static React rendering confirms ten cards in Ready-made cups, including all eight new photos. Only the two earlier illustrative entries have illustration labels.
+- Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings. The existing design, palette, languages, product IDs and other collections are preserved.

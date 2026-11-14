@@ -10,9 +10,11 @@ import { imagePath, products, supportsPhoto } from './catalog';
 import { filterProducts, blankPersonalization, inquiryMessage } from './order';
 import { quoteMugs } from './quote-mugs';
 import { stanleyBottles } from './stanley-bottles';
+import { readyMugs } from './ready-mugs';
 import { setLocale } from './i18n';
 import quoteManifest from '../docs/quote-mugs-images.json';
 import stanleyManifest from '../docs/stanley-bottles-images.json';
+import readyManifest from '../docs/ready-mugs-images.json';
 
 function renderPage(path) {
   return renderToStaticMarkup(<StaticRouter location={path}><StoreProvider><Routes><Route path="/category/*" element={<Catalog />} /><Route path="/product/:productId" element={<ProductPage />} /></Routes></StoreProvider></StaticRouter>);
@@ -21,14 +23,16 @@ function renderPage(path) {
 describe.each([
   {name:'quote mugs', category:'mugs-quotes', slug:'quotes', title:'أكواب جمل', items:quoteMugs, manifest:quoteManifest},
   {name:'Stanley tumblers', category:'mugs-stanley', slug:'stanley', title:'قناني ستانلي', items:stanleyBottles, manifest:stanleyManifest},
-])('user-supplied $name', ({category,slug,title,items,manifest}) => {
+  {name:'ready-made cups', category:'mugs-ready', slug:'ready', title:'أكواب جاهزة', items:readyMugs, manifest:readyManifest, existingIds:['mugs-6','mugs-ready-1']},
+])('user-supplied $name', ({category,slug,title,items,manifest,existingIds=[]}) => {
   it('includes every original JPEG in Cups and its own subcategory without changing their bytes', () => {
     const collection = filterProducts(products,'',category,'',false);
-    expect(collection.map(p => p.id)).toEqual(items.map(p => p.id));
-    expect(collection).toHaveLength(manifest.length);
-    expect(new Set(collection.map(p => p.image)).size).toBe(manifest.length);
+    expect(collection.map(p => p.id)).toEqual([...existingIds,...items.map(p => p.id)]);
+    const suppliedPhotos = collection.filter(p => p.imageKind === 'provided');
+    expect(suppliedPhotos).toHaveLength(manifest.length);
+    expect(new Set(suppliedPhotos.map(p => p.image)).size).toBe(manifest.length);
     const cups = filterProducts(products,'','mugs','',false);
-    for (const product of collection) {
+    for (const product of suppliedPhotos) {
       expect(cups).toContain(product);
       const file = manifest.find(item => item.file === 'public'+imagePath(product.image));
       expect(file).toBeDefined();
@@ -41,9 +45,9 @@ describe.each([
   it('renders the complete collection and shows the supplied photo first on product pages', () => {
     setLocale('ar');
     const html = renderPage('/category/mugs/'+slug);
-    expect((html.match(/class="product-card"/g) || []).length).toBe(items.length);
+    expect((html.match(/class="product-card"/g) || []).length).toBe(items.length+existingIds.length);
     expect(html).toContain(title);
-    expect(html).not.toContain('class="demo-label"');
+    expect((html.match(/class="demo-label"/g) || []).length).toBe(existingIds.length);
     for (const product of items) expect(html).toContain(imagePath(product.image));
     const cups = renderPage('/category/mugs');
     expect(cups).toContain('href="/category/mugs/'+slug+'"');

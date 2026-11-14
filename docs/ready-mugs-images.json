@@ -1,0 +1,58 @@
+[
+  {
+    "photo": 1,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "1-Photo-1.jpg",
+    "file": "public/images/ready-mugs/01.jpg",
+    "sha256": "79830ea49b556a20d2d10a49c175b13c270decf9b2e990d055402d42dd96dbfd"
+  },
+  {
+    "photo": 2,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "2-Photo-2.jpg",
+    "file": "public/images/ready-mugs/02.jpg",
+    "sha256": "df3f96ec367e3f1c03e425b72dfb935d32b5e4a9e3ec0b529591173a092945b0"
+  },
+  {
+    "photo": 3,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "3-Photo-3.jpg",
+    "file": "public/images/ready-mugs/03.jpg",
+    "sha256": "e8a28179f79ba98ab814c9b95391cbc5e2fac21556624f95544348bb49d1f4a6"
+  },
+  {
+    "photo": 4,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "4-Photo-4.jpg",
+    "file": "public/images/ready-mugs/04.jpg",
+    "sha256": "d3ade009f98118efcaefd1df551a291597e02823a572fdd2a57622c5751f124c"
+  },
+  {
+    "photo": 5,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "5-Photo-5.jpg",
+    "file": "public/images/ready-mugs/05.jpg",
+    "sha256": "1dcc6613e1e5112389ffbd73f5263c8d35731ccf31023ea5815869ea1ffd7fce"
+  },
+  {
+    "photo": 6,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "6-Photo-6.jpg",
+    "file": "public/images/ready-mugs/06.jpg",
+    "sha256": "3fedddb1b423032478c181e2bd2ba8d26eec11cfac1089a3faca5fd04eb622c1"
+  },
+  {
+    "photo": 7,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "7-Photo-7.jpg",
+    "file": "public/images/ready-mugs/07.jpg",
+    "sha256": "cc2ff8a4c3bed44a3bc5631bab84d8ebb4539898f6019fc8157f2ba20af89bf3"
+  },
+  {
+    "photo": 8,
+    "sourceBatch": "88B6360D-5FC3-4265-A7B7-9AE6A33D70F1",
+    "sourceFile": "8-Photo-8.jpg",
+    "file": "public/images/ready-mugs/08.jpg",
+    "sha256": "51e73e80187faab210e88151b20de7e9e7e97a5a3bfc374e2ca8c6340c029497"
+  }
+]

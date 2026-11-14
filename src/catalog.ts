@@ -1,5 +1,6 @@
 import { quoteMugs } from './quote-mugs';
 import { stanleyBottles } from './stanley-bottles';
+import { readyMugs } from './ready-mugs';
 import { additionalCategories, additionalProducts, productAssignments, readyProductIds } from './catalog-update';
 export const studio = {
   name: 'BRAA GRAPHIX', tagline: 'INSPIRE AND CAPTIVATE',
@@ -67,7 +68,7 @@ const legacyProducts: Product[] = legacyCategories.flatMap(category=>seeds[categ
   price:null,isNew:index===0||index===2,occasion:occasionFor(title),
 })));
 // Preserve historical IDs for saved drafts, favorites, and inquiry baskets.
-export const allProducts: Product[] = [...legacyProducts, ...additionalProducts, ...quoteMugs, ...stanleyBottles];
+export const allProducts: Product[] = [...legacyProducts, ...additionalProducts, ...quoteMugs, ...stanleyBottles, ...readyMugs];
 export const products = allProducts.filter(product => product.catalogCategoryIds.length > 0);
 export const featuredIds = ['mugs-1','stationery-1','candles-1','boxes-1'];
 export const categoryById = (id: string) => categories.find(c=>c.id===id);
