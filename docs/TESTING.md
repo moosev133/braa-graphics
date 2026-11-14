@@ -85,3 +85,11 @@ Start the project with the README commands to repeat interactive review. Tempora
 The user requested keeping the original pink palette until replacement colors are supplied. Restored the exact original base stylesheet, Home/product color values, favicon, and browser theme color from the pre-catalog version. Added category panels use matching blush and lavender tones. Source comparisons confirm category definitions, memberships, routing, and personalization behavior are unchanged apart from color values. The established 21-test catalog validation remains applicable.
 
 Verified the restored cream background, plum text, blush announcement bar and pink/lavender category panels in the browser. Desktop and 390px mobile catalog views retain all nested tabs and the four board-printing products without horizontal overflow.
+
+## Quote mugs collection — November 15, 2026
+
+- Added the 13 mug images supplied on November 14, under Cups → Quote mugs (`/category/mugs/quotes`). Each JPEG is byte-for-byte identical to its supplied file; checksums are in `docs/quote-mugs-images.json`.
+- All 24 tests pass, including the existing catalog/localization checks and three new checks for collection membership, image integrity, page markup and identifiable inquiry details.
+- Static React rendering verifies that all 13 photo cards appear without the generated-image label and the product page defaults to its supplied photo. Optional personalization remains limited to the gift card/wrapping.
+- The local collection route returned HTTP 200. Browser visual/interaction QA was unavailable because local browser use is disabled in Work settings; no alternative browser automation was used.
+- Existing colors, product IDs, saved drafts, and nested printing categories are preserved. No WhatsApp message was sent.

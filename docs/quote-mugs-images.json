@@ -1,0 +1,93 @@
+[
+  {
+    "photo": 1,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "1-Photo-1.jpg",
+    "file": "public/images/quote-mugs/01.jpg",
+    "sha256": "a008203fd3af115a078c1a90eb3f8a7fe226386eb69ff686e29a0a3a0246f0f1"
+  },
+  {
+    "photo": 2,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "2-Photo-2.jpg",
+    "file": "public/images/quote-mugs/02.jpg",
+    "sha256": "a41030f6a2bf85659139a96edff7b8d3606510453b503f4b5f2f29291dd820c7"
+  },
+  {
+    "photo": 3,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "3-Photo-3.jpg",
+    "file": "public/images/quote-mugs/03.jpg",
+    "sha256": "c90026eafb28df9d26d7a60da579e3bf4d7c3816c30673e5f03f38b89f133756"
+  },
+  {
+    "photo": 4,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "4-Photo-4.jpg",
+    "file": "public/images/quote-mugs/04.jpg",
+    "sha256": "9363248d466138cd730f2202e464fa98cde8f83373bbe1345bd4306a3d2f3f5d"
+  },
+  {
+    "photo": 5,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "5-Photo-5.jpg",
+    "file": "public/images/quote-mugs/05.jpg",
+    "sha256": "4b820c5352c4561f01c5944b6587353b0bcf7953f2b078a3494dcf80e5d52c71"
+  },
+  {
+    "photo": 6,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "6-Photo-6.jpg",
+    "file": "public/images/quote-mugs/06.jpg",
+    "sha256": "af0ce1dda33339c7c8e5118a575125464d9e5e7e0d33dd20fb87390646930bf7"
+  },
+  {
+    "photo": 7,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "7-Photo-7.jpg",
+    "file": "public/images/quote-mugs/07.jpg",
+    "sha256": "e6e1640762ede48ebb9a6a6cf0d13f5c26e99a74cfd56e615858536e1c22e57d"
+  },
+  {
+    "photo": 8,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "8-Photo-8.jpg",
+    "file": "public/images/quote-mugs/08.jpg",
+    "sha256": "1cbf26e13f412296a859bde02b3a8eee40f36522151f633160ed04aef457ba87"
+  },
+  {
+    "photo": 9,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "9-Photo-9.jpg",
+    "file": "public/images/quote-mugs/09.jpg",
+    "sha256": "b396d9c879deb429c7a5fafadef832bd75586c33acac8906b9f7aa008a57e5ae"
+  },
+  {
+    "photo": 10,
+    "sourceBatch": "A6AA3D8E-DAA1-4AA5-ABB3-1962A874FCEC",
+    "sourceFile": "10-Photo-10.jpg",
+    "file": "public/images/quote-mugs/10.jpg",
+    "sha256": "282622d5c7be41f982189280937686d54e529288f92c7c9b7fe726c6b0c1d14c"
+  },
+  {
+    "photo": 11,
+    "sourceBatch": "3D0CC90C-3B08-4F3F-A6FE-E9710F23F3C9",
+    "sourceFile": "1-Photo-1.jpg",
+    "file": "public/images/quote-mugs/11.jpg",
+    "sha256": "acc19c912c60ea5bea60a0fa050249b9fd7e4b80cb5f670c4930bc247993695b"
+  },
+  {
+    "photo": 12,
+    "sourceBatch": "3D0CC90C-3B08-4F3F-A6FE-E9710F23F3C9",
+    "sourceFile": "2-Photo-2.jpg",
+    "file": "public/images/quote-mugs/12.jpg",
+    "sha256": "c9256d8b64a90ca61a082f5ca3fb96d46dd062e12e759ee5be16e8ccba131a01"
+  },
+  {
+    "photo": 13,
+    "sourceBatch": "3D0CC90C-3B08-4F3F-A6FE-E9710F23F3C9",
+    "sourceFile": "3-Photo-3.jpg",
+    "file": "public/images/quote-mugs/13.jpg",
+    "sha256": "0d8a04568f84e7dd570319d023ebc2dd2195d415cf4c86a3b61731c93e1e3f0b"
+  }
+]

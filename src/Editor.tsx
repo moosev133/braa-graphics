@@ -73,12 +73,13 @@ export function Preview({
       })
     });
   };
+  if (compact && product.imageKind === 'provided') return <div className="preview-wrap compact"><img className="provided-product-thumbnail" src={imagePath(product.image)} alt={t(product.title)} /></div>;
   return <div className={`preview-wrap ${compact ? 'compact' : ''}`}><div className={`design-preview template-${value.template === 'פרחוני' ? 'floral' : value.template === 'חגיגי' ? 'party' : 'minimal'}`} ref={bounds} style={{
       backgroundColor: value.productColor
     }} onPointerMove={e => {
       if (drag) updatePosition(e);
     }} onPointerUp={() => setDrag(false)} onPointerCancel={() => setDrag(false)}>
-    <img className="preview-product" src={imagePath(product.image)} alt={t("הדמיית {0}", [t(product.title)])} />
+    {product.imageKind !== 'provided' && <img className="preview-product" src={imagePath(product.image)} alt={t("הדמיית {0}", [t(product.title)])} />}
     <div className={`print-surface surface-${product.category} ${isPackaging ? 'packaging-surface' : ''}`} aria-hidden="true" />
     {image && <img className={`uploaded-art ${onChange ? 'draggable' : ''}`} src={image} alt={t("התמונה שהוספתם להדמיה")} style={{
         left: `${value.imageX}%`,

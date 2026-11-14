@@ -1,3 +1,4 @@
+import { quoteMugs } from './quote-mugs';
 import { additionalCategories, additionalProducts, productAssignments, readyProductIds } from './catalog-update';
 export const studio = {
   name: 'BRAA GRAPHIX', tagline: 'INSPIRE AND CAPTIVATE',
@@ -48,7 +49,7 @@ const seeds: Record<LegacyCategoryId, string[]> = {
   events:['שוקולד עם סיפור אישי','מזכרת ליום הולדת','מזכרת לאורחי חתונה','מתנה קטנה לאירוסין','מזכרת לחגיגת לידה','תוויות למסיבה','הזמנה מעוצבת','כרטיס תודה אישי','מדבקות מעוצבות','אריזות לאירוע'],
   boxes:['מארז יום הולדת','מארז ליום נישואין','מארז זוגי','מארז לסיום הלימודים','מארז לאמא','מארז לחברה','סל מתנות אישי'],
 };
-export interface Product { id: string; title: string; category: CategoryId; index: number; image: string; description: string; price: number|null; isNew: boolean; occasion: string; catalogCategoryIds: string[]; personalizationTarget?: 'packaging' | 'product'; }
+export interface Product { id: string; title: string; category: CategoryId; index: number; image: string; description: string; price: number|null; isNew: boolean; occasion: string; catalogCategoryIds: string[]; imageKind?: 'provided'; personalizationTarget?: 'packaging' | 'product'; }
 const occasionFor=(title:string):string=>{
   if(/חתונ/.test(title))return 'חתונה';
   if(/נישואין/.test(title))return 'יום נישואין';
@@ -65,12 +66,12 @@ const legacyProducts: Product[] = legacyCategories.flatMap(category=>seeds[categ
   price:null,isNew:index===0||index===2,occasion:occasionFor(title),
 })));
 // Preserve historical IDs for saved drafts, favorites, and inquiry baskets.
-export const allProducts: Product[] = [...legacyProducts, ...additionalProducts];
+export const allProducts: Product[] = [...legacyProducts, ...additionalProducts, ...quoteMugs];
 export const products = allProducts.filter(product => product.catalogCategoryIds.length > 0);
 export const featuredIds = ['mugs-1','stationery-1','candles-1','boxes-1'];
 export const categoryById = (id: string) => categories.find(c=>c.id===id);
 export const productById = (id: string) => allProducts.find(p=>p.id===id);
-export const imagePath = (name: string) => `/images/${name}.webp`;
+export const imagePath = (name: string) => `/images/${/\.(webp|jpe?g|png)$/i.test(name) ? name : name + '.webp'}`;
 export const isPackagingProduct = (product: Product) => product.personalizationTarget === 'packaging' || readyProductIds.has(product.id) || ['beauty','jewelry','incense'].includes(product.category);
 export const personalizationNameLabel = (product: Product) => isPackagingProduct(product) ? 'שם על כרטיס המתנה' : categoryById(product.category)!.nameLabel;
 export const productFields = (product: Product): Field[] => {

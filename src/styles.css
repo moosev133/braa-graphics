@@ -102,3 +102,5 @@ label{display:block;font-size:12px;font-weight:500;line-height:1.7}input:not([ty
 .subcategory-tabs>a{padding:9px 11px;font-size:12px;min-height:44px}
 .subcategory-group h2{font-size:14px}
 }
+
+.provided-product-thumbnail{display:block;width:100%;aspect-ratio:1;object-fit:contain;border-radius:10px}

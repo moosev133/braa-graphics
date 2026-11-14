@@ -91,6 +91,6 @@ export default function Catalog({ favoritesOnly = false }: { favoritesOnly?: boo
     </div>}
     <div className="catalog-count" aria-live="polite"><span>{t('{0} منتجات', [visible.length])}</span><span>{t('התאמה אישית · מחיר וזמינות בתיאום')}</span></div>
     {visible.length ? <div className="product-grid catalog-grid">{visible.map(product => <ProductCard key={product.id} product={product} />)}</div> : <EmptyState title={favoritesOnly && !query ? t('עוד לא שמרתם משהו אהוב') : t('לא מצאנו בדיוק את זה')} description={favoritesOnly ? t('לחיצה על הלב ליד מוצר תשמור אותו כאן.') : t('נסו מילה אחרת או אפסו את המסננים.')} />}
-    <p className="catalog-disclaimer">{t('הקטלוג מציג רעיונות להמחשה והתאמה אישית. התמונות הן הדמיות, והאפשרויות, המחיר והזמינות יאושרו עם הסטודיו.')}</p>
+    <p className="catalog-disclaimer">{t('تعرّفوا على المنتجات والتصاميم من خلال الصور. الصور التوضيحية مميّزة بوضوح، ويؤكّد الاستوديو التفاصيل والأسعار والتوفّر قبل الطلب.')}</p>
   </div>;
 }

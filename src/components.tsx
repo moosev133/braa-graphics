@@ -39,10 +39,10 @@ export function ProductCard({
     } as CSSProperties}>
     <Link to={`/product/${product.id}`} tabIndex={-1} aria-hidden="true"><img src={imagePath(product.image)} alt="" loading="lazy" width="600" height="600" /></Link>
     <button className={`favorite-button ${favorites.includes(product.id) ? 'selected' : ''}`} aria-label={`${favorites.includes(product.id) ? t('הסרת') : t('שמירת')} ${t(product.title)} ${favorites.includes(product.id) ? t('מהמועדפים') : t('למועדפים')}`} aria-pressed={favorites.includes(product.id)} onClick={() => toggleFavorite(product.id)}><Heart size={18} /></button>
-    {product.isNew && <span className="product-badge">{t("נגיעה אישית ")}<Sparkles size={12} /></span>}
-    <span className="demo-label">{t("הדמיה להשראה")}</span>
+    {product.isNew && <span className="product-badge">{t(product.imageKind === 'provided' ? 'تصميم جاهز' : 'נגיעה אישית ')}<Sparkles size={12} /></span>}
+    {product.imageKind !== 'provided' && <span className="demo-label">{t('הדמיה להשראה')}</span>}
     <Link className="product-quick" to={`/product/${product.id}`} aria-label={t("לעיצוב {0}", [t(product.title)])}><Plus size={20} /></Link>
-  </div><div className="product-meta"><span>{t(primaryCatalogCategory(product)?.short || category.short)}</span><span>{product.price === null ? t('מחיר לפי התאמה') : `₪${product.price}`}</span></div><Link className="product-title" to={`/product/${product.id}`}>{t(product.title)}</Link></article>;
+  </div><div className="product-meta"><span>{t(primaryCatalogCategory(product)?.short || category.short)}</span><span>{product.price === null ? t(product.imageKind === 'provided' ? 'السعر بالتنسيق' : 'מחיר לפי התאמה') : `₪${product.price}`}</span></div><Link className="product-title" to={`/product/${product.id}`}>{t(product.title)}</Link></article>;
 }
 export function SectionHeading({
   eyebrow,

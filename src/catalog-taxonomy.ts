@@ -122,6 +122,16 @@ export const catalogCategories: CatalogCategory[] = [
     "parentId": "mugs"
   },
   {
+    "id": "mugs-quotes",
+    "slug": "quotes",
+    "title": "أكواب جمل",
+    "short": "أكواب جمل",
+    "image": "quote-mugs/01.jpg",
+    "color": "#F5DEE4",
+    "description": "كلمة تضحككم، عبارة تلهمكم، وكوب يرافق يومكم. اختاروا من 13 تصميمًا.",
+    "parentId": "mugs"
+  },
+  {
     "id": "notebooks-ready",
     "slug": "ready",
     "title": "دفاتر جاهزة",
