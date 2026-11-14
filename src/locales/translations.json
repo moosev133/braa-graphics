@@ -1892,8 +1892,9 @@
     "en": "A delicate gesture, with packaging that tells the story."
   },
   "שם על כרטיס המתנה": {
-    "ar": "الاسم على بطاقة الهدية",
-    "en": "Name on the gift card"
+    "ar": "الاسم على البطاقة (اسم المُرسل)",
+    "he": "שם על כרטיס המתנה (שם השולח/ת)",
+    "en": "Name on the gift card (sender’s name)"
   },
   "זהוב": {
     "ar": "ذهبي",
@@ -3609,5 +3610,125 @@
     "ar": "كوب زهور بيضاء بمقبض أخضر",
     "he": "כוס פרחים לבנים עם ידית ירוקה",
     "en": "White flowers mug with green handle"
+  },
+  "شمعة Country Candle كما تظهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.": {
+    "ar": "شمعة Country Candle كما تظهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "he": "נר Country Candle כפי שמוצג בתמונה. ניתן להוסיף הקדשה לכרטיס המתנה; הסטודיו יאשר מחיר וזמינות לפני ההזמנה.",
+    "en": "Country Candle as shown in the photo. Add a dedication to the gift card; the studio confirms price and availability before ordering."
+  },
+  "اكتشفوا مجموعة Country Candles واختاروا شمعتكم المفضّلة.": {
+    "ar": "اكتشفوا مجموعة Country Candles واختاروا شمعتكم المفضّلة.",
+    "he": "גלו את קולקציית Country Candles ובחרו את הנר האהוב עליכם.",
+    "en": "Explore the Country Candles collection and choose your favorite candle."
+  },
+  "هذا المنتج لم يعد معروضًا في الكتالوج. اختاروا منتجًا من المجموعة الحالية.": {
+    "ar": "هذا المنتج لم يعد معروضًا في الكتالوج. اختاروا منتجًا من المجموعة الحالية.",
+    "he": "המוצר הזה כבר אינו מוצג בקטלוג. בחרו מוצר מהקולקציה הנוכחית.",
+    "en": "This product is no longer listed. Choose a product from the current collection."
+  },
+  "صور من مجموعتنا": {
+    "ar": "صور من مجموعتنا",
+    "he": "תמונות מהקולקציה שלנו",
+    "en": "Photos from our collection"
+  },
+  "اختاروا من منتجاتنا وأضيفوا إهداءً لمن تحبّون.": {
+    "ar": "اختاروا من منتجاتنا وأضيفوا إهداءً لمن تحبّون.",
+    "he": "בחרו מהקולקציה שלנו והוסיפו הקדשה למי שאתם אוהבים.",
+    "en": "Choose from our collection and add a dedication for someone you love."
+  },
+  "دفء ولحظات جميلة.": {
+    "ar": "دفء ولحظات جميلة.",
+    "he": "חמימות ורגעים יפים.",
+    "en": "Warmth and lovely moments."
+  },
+  "شموع Country Candles": {
+    "ar": "شموع Country Candles",
+    "he": "נרות Country Candles",
+    "en": "Country Candles"
+  },
+  "اكتشفوا الشموع": {
+    "ar": "اكتشفوا الشموع",
+    "he": "גלו את הנרות",
+    "en": "Explore the candles"
+  },
+  "تصاميم ترافق يومكم.": {
+    "ar": "تصاميم ترافق يومكم.",
+    "he": "עיצובים שמלווים את היום שלכם.",
+    "en": "Designs for your everyday."
+  },
+  "اكتشفوا الأكواب الجاهزة": {
+    "ar": "اكتشفوا الأكواب الجاهزة",
+    "he": "גלו כוסות מוכנות",
+    "en": "Explore ready-made cups"
+  },
+  "كلمة جميلة مع كل رشفة.": {
+    "ar": "كلمة جميلة مع كل رشفة.",
+    "he": "מילים יפות בכל לגימה.",
+    "en": "A little inspiration in every sip."
+  },
+  "اكتشفوا أكواب جمل": {
+    "ar": "اكتشفوا أكواب جمل",
+    "he": "גלו כוסות עם משפטים",
+    "en": "Explore quote mugs"
+  },
+  "قناني ستانلي بألوان تحبّونها.": {
+    "ar": "قناني ستانلي بألوان تحبّونها.",
+    "he": "כוסות סטנלי בצבעים אהובים.",
+    "en": "Stanley tumblers in colors you love."
+  },
+  "اكتشفوا قناني ستانلي": {
+    "ar": "اكتشفوا قناني ستانلي",
+    "he": "גלו כוסות סטנלי",
+    "en": "Explore Stanley tumblers"
+  },
+  "تعرّفوا على منتجاتنا من خلال الصور، ويؤكّد الاستوديو التفاصيل والأسعار والتوفّر قبل الطلب.": {
+    "ar": "تعرّفوا على منتجاتنا من خلال الصور، ويؤكّد الاستوديو التفاصيل والأسعار والتوفّر قبل الطلب.",
+    "he": "הכירו את המוצרים שלנו בתמונות; הסטודיו יאשר פרטים, מחירים וזמינות לפני ההזמנה.",
+    "en": "Explore our products in the photos; the studio confirms details, prices and availability before ordering."
+  },
+  "شمعة Country Candle — Welcome Home": {
+    "ar": "شمعة Country Candle — Welcome Home",
+    "he": "נר Country Candle — Welcome Home",
+    "en": "Country Candle — Welcome Home"
+  },
+  "شمعة Country Candle — Grapefruit & Rosemary": {
+    "ar": "شمعة Country Candle — Grapefruit & Rosemary",
+    "he": "נר Country Candle — Grapefruit & Rosemary",
+    "en": "Country Candle — Grapefruit & Rosemary"
+  },
+  "شمعة Country Candle — Blueberry Milkshake": {
+    "ar": "شمعة Country Candle — Blueberry Milkshake",
+    "he": "נר Country Candle — Blueberry Milkshake",
+    "en": "Country Candle — Blueberry Milkshake"
+  },
+  "شمعة Country Candle — Blueberry Lemonade": {
+    "ar": "شمعة Country Candle — Blueberry Lemonade",
+    "he": "נר Country Candle — Blueberry Lemonade",
+    "en": "Country Candle — Blueberry Lemonade"
+  },
+  "شمعة Country Candle — Merlot Vines": {
+    "ar": "شمعة Country Candle — Merlot Vines",
+    "he": "נר Country Candle — Merlot Vines",
+    "en": "Country Candle — Merlot Vines"
+  },
+  "شمعة Country Candle — Strawberry Lemonade": {
+    "ar": "شمعة Country Candle — Strawberry Lemonade",
+    "he": "נר Country Candle — Strawberry Lemonade",
+    "en": "Country Candle — Strawberry Lemonade"
+  },
+  "شمعة Country Candle — Strawberry Watermelon": {
+    "ar": "شمعة Country Candle — Strawberry Watermelon",
+    "he": "נר Country Candle — Strawberry Watermelon",
+    "en": "Country Candle — Strawberry Watermelon"
+  },
+  "شمعة Country Candle — Fresh & Clean": {
+    "ar": "شمعة Country Candle — Fresh & Clean",
+    "he": "נר Country Candle — Fresh & Clean",
+    "en": "Country Candle — Fresh & Clean"
+  },
+  "شمعة Country Candle — Daydreams": {
+    "ar": "شمعة Country Candle — Daydreams",
+    "he": "נר Country Candle — Daydreams",
+    "en": "Country Candle — Daydreams"
   }
 }

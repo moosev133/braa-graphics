@@ -1,0 +1,65 @@
+[
+  {
+    "photo": 1,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "1-Photo-1.jpg",
+    "file": "public/images/country-candles/01.jpg",
+    "sha256": "1f8d42d85d69439dc5bd8a689b104163095768f35faafe363d0f85cd3e996fc0"
+  },
+  {
+    "photo": 2,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "2-Photo-2.jpg",
+    "file": "public/images/country-candles/02.jpg",
+    "sha256": "59c09a69b2fee5df5baa0335ca8c8c66c01141b850b46bfa1d0ba8a312b88410"
+  },
+  {
+    "photo": 3,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "3-Photo-3.jpg",
+    "file": "public/images/country-candles/03.jpg",
+    "sha256": "d8972ef7ba861e25af1d43ebae6f5446f29ff2d4a44d4b8597cc0517ac422f3d"
+  },
+  {
+    "photo": 4,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "4-Photo-4.jpg",
+    "file": "public/images/country-candles/04.jpg",
+    "sha256": "f368721d6596ecb04fb7207cf25422e19be26cbac9fc017556ec19bab2771647"
+  },
+  {
+    "photo": 5,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "5-Photo-5.jpg",
+    "file": "public/images/country-candles/05.jpg",
+    "sha256": "4747ec868bd56a43395dc1079d8634c4ff5055c0602ff73f066d5fa54ae2cff2"
+  },
+  {
+    "photo": 6,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "6-Photo-6.jpg",
+    "file": "public/images/country-candles/06.jpg",
+    "sha256": "6db7cc5ec874cdc0ec3e071b45b1c9ee7f8c0d0828e6f5f085bdac606d02161e"
+  },
+  {
+    "photo": 7,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "7-Photo-7.jpg",
+    "file": "public/images/country-candles/07.jpg",
+    "sha256": "46a5ecd2de9fae72ef745a17cafdedf9de775e2639cee0d395ac5ec7265bf163"
+  },
+  {
+    "photo": 8,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "8-Photo-8.jpg",
+    "file": "public/images/country-candles/08.jpg",
+    "sha256": "a7fdf787d6485e6e50374951af0c38d44307cc62d4b2b4c385e1f55bd02816a7"
+  },
+  {
+    "photo": 9,
+    "sourceBatch": "BFE4A14E-CB5E-441B-9F2B-53DF85E02526",
+    "sourceFile": "9-Photo-9.jpg",
+    "file": "public/images/country-candles/09.jpg",
+    "sha256": "591627f4e607e1017745998f10abddf48b9096284bb84fe16a0c200eba9fb653"
+  }
+]

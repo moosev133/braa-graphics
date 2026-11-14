@@ -6,13 +6,14 @@ import { blankGift, blankPersonalization, filterProducts, giftErrors, inquiryMes
 describe('catalog and product rules',()=>{
   it('covers the updated catalog with unique routable products and optional prices',()=>{
     expect(catalogRoots).toHaveLength(11);expect(new Set(products.map(p=>p.id)).size).toBe(products.length);
-    for(const category of catalogRoots)expect(products.some(p=>inCatalogCategory(p,category.id))).toBe(true);
+    expect(products).toHaveLength(35);
+    expect(catalogRoots.filter(category=>products.some(p=>inCatalogCategory(p,category.id))).map(c=>c.id)).toEqual(['mugs','candles']);
     expect(allProducts.length).toBeGreaterThan(products.length);
     expect(products.every(p=>p.price===null)).toBe(true);
   });
   it('filters Hebrew search, category, occasion and new arrivals together',()=>{
-    const matching=filterProducts(products,'ספל','mugs','יום האהבה',true);
-    expect(matching.map(p=>p.id)).toEqual(['mugs-3']);
+    const matching=filterProducts(products,'כוס לבבות','mugs','סתם כי אוהבים',true);
+    expect(matching.map(p=>p.id)).toEqual(['ready-mug-03']);
     expect(filterProducts(products,'אין מוצר כזה','','',false)).toHaveLength(0);
   });
   it('filters print requests by relevant print type without showing irrelevant framing on canvas',()=>{
@@ -26,22 +27,23 @@ describe('catalog and product rules',()=>{
   });
 });
 describe('validation and handoff',()=>{
-  it('requires phone brand and model, and an exact name for other models',()=>{
-    const value=blankPersonalization();expect(validateCustomization('cases-1',value)).toHaveLength(2);
-    value.options={brand:'Apple',model:'דגם אחר'};expect(validateCustomization('cases-1',value)[0]).toContain('המדויק');
-    value.options.modelOther='My exact phone model';expect(validateCustomization('cases-1',value)).toEqual([]);
+  it('blocks archived demo products and unknown product IDs',()=>{
+    const value=blankPersonalization();
+    for(const id of ['cases-1','mugs-1','candles-1']) expect(validateCustomization(id,value)).toHaveLength(1);
+    expect(validateCustomization('missing',value)).toHaveLength(1);
+    expect(validateCustomization('country-candle-01',value)).toEqual([]);
   });
-  it('rejects invalid quantities and requires a clothing size',()=>{
-    for(const quantity of [0,-1,1000,1.5,NaN])expect(validateCustomization('mugs-1',{...blankPersonalization(),quantity}).length).toBeGreaterThan(0);
-    expect(validateCustomization('clothing-1',blankPersonalization())[0]).toContain('מידה');
+  it('rejects invalid quantities and overly long card messages',()=>{
+    for(const quantity of [0,-1,1000,1.5,NaN])expect(validateCustomization('ready-mug-01',{...blankPersonalization(),quantity}).length).toBeGreaterThan(0);
+    expect(validateCustomization('ready-mug-01',{...blankPersonalization(),text:'x'.repeat(301)})).toHaveLength(1);
   });
   it('blocks advancing an incomplete gift and validates each personalized item',()=>{
     const gift=blankGift();expect(giftErrors(gift,0)).toHaveLength(1);expect(giftErrors(gift,1)).toHaveLength(1);expect(giftErrors(gift,2)).toHaveLength(1);
-    gift.items=[{productId:'cases-1',custom:blankPersonalization()}];expect(giftErrors(gift,3)).toHaveLength(2);
+    gift.items=[{productId:'cases-1',custom:blankPersonalization()}];expect(giftErrors(gift,3)).toHaveLength(1);
   });
   it('preserves options, custom text, files, quantity, gift contents, greeting, notes and reference',()=>{
     const custom={...blankPersonalization(),name:'נועה & דנה',text:'אהבה + זיכרונות',quantity:2,options:{finish:'לבן קלאסי'},attachments:[{id:'private-id',name:'family-photo.jpg'}],notes:'ליום שישי'};
-    const gift={...blankGift(),occasion:'יום הולדת',box:'מארז עם סרט',recipient:'נועה',greeting:'מזל טוב!',items:[{productId:'mugs-1',custom}]};
+    const gift={...blankGift(),occasion:'יום הולדת',box:'מארז עם סרט',recipient:'נועה',greeting:'מזל טוב!',items:[{productId:'ready-mug-01',custom}]};
     const message=inquiryMessage([{id:'test',gift}],'BG-TEST','איסוף אישי','he');
     for(const value of ['BG-TEST','נועה & דנה','אהבה + זיכרונות','כמות: 2','לבן קלאסי','family-photo.jpg','ליום שישי','מארז עם סרט','מזל טוב!','איסוף אישי','אצרף את התמונות ידנית'])expect(message).toContain(value);
     expect(message).not.toContain('private-id');

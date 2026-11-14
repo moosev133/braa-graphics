@@ -2,7 +2,7 @@ import { primaryCatalogCategory } from './catalog-taxonomy';
 import { t } from "./i18n";
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Heart, Plus, MessageCircle, Sparkles } from 'lucide-react';
-import { categoryById, imagePath, studio, type Product } from './catalog';
+import { categoryById, imagePath, isListedProduct, studio, type Product } from './catalog';
 import { useStore } from './state';
 import { whatsappUrl } from './order';
 import type { CSSProperties, ReactNode } from 'react';
@@ -33,6 +33,7 @@ export function ProductCard({
     favorites,
     toggleFavorite
   } = useStore();
+  if (!isListedProduct(product)) return null;
   const category = categoryById(product.category)!;
   return <article className="product-card"><div className="product-image" style={{
       '--card-bg': category.color

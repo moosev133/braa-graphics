@@ -2,7 +2,7 @@ import { catalogCategories, catalogTrail, inCatalogCategory } from './catalog-ta
 import { t, localizeError } from "./i18n";
 import { useState } from 'react';
 import { ArrowLeft, ArrowRight, Check, Gift, Heart, Plus, RotateCcw, Sparkles, X } from 'lucide-react';
-import { imagePath, occasions, productById, products } from './catalog';
+import { imagePath, isListedProduct, occasions, productById, products } from './catalog';
 import { blankGift, blankPersonalization, giftErrors, type GiftDraft } from './order';
 import { Breadcrumbs, PageHeading } from './components';
 import { CustomizationForm, Preview } from './Editor';
@@ -16,7 +16,7 @@ export function GiftSummary({
 }) {
   return <div className="gift-summary"><div className="gift-summary-top"><Gift size={30} /><div><h3>{t(gift.box) || t('המארז האישי שלכם')}</h3><p>{t(gift.occasion)} · {t(gift.boxColor)}</p></div></div><div className="gift-summary-grid">{gift.items.map(item => {
         const product = productById(item.productId)!;
-        return <div key={item.productId}><img src={imagePath(product.image)} alt={product.imageKind === 'provided' ? t(product.title) : t("הדמיה: {0}", [t(product.title)])} /><h4>{t(product.title)}</h4><p>{item.custom.name || t('ללא שם')}{t(" · כמות ")}{item.custom.quantity}</p>{item.custom.text && <p>{item.custom.text}</p>}{Object.entries(item.custom.options).filter(([, v]) => v).map(([k, v]) => <small key={k}>{k === 'modelOther' ? v : t(v)} </small>)}{item.custom.attachments.length > 0 && <small>{item.custom.attachments.length}{t(" תמונות לצירוף ידני")}</small>}</div>;
+        return <div key={item.productId}><>{isListedProduct(product) ? <img src={imagePath(product.image)} alt={t(product.title)} /> : <p className="notice">{t('هذا المنتج لم يعد معروضًا في الكتالوج. اختاروا منتجًا من المجموعة الحالية.')}</p>}</><h4>{t(product.title)}</h4><p>{item.custom.name || t('ללא שם')}{t(" · כמות ")}{item.custom.quantity}</p>{item.custom.text && <p>{item.custom.text}</p>}{Object.entries(item.custom.options).filter(([, v]) => v).map(([k, v]) => <small key={k}>{k === 'modelOther' ? v : t(v)} </small>)}{item.custom.attachments.length > 0 && <small>{item.custom.attachments.length}{t(" תמונות לצירוף ידני")}</small>}</div>;
       })}</div>{gift.greeting && <blockquote><span>{t("ל")}{gift.recipient || t('מישהו מיוחד')},</span>{gift.greeting}<Heart size={18} /></blockquote>}{gift.notes && <p>{t("הערות: ")}{gift.notes}</p>}</div>;
 }
 export default function GiftBuilder() {
@@ -104,15 +104,15 @@ export default function GiftBuilder() {
     {gift.step === 5 && <><h2>{t("יש כאן משהו מיוחד.")}</h2><p>{t("מבט אחרון על הבחירות שלכם לפני ששולחים לסטודיו.")}</p><GiftSummary gift={gift} /><label>{t("עוד משהו שחשוב לכם?")}<textarea rows={3} maxLength={1000} placeholder={t("מועד מבוקש, משלוח או בקשה מיוחדת")} value={gift.notes} onChange={e => change({
               notes: e.target.value
             })} /></label><p className="notice">{t("המחיר, הזמינות, התאמת התכולה והעיצוב יאושרו בשיחה. עדיין לא בוצעה הזמנה.")}</p></>}
-    {gift.step === 6 && <><h2>{t("נותנים למחשבה צורה.")}</h2><p>{t("הבקשה שלכם מוכנה לשיחה עם הסטודיו.")}</p><Inquiry items={[{
+    {gift.step === 6 && (giftErrors(gift,3).length ? <p className="notice">{t('هذا المنتج لم يعد معروضًا في الكتالوج. اختاروا منتجًا من المجموعة الحالية.')}</p> : <><h2>{t("נותנים למחשבה צורה.")}</h2><p>{t("הבקשה שלכם מוכנה לשיחה עם הסטודיו.")}</p><Inquiry items={[{
             id: 'gift-request',
             gift
-          }]} /><button className="button outline full" onClick={saveGift}><Plus size={17} />{t("שמירת המארז בסל הפניות")}</button></>}
+          }]} /><button className="button outline full" onClick={saveGift}><Plus size={17} />{t("שמירת המארז בסל הפניות")}</button></>)}
     {errors.length > 0 && <div role="alert" className="form-error">{errors.map(e => <p key={e}>{localizeError(e)}</p>)}</div>}
     <div className="builder-navigation">{gift.step > 0 && <button className="button outline" onClick={() => change({
             step: gift.step - 1
           })}><ArrowRight size={17} />{t("חזרה")}</button>}{gift.step < 6 && <button className="button dark" onClick={next}>{gift.step === 5 ? t('לבקשת הצעת מחיר') : t('ממשיכים')}<ArrowLeft size={17} /></button>}</div>
-    </section><aside className="gift-sidebar"><div className="gift-sidebar-title"><Gift size={22} /><h3>{t("קצת אהבה בקופסה")}</h3></div><img className="gift-sidebar-photo" src={imagePath('gift-box')} alt={t("הדמיית השראה למארז מתנה")} /><div className="gift-sidebar-content"><span className="fine-print">{t("תמונת השראה · הבחירות שלכם מפורטות למטה")}</span>{gift.occasion && <p>{t(gift.occasion)} <Heart size={14} /></p>}{gift.box && <p>{t(gift.box)} · {t(gift.boxColor)}</p>}{gift.items.length ? <ul>{gift.items.map(item => <li key={item.productId}><img src={imagePath(productById(item.productId)!.image)} alt="" /><div>{t(productById(item.productId)!.title)}<small>{item.custom.name || t('נגיעה אישית בדרך')} · {item.custom.quantity}{t(" יח׳")}</small></div><button className="icon-button" aria-label={t("הסרת {0} מהמארז", [t(productById(item.productId)!.title)])} onClick={() => {
+    </section><aside className="gift-sidebar"><div className="gift-sidebar-title"><Gift size={22} /><h3>{t("קצת אהבה בקופסה")}</h3></div><img className="gift-sidebar-photo" src={imagePath('country-candles/01.jpg')} alt={t("شمعة Country Candle — Welcome Home")} /><div className="gift-sidebar-content"><span className="fine-print">{t("صور من مجموعتنا")}</span>{gift.occasion && <p>{t(gift.occasion)} <Heart size={14} /></p>}{gift.box && <p>{t(gift.box)} · {t(gift.boxColor)}</p>}{gift.items.length ? <ul>{gift.items.map(item => <li key={item.productId}>{isListedProduct(productById(item.productId)) && <img src={imagePath(productById(item.productId)!.image)} alt="" />}<div>{t(productById(item.productId)!.title)}<small>{item.custom.name || t('נגיעה אישית בדרך')} · {item.custom.quantity}{t(" יח׳")}</small></div><button className="icon-button" aria-label={t("הסרת {0} מהמארז", [t(productById(item.productId)!.title)])} onClick={() => {
                 toggle(item.productId);
                 if (gift.step > 2) change({
                   items: gift.items.filter(i => i.productId !== item.productId),

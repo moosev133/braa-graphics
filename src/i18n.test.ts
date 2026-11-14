@@ -34,15 +34,15 @@ describe('language selection and content', () => {
     }
   });
   it('localizes validation without changing saved option values', () => {
-    const custom = blankPersonalization(); custom.options = {brand:'Apple',model:'דגם אחר'};
+    const custom = {...blankPersonalization(),quantity:0}; custom.options = {brand:'Apple',model:'דגם אחר'};
     for (const locale of ['ar','he','en'] as const) {
       setLocale(locale);
-      const error = validateCustomization('cases-1', custom)[0];
+      const error = validateCustomization('ready-mug-01', custom)[0];
       expect(localizeError(error)).toBe(translate(error,locale));
       expect(custom.options.model).toBe('דגם אחר');
     }
-    custom.options.modelOther = 'My phone';
-    expect(validateCustomization('cases-1', custom)).toEqual([]);
+    custom.quantity = 1;
+    expect(validateCustomization('ready-mug-01', custom)).toEqual([]);
   });
 });
 describe('localized inquiries preserve customer content', () => {
@@ -53,7 +53,7 @@ describe('localized inquiries preserve customer content', () => {
   it('translates generated messages but retains names, greeting, files, options, and references', () => {
     const raw = 'מינימליסטי {0} نور & Alex';
     const custom = {...blankPersonalization(),name:raw,text:raw,notes:raw,options:{finish:'לבן קלאסי'},attachments:[{id:'private',name:'תמונה.png'}]};
-    const gift = {...blankGift(),occasion:'יום הולדת',box:'מארז עם סרט',recipient:raw,greeting:raw,notes:raw,items:[{productId:'mugs-1',custom}]};
+    const gift = {...blankGift(),occasion:'יום הולדת',box:'מארז עם סרט',recipient:raw,greeting:raw,notes:raw,items:[{productId:'ready-mug-01',custom}]};
     for (const locale of ['ar','he','en'] as const) {
       const message = inquiryMessage([{id:'test',gift}],'BG-TEST',raw,locale);
       expect(message).toContain(raw); expect(message).toContain('תמונה.png'); expect(message).toContain('BG-TEST');

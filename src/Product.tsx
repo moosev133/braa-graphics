@@ -3,7 +3,7 @@ import { t, localizeError } from "./i18n";
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, Heart, Plus, ShieldCheck, Truck, Sparkles, RotateCcw, Image as ImageIcon } from 'lucide-react';
-import { isPackagingProduct, imagePath, productById, products, studio, type Product as ProductType } from './catalog';
+import { isListedProduct, isPackagingProduct, imagePath, productById, products, studio, type Product as ProductType } from './catalog';
 import { blankPersonalization, validateCustomization, type Personalization } from './order';
 import { Breadcrumbs, EmptyState, ProductCard, SectionHeading } from './components';
 import { CustomizationForm, Preview } from './Editor';
@@ -58,6 +58,6 @@ export default function Product() {
     productId
   } = useParams();
   const product = productById(productId || '');
-  if (!product) return <div className="container"><EmptyState title={t("לא מצאנו את המוצר הזה")} description={t("יש עוד הרבה רעיונות יפים בקטלוג.")} /></div>;
+  if (!product || !isListedProduct(product)) return <div className="container"><EmptyState title={t("לא מצאנו את המוצר הזה")} description={t("יש עוד הרבה רעיונות יפים בקטלוג.")} /></div>;
   return <ProductEditor key={product.id} product={product} />;
 }

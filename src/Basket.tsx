@@ -8,7 +8,7 @@ import { GiftSummary } from './GiftBuilder';
 import { useSaved, useStore } from './state';
 import { Preview } from './Editor';
 import Inquiry from './Inquiry';
-import { customizationLines, validateCustomization } from './order';
+import { customizationLines, giftErrors, validateCustomization } from './order';
 export default function Basket() {
   const {
     basket,
@@ -16,13 +16,13 @@ export default function Basket() {
   } = useStore();
   const [notes, setNotes] = useSaved<string>('basket-notes', '');
   const [review, setReview] = useState(false);
-  const errors = basket.flatMap(item => item.custom && item.productId ? validateCustomization(item.productId, item.custom) : []);
+  const errors = basket.flatMap(item => item.custom && item.productId ? validateCustomization(item.productId, item.custom) : item.gift ? giftErrors(item.gift,3) : []);
   return <div className="container basket-page"><Breadcrumbs items={[{
       label: 'סל הפניות'
     }]} /><PageHeading eyebrow={t("YOUR LITTLE COLLECTION")} title={t("כל המחשבות הטובות, כאן.")} description={t("בודקים את הפרטים, ושולחים יחד לסטודיו להצעת מחיר.")} />{!basket.length ? <EmptyState title={t("הסל מחכה לרעיונות שלכם")} description={t("מוצר אישי או מארז שלם — מוסיפים לסל וממשיכים להתרגש.")} /> : <div className="basket-layout"><div className="basket-items">{basket.map((item, index) => <article className="basket-item" key={item.id}><div className="basket-item-heading"><span>0{index + 1}</span><h2>{item.gift ? t('המארז האישי שלכם') : t(productById(item.productId!)!.title)}</h2><button className="icon-button" aria-label={t("הסרת {0} מהסל", [item.gift ? t('המארז') : t(productById(item.productId!)!.title)])} onClick={() => {
               setBasket(basket.filter(i => i.id !== item.id));
               setReview(false);
-            }}><Trash2 size={19} /></button></div>{item.gift ? <details className="basket-gift"><summary><Gift size={22} />{t(item.gift.occasion)} · {item.gift.items.length}{t(" סוגי מוצרים")}<ChevronDown size={18} /></summary><GiftSummary gift={item.gift} /></details> : <div className="basket-product"><Preview product={productById(item.productId!)!} value={item.custom!} compact /><div><p>{item.custom!.name || t('עיצוב אישי')}</p>{item.custom!.text && <p className="basket-message">{item.custom!.text}</p>}<p className="fine-print">{t(item.custom!.template)} · {item.custom!.attachments.length}{t(" תמונות לצירוף ידני")}</p><label>{t("כמות")}<input type="number" min={1} max={999} value={item.custom!.quantity} onChange={e => {
+            }}><Trash2 size={19} /></button></div>{item.gift ? <details className="basket-gift"><summary><Gift size={22} />{t(item.gift.occasion)} · {item.gift.items.length}{t(" סוגי מוצרים")}<ChevronDown size={18} /></summary><GiftSummary gift={item.gift} /></details> : <div className="basket-product"><Preview product={productById(item.productId!)!} value={item.custom!} compact /><div><p>{item.custom!.name || t('עיצוב אישי')}</p>{item.custom!.text && <p className="basket-message">{item.custom!.text}</p>}<p className="fine-print">{item.custom!.attachments.length}{t(" תמונות לצירוף ידני")}</p><label>{t("כמות")}<input type="number" min={1} max={999} value={item.custom!.quantity} onChange={e => {
                   setBasket(basket.map(i => i.id === item.id ? {
                     ...i,
                     custom: {

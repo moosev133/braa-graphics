@@ -1,6 +1,6 @@
 import { catalogTrail, inCatalogCategory } from './catalog-taxonomy';
 import { getLocale, translate, type Locale } from './i18n';
-import { categoryById, productById, productFields, personalizationNameLabel, studio } from './catalog';
+import { categoryById, isListedProduct, productById, productFields, personalizationNameLabel, studio } from './catalog';
 export interface Attachment { id: string; name: string; }
 export interface Personalization { name:string; text:string; color:string; productColor:string; font:string; template:string; x:number; y:number; scale:number; imageX:number; imageY:number; imageScale:number; options:Record<string,string>; attachments:Attachment[]; notes:string; quantity:number; }
 export const blankPersonalization = ():Personalization => ({name:'',text:'',color:'#6F3D50',productColor:'#FFF7EF',font:'Heebo',template:'מינימליסטי',x:50,y:56,scale:100,imageX:50,imageY:40,imageScale:100,options:{},attachments:[],notes:'',quantity:1});
@@ -10,10 +10,11 @@ export interface BasketItem { id:string; productId?:string; custom?:Personalizat
 export function validateCustomization(productId:string, custom:Personalization):string[] {
   const product=productById(productId);
   if(!product) return ['המוצר לא נמצא'];
+  if(!isListedProduct(product)) return ['هذا المنتج لم يعد معروضًا في الكتالوج. اختاروا منتجًا من المجموعة الحالية.'];
   const errors:string[]=[];
   if(!Number.isInteger(custom.quantity)||custom.quantity<1||custom.quantity>999) errors.push('יש להזין כמות של 1 עד 999');
   for(const field of productFields(product)) if(field.required&&!custom.options[field.key]) errors.push(`יש לבחור ${field.label}`);
-  if(custom.options.model==='דגם אחר'&&!custom.options.modelOther?.trim()) errors.push('יש לציין את דגם הטלפון המדויק');
+  if(productFields(product).some(field=>field.key==='model')&&custom.options.model==='דגם אחר'&&!custom.options.modelOther?.trim()) errors.push('יש לציין את דגם הטלפון המדויק');
   if(custom.name.length>70||custom.text.length>300) errors.push('יש לקצר את ההקדשה');
   return errors;
 }
@@ -33,7 +34,7 @@ export function customizationLines(productId:string,c:Personalization,locale:Loc
     tr('מוצר: {0}',[tr(product.title)]),tr('כמות: {0}',[c.quantity]),
     ...(c.name?[`${tr(personalizationNameLabel(product))}: ${c.name}`]:[]),...(c.text?[tr('הקדשה: {0}',[c.text])]:[]),
     ...Object.entries(c.options).filter(([,v])=>v).map(([k,v])=>`${tr(optionLabels[k]|| (k==='modelOther'?'דגם מדויק':k))}: ${k==='modelOther'?v:tr(v)}`),
-    tr('סגנון: {0}',[tr(c.template)]),tr('גופן: {0}',[c.font==='Heebo'?tr('מודרני'):c.font]),tr('צבע טקסט: {0}',[c.color]),tr('גוון מבוקש: {0}',[c.productColor]),
+    tr('גופן: {0}',[c.font==='Heebo'?tr('מודרני'):c.font]),tr('צבע טקסט: {0}',[c.color]),
     tr('מיקום טקסט: {0}% / {1}%, גודל: {2}%',[c.x,c.y,c.scale]),
     ...(c.attachments.length?[tr('קבצים לצירוף ידני ב-WhatsApp: {0}',[c.attachments.map(a=>a.name).join(', ')]),tr('מיקום תמונה: {0}% / {1}%, קנה מידה: {2}%',[c.imageX,c.imageY,c.imageScale])]:[]),
     ...(c.notes?[tr('הערות: {0}',[c.notes])]:[]),

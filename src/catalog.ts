@@ -1,6 +1,7 @@
 import { quoteMugs } from './quote-mugs';
 import { stanleyBottles } from './stanley-bottles';
 import { readyMugs } from './ready-mugs';
+import { countryCandles } from './country-candles';
 import { additionalCategories, additionalProducts, productAssignments, readyProductIds } from './catalog-update';
 export const studio = {
   name: 'BRAA GRAPHIX', tagline: 'INSPIRE AND CAPTIVATE',
@@ -67,10 +68,11 @@ const legacyProducts: Product[] = legacyCategories.flatMap(category=>seeds[categ
   description: `${category.description} בוחרים את הסגנון, מוסיפים הקדשה ויחד עם הסטודיו הופכים את הרעיון למתנה אישית.`,
   price:null,isNew:index===0||index===2,occasion:occasionFor(title),
 })));
-// Preserve historical IDs for saved drafts, favorites, and inquiry baskets.
-export const allProducts: Product[] = [...legacyProducts, ...additionalProducts, ...quoteMugs, ...stanleyBottles, ...readyMugs];
-export const products = allProducts.filter(product => product.catalogCategoryIds.length > 0);
-export const featuredIds = ['mugs-1','stationery-1','candles-1','boxes-1'];
+// Keep old metadata for saved drafts; only supplied products are publicly listed.
+export const allProducts: Product[] = [...legacyProducts, ...additionalProducts, ...quoteMugs, ...stanleyBottles, ...readyMugs, ...countryCandles];
+export const isListedProduct = (product: Product | undefined): boolean => product?.imageKind === 'provided' && product.catalogCategoryIds.length > 0;
+export const products = allProducts.filter(isListedProduct);
+export const featuredIds = ['quote-mug-01','ready-mug-03','stanley-bottle-02','country-candle-01'];
 export const categoryById = (id: string) => categories.find(c=>c.id===id);
 export const productById = (id: string) => allProducts.find(p=>p.id===id);
 export const imagePath = (name: string) => `/images/${/\.(webp|jpe?g|png)$/i.test(name) ? name : name + '.webp'}`;

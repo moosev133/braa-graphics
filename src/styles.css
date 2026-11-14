@@ -104,3 +104,8 @@ label{display:block;font-size:12px;font-weight:500;line-height:1.7}input:not([ty
 }
 
 .provided-product-thumbnail{display:block;width:100%;aspect-ratio:1;object-fit:contain;border-radius:10px}
+
+.category-placeholder{display:block;margin:auto;align-self:center;color:var(--plum)}
+.category-image:has(.category-placeholder){display:flex;align-items:center;justify-content:center}
+.product-image img{object-fit:contain}
+.promo-image img{object-fit:contain}

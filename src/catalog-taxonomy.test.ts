@@ -5,26 +5,23 @@ import { blankPersonalization, customizationLines, filterProducts } from './orde
 import { translate } from './i18n';
 
 describe('nested catalog browsing', () => {
-  it('shows all printing descendants, then only the requested branch or product type', () => {
-    const browse = (category: string) => filterProducts(products,'',category,'',false).map(p => p.id);
+  it('shows all supplied cups and candles, then only the chosen subcategory', () => {
+    const browse = (category: string) => filterProducts(products,'',category,'',false);
+    expect(browse('mugs')).toHaveLength(26);
+    expect(browse('mugs-quotes')).toHaveLength(13);
+    expect(browse('mugs-ready')).toHaveLength(8);
+    expect(browse('mugs-stanley')).toHaveLength(5);
+    expect(browse('candles')).toEqual(browse('candles-country'));
+    expect(browse('candles-country')).toHaveLength(9);
+    expect(browse('printing')).toEqual([]);
+    expect(browse('mugs-printing')).toEqual([]);
     expect(catalogChildren('printing').map(node => node.id)).toEqual(['printing-boards','printing-paper','printing-products']);
-    for (const branch of catalogChildren('printing')) {
-      expect(browse(branch.id).length).toBeGreaterThan(0);
-      expect(browse('printing')).toEqual(expect.arrayContaining(browse(branch.id)));
-    }
-    expect(browse('board-wood')).toEqual(['boards-wood-1']);
-    expect(browse('printing-boards')).toContain('prints-2');
-    expect(browse('printing-paper')).not.toContain('prints-2');
-    expect(browse('product-phone-cases')).toEqual(['cases-1','cases-2','cases-3','cases-4','cases-5']);
-    expect(browse('printing')).toContain('stationery-1');
-    expect(browse('printing').filter(id => id === 'stationery-1')).toHaveLength(1);
   });
-  it('keeps ready-made mugs and notebooks separate from customizable products', () => {
-    expect(inCatalogCategory(productById('mugs-1')!, 'mugs-ready')).toBe(false);
-    expect(inCatalogCategory(productById('mugs-6')!, 'mugs-ready')).toBe(true);
-    expect(inCatalogCategory(productById('notebooks-ready-1')!, 'notebooks-ready')).toBe(true);
-    expect(inCatalogCategory(productById('stationery-1')!, 'notebooks-custom')).toBe(true);
-    expect(inCatalogCategory(productById('stationery-1')!, 'notebooks-ready')).toBe(false);
+  it('keeps the three supplied cup collections separate', () => {
+    expect(inCatalogCategory(productById('quote-mug-01')!, 'mugs-ready')).toBe(false);
+    expect(inCatalogCategory(productById('ready-mug-01')!, 'mugs-ready')).toBe(true);
+    expect(inCatalogCategory(productById('stanley-bottle-01')!, 'mugs-stanley')).toBe(true);
+    expect(inCatalogCategory(productById('stanley-bottle-01')!, 'mugs-quotes')).toBe(false);
   });
   it('supports direct links, ancestor breadcrumbs, and old category links', () => {
     expect(catalogPath('board-wood')).toBe('/category/printing/boards/wood');
@@ -35,10 +32,11 @@ describe('nested catalog browsing', () => {
     for (const invalid of ['printing/wood','mugs/boards','printing/boards/nope','unknown']) expect(resolveCatalogPath(invalid)).toBeUndefined();
     expect(new Set(catalogCategories.map(node => catalogPath(node.id))).size).toBe(catalogCategories.length);
   });
-  it('populates every category in the supplied list with no orphaned assignments', () => {
+  it('retains the requested category hierarchy without orphaned product assignments', () => {
     expect(catalogRoots).toHaveLength(11);
     expect(catalogChildren('printing-products')).toHaveLength(14);
-    for (const category of catalogCategories) expect(products.some(p => inCatalogCategory(p,category.id)), category.id).toBe(true);
+    expect(catalogCategories).toHaveLength(49);
+    expect(products.every(p => p.imageKind === 'provided')).toBe(true);
     for (const p of products) for (const id of p.catalogCategoryIds) expect(catalogCategories.some(node => node.id === id), id).toBe(true);
   });
   it('translates and searches new categories and products in all three languages', () => {
@@ -50,7 +48,7 @@ describe('nested catalog browsing', () => {
       if (locale === 'ar') expect(text,source).not.toMatch(/[\u0590-\u05ff]/);
       if (locale === 'he') expect(text,source).not.toMatch(/[\u0600-\u06ff]/);
     }
-    for (const locale of ['ar','he','en'] as const) expect(filterProducts(products,translate('طباعات على ألواح',locale),'','',false)).toContain(productById('boards-wood-1'));
+    for (const locale of ['ar','he','en'] as const) expect(filterProducts(products,translate('قناني ستانلي',locale),'','',false)).toContain(productById('stanley-bottle-01'));
   });
 });
 describe('saved products and ready-made personalization', () => {

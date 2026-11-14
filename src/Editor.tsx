@@ -1,26 +1,10 @@
 import { t, localizeError } from "./i18n";
 import { useEffect, useRef, useState, type PointerEvent } from 'react';
 import { ImagePlus, Move, RotateCcw, Trash2, ChevronDown, Plus, Minus } from 'lucide-react';
-import { categoryById, imagePath, phoneModels, productFields, supportsPhoto, isPackagingProduct, personalizationNameLabel, type Product } from './catalog';
+import { categoryById, imagePath, phoneModels, productFields, supportsPhoto, isListedProduct, isPackagingProduct, personalizationNameLabel, type Product } from './catalog';
 import { attachmentBlob, saveAttachment } from './storage';
 import { blankPersonalization, type Personalization } from './order';
 import { useStore } from './state';
-const colors = [{
-  value: '#FFF7EF',
-  name: 'קרם'
-}, {
-  value: '#F8C4D0',
-  name: 'ורוד'
-}, {
-  value: '#D4C9E7',
-  name: 'לבנדר'
-}, {
-  value: '#B9D9ED',
-  name: 'תכלת'
-}, {
-  value: '#E3C986',
-  name: 'חול'
-}];
 function useImage(id?: string) {
   const [url, setUrl] = useState('');
   useEffect(() => {
@@ -73,9 +57,10 @@ export function Preview({
       })
     });
   };
+  if (!isListedProduct(product)) return <p className="notice">{t('هذا المنتج لم يعد معروضًا في الكتالوج. اختاروا منتجًا من المجموعة الحالية.')}</p>;
   if (compact && product.imageKind === 'provided') return <div className="preview-wrap compact"><img className="provided-product-thumbnail" src={imagePath(product.image)} alt={t(product.title)} /></div>;
-  return <div className={`preview-wrap ${compact ? 'compact' : ''}`}><div className={`design-preview template-${value.template === 'פרחוני' ? 'floral' : value.template === 'חגיגי' ? 'party' : 'minimal'}`} ref={bounds} style={{
-      backgroundColor: value.productColor
+  return <div className={`preview-wrap ${compact ? 'compact' : ''}`}><div className="design-preview template-minimal" ref={bounds} style={{
+      backgroundColor: '#FFF7EF'
     }} onPointerMove={e => {
       if (drag) updatePosition(e);
     }} onPointerUp={() => setDrag(false)} onPointerCancel={() => setDrag(false)}>
@@ -105,7 +90,7 @@ export function Preview({
         setDrag(true);
         e.currentTarget.setPointerCapture(e.pointerId);
       }}>
-      <span className="preview-flourish">{value.template === 'פרחוני' ? '❋' : value.template === 'חגיגי' ? '✦' : ''}</span><b>{value.name || t('בדיוק בשבילך')}</b><small>{value.text || t('a little gift, a lot of love')}</small>
+      <b>{value.name || t('בדיוק בשבילך')}</b><small>{value.text || t('a little gift, a lot of love')}</small>
     </div><span className="preview-corner">{t("YOUR PERSONAL TOUCH")}</span>
   </div>{!compact && <><div className="preview-caption"><Move size={15} /><span>{onChange ? t('אפשר לגרור את הטקסט והתמונה, או להשתמש בבקרי המיקום') : t('תצוגת הבקשה האישית שלכם')}</span></div><p className="fine-print">{t("הדמיה רעיונית בלבד")}{isPackaging ? t(' של האריזה או כרטיס המתנה') : ''}{t(". מיקום ההדפסה, צבעים, אפשרויות ")}{t(category.short)}{t(" והעיצוב הסופי יאושרו עם הסטודיו.")}</p></>}</div>;
 }
@@ -166,12 +151,10 @@ export function CustomizationForm({
       setUploading(false);
     }
   }
-  return <div className="customization-form"><div className="form-row"><label>{t(personalizationNameLabel(product))}<input value={value.name} maxLength={70} placeholder={t("למשל, נועה")} onChange={e => set('name', e.target.value)} /></label><label>{t("סגנון עיצוב")}<select value={value.template} onChange={e => set('template', e.target.value)}><option value={"מינימליסטי"}>{t("מינימליסטי")}</option><option value={"פרחוני"}>{t("פרחוני")}</option><option value={"חגיגי"}>{t("חגיגי")}</option></select></label></div>
+  if (!isListedProduct(product)) return <p className="notice">{t('هذا المنتج لم يعد معروضًا في الكتالوج. اختاروا منتجًا من المجموعة الحالية.')}</p>;
+  return <div className="customization-form"><label>{t(personalizationNameLabel(product))}<input value={value.name} maxLength={70} placeholder={t("למשל, נועה")} onChange={e => set('name', e.target.value)} /></label>
     <label>{t("מילים מהלב ")}<span className="optional">{t("(לא חובה)")}</span><textarea rows={2} value={value.text} maxLength={300} placeholder={t("משהו קטן שיגרום לחיוך…")} onChange={e => set('text', e.target.value)} /></label>
     <div className="form-row">{productFields(product).map(field => <label key={field.key}>{t(field.label)}{field.required && <span aria-hidden="true"> *</span>}{field.type === 'select' ? <select required={field.required} value={value.options[field.key] || ''} onChange={e => updateOption(field.key, e.target.value)}><option value="">{t("בחרו אפשרות")}</option>{(field.key === 'model' ? phoneModels[value.options.brand] || [] : field.options || []).map(option => <option key={option} value={option}>{t(option)}</option>)}</select> : <input type={field.type} value={value.options[field.key] || ''} onChange={e => updateOption(field.key, e.target.value)} />}</label>)}{value.options.model === 'דגם אחר' && <label>{t("דגם הטלפון המדויק *")}<input required value={value.options.modelOther || ''} onChange={e => updateOption('modelOther', e.target.value)} placeholder={t("לדוגמה: שם הדגם המלא")} /></label>}</div>
-    <fieldset className="color-field"><legend>{t("גוון מבוקש ")}{isPackagingProduct(product) ? t('לאריזה') : t('למוצר')}</legend><div className="color-options">{colors.map(color => <button type="button" key={color.value} className={value.productColor === color.value ? 'active' : ''} style={{
-          backgroundColor: color.value
-        }} aria-label={t(color.name)} aria-pressed={value.productColor === color.value} onClick={() => set('productColor', color.value)} title={t(color.name)} />)}<span>{t(colors.find(c => c.value === value.productColor)?.name)}</span></div></fieldset>
     {supportsPhoto(product) && <><label className={`upload-area ${uploading ? 'disabled' : ''}`}><ImagePlus size={24} /><strong>{uploading ? t('שומרים את התמונה…') : t('הוסיפו תמונה או עיצוב משלכם')}</strong><span>{t("JPG, PNG, WebP · עד 10MB לתמונה · עד 10 תמונות")}</span><input type="file" accept="image/jpeg,image/png,image/webp" multiple disabled={uploading} onChange={e => {
           void upload(e.target.files);
           e.target.value = '';

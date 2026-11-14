@@ -2,7 +2,7 @@ import { t, useLocale } from './i18n';
 import { useMemo, useState } from 'react';
 import { Link, Navigate, useParams, useSearchParams } from 'react-router-dom';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
-import { allProducts, matchesRequestedOptions, occasions, productFields, products, type Field } from './catalog';
+import { matchesRequestedOptions, occasions, productFields, products, type Field } from './catalog';
 import { catalogCategories, catalogCategoryById, catalogChildren, catalogPath, catalogRoots, catalogTrail, inCatalogCategory, legacyCategoryIds, resolveCatalogPath } from './catalog-taxonomy';
 import { filterProducts } from './order';
 import { Breadcrumbs, EmptyState, PageHeading, ProductCard } from './components';
@@ -28,7 +28,7 @@ export default function Catalog({ favoritesOnly = false }: { favoritesOnly?: boo
     if (value) next.set(key, value); else next.delete(key);
     setParams(next, { replace: true });
   };
-  const source = favoritesOnly ? allProducts.filter(p => favorites.includes(p.id)) : products;
+  const source = favoritesOnly ? products.filter(p => favorites.includes(p.id)) : products;
   const categoryProducts = source.filter(p => inCatalogCategory(p, selectedCategory));
   const optionFilters = selectedNode ? Array.from(categoryProducts.reduce((fields, product) => {
     for (const field of productFields(product)) {
@@ -91,6 +91,6 @@ export default function Catalog({ favoritesOnly = false }: { favoritesOnly?: boo
     </div>}
     <div className="catalog-count" aria-live="polite"><span>{t('{0} منتجات', [visible.length])}</span><span>{t('התאמה אישית · מחיר וזמינות בתיאום')}</span></div>
     {visible.length ? <div className="product-grid catalog-grid">{visible.map(product => <ProductCard key={product.id} product={product} />)}</div> : <EmptyState title={favoritesOnly && !query ? t('עוד לא שמרתם משהו אהוב') : t('לא מצאנו בדיוק את זה')} description={favoritesOnly ? t('לחיצה על הלב ליד מוצר תשמור אותו כאן.') : t('נסו מילה אחרת או אפסו את המסננים.')} />}
-    <p className="catalog-disclaimer">{t('تعرّفوا على المنتجات والتصاميم من خلال الصور. الصور التوضيحية مميّزة بوضوح، ويؤكّد الاستوديو التفاصيل والأسعار والتوفّر قبل الطلب.')}</p>
+    <p className="catalog-disclaimer">{t('تعرّفوا على منتجاتنا من خلال الصور، ويؤكّد الاستوديو التفاصيل والأسعار والتوفّر قبل الطلب.')}</p>
   </div>;
 }

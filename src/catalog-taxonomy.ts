@@ -66,6 +66,16 @@ export const catalogCategories: CatalogCategory[] = [
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
+    "id": "candles-country",
+    "slug": "country-candles",
+    "title": "Country Candles",
+    "short": "Country Candles",
+    "image": "country-candles/01.jpg",
+    "color": "#FAE8CA",
+    "description": "اكتشفوا مجموعة Country Candles واختاروا شمعتكم المفضّلة.",
+    "parentId": "candles"
+  },
+  {
     "id": "handmade",
     "slug": "handmade",
     "title": "إكسسوارات هاند ميد",

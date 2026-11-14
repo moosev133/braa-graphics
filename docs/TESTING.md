@@ -107,3 +107,11 @@ Verified the restored cream background, plum text, blush announcement bar and pi
 - All 30 tests pass. Shared supplied-photo checks now cover the quote mugs, Stanley tumblers, and ready-made cups, including category membership, image integrity, photo-first product pages and translated inquiry details. The two existing ready-made cup entries remain in the same collection.
 - Static React rendering confirms ten cards in Ready-made cups, including all eight new photos. Only the two earlier illustrative entries have illustration labels.
 - Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings. The existing design, palette, languages, product IDs and other collections are preserved.
+
+## Country Candles and supplied products only — November 15, 2026
+
+- Added nine original Country Candle JPEGs under `/category/candles/country-candles`. The catalog now publicly lists exactly 35 supplied products, and all 19 generated photo files have been removed from deployable assets.
+- All 37 tests pass. Static React rendering covers the homepage, catalog, category pages, gift builder and all 35 product pages; every rendered product photo belongs to the supplied-photo set and exists on disk. The social-sharing image also uses a supplied photo.
+- Archived demo product URLs and favorites no longer expose product cards or photos. Previously saved demo baskets and gifts retain customer text, display unavailable notices, and cannot be submitted as new requests. Existing category hierarchy and stored identifiers remain readable.
+- Arabic, Hebrew and English forms and inquiry text identify the gift-card name as the sender. Design-style and wrapping-color controls are absent, their old values are excluded from inquiries, and the gift-card preview ignores those old values.
+- Production build succeeds. Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings. The established cream, pink and plum palette is preserved; no message was sent through WhatsApp.
