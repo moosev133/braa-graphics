@@ -6,7 +6,7 @@ import { blankGift, blankPersonalization, filterProducts, giftErrors, inquiryMes
 describe('catalog and product rules',()=>{
   it('covers the updated catalog with unique routable products and optional prices',()=>{
     expect(catalogRoots).toHaveLength(12);expect(new Set(products.map(p=>p.id)).size).toBe(products.length);
-    expect(products).toHaveLength(44);
+    expect(products).toHaveLength(53);
     expect(catalogRoots.filter(category=>products.some(p=>inCatalogCategory(p,category.id))).map(c=>c.id)).toEqual(['mugs','mugs-stanley','candles']);
     expect(allProducts.length).toBeGreaterThan(products.length);
     expect(products.every(p=>p.price===null)).toBe(true);

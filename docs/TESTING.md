@@ -122,3 +122,9 @@ Verified the restored cream background, plum text, blush announcement bar and pi
 - Promoted قناني ستانلي to its own main category at `/category/stanley`, outside Cups. Its five product IDs and internal category ID remain unchanged. The former `/category/mugs/stanley` path resolves to the same category and redirects to the canonical path, retaining query parameters.
 - All 41 tests pass. Checks cover original-image integrity, category counts and isolation, standalone Stanley ancestry, legacy path resolution, multilingual copy and inquiry details, public-page rendering, and continued absence of demo photos and removed gift-card controls.
 - Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings. The existing layout, palette and personalization behavior are preserved.
+
+## Nine more ready-made cups — November 15, 2026
+
+- Added nine original supplied JPEGs as `ready-mug-09` through `ready-mug-17` under `/category/mugs/ready`. The collection contains 17 products, the parent Cups category contains 30, and the public catalog contains 53 supplied products. Existing products and the standalone Stanley category are preserved.
+- All 41 tests pass. Existing collection checks cover all 17 ready-made cups, byte-for-byte image integrity, collection and product-page rendering, category isolation, multilingual names and inquiry details, and the absence of demo images and removed personalization controls.
+- Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings. Existing layout and styling are unchanged.

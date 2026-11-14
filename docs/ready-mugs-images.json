@@ -54,5 +54,68 @@
     "sourceFile": "8-Photo-8.jpg",
     "file": "public/images/ready-mugs/08.jpg",
     "sha256": "51e73e80187faab210e88151b20de7e9e7e97a5a3bfc374e2ca8c6340c029497"
+  },
+  {
+    "photo": 1,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "1-Photo-1.jpg",
+    "file": "public/images/ready-mugs/09.jpg",
+    "sha256": "26fb727b3c7bb44b86a9aac9fe21d5e90f6b848360861665eb851ba31ccea0ca"
+  },
+  {
+    "photo": 2,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "2-Photo-2.jpg",
+    "file": "public/images/ready-mugs/10.jpg",
+    "sha256": "e3f14d0ec90a5d6f2751a58c6a986cc7da23c4253196427c578127fefa6e990e"
+  },
+  {
+    "photo": 3,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "3-Photo-3.jpg",
+    "file": "public/images/ready-mugs/11.jpg",
+    "sha256": "cc2ef596e0023f88b20911c5406789b3242c8892bf011fa5ecf3e964dafd14a1"
+  },
+  {
+    "photo": 4,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "4-Photo-4.jpg",
+    "file": "public/images/ready-mugs/12.jpg",
+    "sha256": "f152093d1c50c05d7579c2518d88d81a7484fb14b1b077f3b3f71aadf89a8b56"
+  },
+  {
+    "photo": 5,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "5-Photo-5.jpg",
+    "file": "public/images/ready-mugs/13.jpg",
+    "sha256": "398bc95a45f0b452c7e927f762031eda5831abc5628205b4440d6c900f7c7abe"
+  },
+  {
+    "photo": 6,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "6-Photo-6.jpg",
+    "file": "public/images/ready-mugs/14.jpg",
+    "sha256": "cc36083f4647dfc246212f6ccc8050948b4d4b2e24ce641ab7ba28528bfd9696"
+  },
+  {
+    "photo": 7,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "7-Photo-7.jpg",
+    "file": "public/images/ready-mugs/15.jpg",
+    "sha256": "a790f0ad26ba7c50ca03b6ac2e6cd51d7db11d2616ef35f8a691b92e91a842eb"
+  },
+  {
+    "photo": 8,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "8-Photo-8.jpg",
+    "file": "public/images/ready-mugs/16.jpg",
+    "sha256": "5b2f3ed72ff75eec28d0924b9f67f57f67b348ce0df0476ce2e8c90415e29253"
+  },
+  {
+    "photo": 9,
+    "sourceBatch": "86C508F0-9FB9-4292-9E88-5AFC262ED5FF",
+    "sourceFile": "9-Photo-9.jpg",
+    "file": "public/images/ready-mugs/17.jpg",
+    "sha256": "ad9bc2f1592146f2c1188f546a7c77ea99c84398129210bc95bcbc364e66ae05"
   }
 ]

@@ -7,9 +7,9 @@ import { translate } from './i18n';
 describe('nested catalog browsing', () => {
   it('shows all supplied cups and candles, then only the chosen subcategory', () => {
     const browse = (category: string) => filterProducts(products,'',category,'',false);
-    expect(browse('mugs')).toHaveLength(21);
+    expect(browse('mugs')).toHaveLength(30);
     expect(browse('mugs-quotes')).toHaveLength(13);
-    expect(browse('mugs-ready')).toHaveLength(8);
+    expect(browse('mugs-ready')).toHaveLength(17);
     expect(browse('mugs-stanley')).toHaveLength(5);
     expect(browse('candles')).toHaveLength(18);
     expect(browse('candles')).toEqual([...browse('candles-country'),...browse('candles-crossroads')]);

@@ -35,9 +35,9 @@ function imageSources(html) {
 const allowedImages = new Set(products.map(p => '/images/'+p.image));
 
 describe('real product catalog and simplified card fields', () => {
-  it('ships only the 44 supplied photos and renders no demo images across public pages', () => {
+  it('ships only the 53 supplied photos and renders no demo images across public pages', () => {
     const files = readdirSync('public/images',{recursive:true}).filter(file => /\.(jpg|webp|png)$/i.test(file));
-    expect(files).toHaveLength(44);
+    expect(files).toHaveLength(53);
     const metadata=readFileSync('index.html','utf8');
     expect(metadata).toContain('/images/ready-mugs/03.jpg');
     expect(metadata).not.toContain('.webp');

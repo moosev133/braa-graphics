@@ -129,5 +129,149 @@ export const readyMugs: Product[] = [
     "isNew": true,
     "occasion": "סתם כי אוהבים",
     "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-09",
+    "title": "كوب فراولة ورايات بمقبض وردي",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 8,
+    "image": "ready-mugs/09.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-10",
+    "title": "كوب فراشة زرقاء Beautiful",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 9,
+    "image": "ready-mugs/10.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-11",
+    "title": "كوب زهور زرقاء Lily of the Valley",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 10,
+    "image": "ready-mugs/11.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-12",
+    "title": "كوب وصحن بنقشة الكرز والزهور",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 11,
+    "image": "ready-mugs/12.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-13",
+    "title": "كوب وصحن بزهور صفراء وحافة زرقاء",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 12,
+    "image": "ready-mugs/13.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-14",
+    "title": "كوب نجوم ونقاط بمقبض خرزي سماوي",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 13,
+    "image": "ready-mugs/14.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-15",
+    "title": "كوب فيونكة زرقاء بمقبض قلب",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 14,
+    "image": "ready-mugs/15.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-16",
+    "title": "كوب فيونكة حمراء بمقبض قلب",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 15,
+    "image": "ready-mugs/16.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
+  },
+  {
+    "id": "ready-mug-17",
+    "title": "كوب زجاجي قهوة وصحبة حلوة",
+    "category": "mugs",
+    "catalogCategoryIds": [
+      "mugs-ready"
+    ],
+    "index": 16,
+    "image": "ready-mugs/17.jpg",
+    "imageKind": "provided",
+    "description": "كوب بالتصميم الظاهر في الصورة. يمكن إضافة إهداء إلى بطاقة الهدية أو التغليف، ويؤكّد الاستوديو السعر والتوفّر قبل الطلب.",
+    "price": null,
+    "isNew": true,
+    "occasion": "סתם כי אוהבים",
+    "personalizationTarget": "packaging"
   }
 ];
