@@ -1,0 +1,65 @@
+[
+  {
+    "photo": 1,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "1-Photo-1.jpg",
+    "file": "public/images/crossroads-candles/01.jpg",
+    "sha256": "d5008d24c9ab45a56411a61b1b51776293f943754b71d1971b09327699bd3b8f"
+  },
+  {
+    "photo": 2,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "2-Photo-2.jpg",
+    "file": "public/images/crossroads-candles/02.jpg",
+    "sha256": "c62299348dfeef70c7efde4b1243dcd31c2784a19ef5af8367882f85aee9c6a2"
+  },
+  {
+    "photo": 3,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "3-Photo-3.jpg",
+    "file": "public/images/crossroads-candles/03.jpg",
+    "sha256": "7896e38b68bf6c2e8a0d5327119012522b41d99e2e6d9784beafbeab7ef9514e"
+  },
+  {
+    "photo": 4,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "4-Photo-4.jpg",
+    "file": "public/images/crossroads-candles/04.jpg",
+    "sha256": "6789f35db185baf4211f2f540d46905a7f9950c7ecef61020d6d9c07f4523465"
+  },
+  {
+    "photo": 5,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "5-Photo-5.jpg",
+    "file": "public/images/crossroads-candles/05.jpg",
+    "sha256": "51bee026dadb77021e1829630cc0079dfb2527f9347c26a9de6b32ed1947c306"
+  },
+  {
+    "photo": 6,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "6-Photo-6.jpg",
+    "file": "public/images/crossroads-candles/06.jpg",
+    "sha256": "6e77d0a9b56c53e7032988a4af8cda87293e12940dbb852470a2ae2d2d1cd676"
+  },
+  {
+    "photo": 7,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "7-Photo-7.jpg",
+    "file": "public/images/crossroads-candles/07.jpg",
+    "sha256": "e5d1c5b72420c19f06b6ba910bad7961a100f8858fb61c4a3c85acb26f13aaab"
+  },
+  {
+    "photo": 8,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "8-Photo-8.jpg",
+    "file": "public/images/crossroads-candles/08.jpg",
+    "sha256": "b7c8ed0648961b9faea976109dfbc21b9d96adedc9da88e76aa262245efe12fc"
+  },
+  {
+    "photo": 9,
+    "sourceBatch": "2F6A2F96-627F-4CF1-897D-BBF82F56DDC9",
+    "sourceFile": "9-Photo-9.jpg",
+    "file": "public/images/crossroads-candles/09.jpg",
+    "sha256": "9e664a1aeda41261558f09960fc857ac17e02f1f040e70fadde50cf3e46f8f14"
+  }
+]

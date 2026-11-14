@@ -35,14 +35,14 @@ function imageSources(html) {
 const allowedImages = new Set(products.map(p => '/images/'+p.image));
 
 describe('real product catalog and simplified card fields', () => {
-  it('ships only the 35 supplied photos and renders no demo images across public pages', () => {
+  it('ships only the 44 supplied photos and renders no demo images across public pages', () => {
     const files = readdirSync('public/images',{recursive:true}).filter(file => /\.(jpg|webp|png)$/i.test(file));
-    expect(files).toHaveLength(35);
+    expect(files).toHaveLength(44);
     const metadata=readFileSync('index.html','utf8');
     expect(metadata).toContain('/images/ready-mugs/03.jpg');
     expect(metadata).not.toContain('.webp');
     expect(files.every(file => allowedImages.has('/images/'+file))).toBe(true);
-    for (const path of ['/', '/catalog', '/category/mugs', '/category/candles', '/category/printing', '/gift-builder', ...products.map(p => '/product/'+p.id)]) {
+    for (const path of ['/', '/catalog', '/category/mugs', '/category/candles', '/category/candles/crossroads-candles', '/category/stanley', '/category/printing', '/gift-builder', ...products.map(p => '/product/'+p.id)]) {
       const html = renderPage(path);
       for (const src of imageSources(html)) {
         expect(allowedImages.has(src),path+': '+src).toBe(true);
@@ -56,6 +56,21 @@ describe('real product catalog and simplified card fields', () => {
     expect(html).toContain('/product/ready-mug-01');
     expect(html).not.toContain('/product/mugs-1');
     expect(imageSources(renderPage('/product/mugs-1'))).toEqual([]);
+  });
+  it('presents Stanley as a main category across browsing, breadcrumbs and gift selection', () => {
+    setLocale('ar');
+    expect(renderPage('/')).toContain('href="/category/stanley"');
+    const cups=renderPage('/category/mugs');
+    expect(cups).not.toContain('/product/stanley-bottle-');
+    const stanley=renderPage('/category/stanley');
+    expect((stanley.match(/class="product-card"/g) || []).length).toBe(5);
+    const page=renderPage('/product/stanley-bottle-01');
+    expect(page).toContain('href="/category/stanley"');
+    expect(page).not.toContain('href="/category/mugs"');
+    const gift=renderPage('/gift-builder',{'gift-builder':{...blankGift(),step:2}});
+    expect(gift).toContain('value="mugs-stanley">قناني ستانلي</option>');
+    const favorites=renderPage('/favorites',{favorites:['stanley-bottle-01']});
+    expect(favorites).toContain('/product/stanley-bottle-01');
   });
   it('renders saved demo items without their images and blocks old gift requests', () => {
     const custom={...blankPersonalization(),name:'نور & Alex',text:'Saved message'};

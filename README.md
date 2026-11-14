@@ -25,7 +25,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 
 ## Included
 
-- 11 main categories and 49 browsable category nodes, with All/subcategory navigation at every level. Only the 35 products with supplied photos are publicly listed. Historical demo metadata remains available for old saved drafts and baskets, with no photos or ordering; empty categories retain their structure.
+- 12 main categories and 50 browsable category nodes, with All/subcategory navigation at every level. Only the 44 products with supplied photos are publicly listed. Historical demo metadata remains available for old saved drafts and baskets, with no photos or ordering; empty categories retain their structure.
 - Original cream, blush pink and plum palette, preserving the established layout and English wordmark. Keep these colors until the owner supplies the replacement palette.
 - Arabic by default, with Arabic / Hebrew / English language selectors in desktop navigation, the mobile announcement bar, and the mobile menu. Choice persists on this browser.
 - Automatic RTL/LTR layout, local Tajawal / Heebo fonts, keyboard controls and reduced-motion support.
@@ -38,7 +38,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 - Saved browser-local drafts, gift contents and inquiry basket.
 - Reviewable WhatsApp message with reference, product details, gift contents, greeting, quantities, options and attachment reminders. Long requests can be copied or downloaded without truncation.
 - Graphic design services, portfolio placeholder, about, contact and privacy information.
-- 35 user-supplied JPEGs in Cups → Quote mugs (13), Cups → Stanley tumblers (5), Cups → Ready-made cups (8), and Candles → Country Candles (9), preserved unchanged and displayed on individual product pages.
+- 44 user-supplied JPEGs in Cups → Quote mugs (13), Stanley tumblers (5), Cups → Ready-made cups (8), Candles → Country Candles (9), and Candles → CrossRoads Candles (9), preserved unchanged and displayed on individual product pages.
 - Generated demo photos removed from the published assets. Home, category covers, promotions, product listings and gift-builder photos use supplied images only.
 
 ## Configuration and source map
@@ -66,7 +66,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 
 The original brief and November 4 catalog screenshot define the current content. The current text wordmark is a temporary identifier, not a recreation of the official logo. Supply the real logo in `public/images/` and set `studio.logo` in `src/catalog.ts` to its root-relative path. Supply the brand introduction post and real product photographs for final visual reconciliation.
 
-The public catalog contains 35 supplied products across four collections. Earlier seed concepts are archived and cannot be opened as product pages or submitted as new inquiries. Previously saved demo drafts show an unavailable notice without deleting customer text. Confirm the actual offered products, compatibility, supported customization, dimensions, scents, finishes and fulfillment terms before presenting them as available stock. `Product.price` is nullable; enter real prices only after confirmation. `studio.productionTime` is also nullable. Product-specific field overrides live in `productFields()`.
+The public catalog contains 44 supplied products across five collections. Earlier seed concepts are archived and cannot be opened as product pages or submitted as new inquiries. Previously saved demo drafts show an unavailable notice without deleting customer text. Confirm the actual offered products, compatibility, supported customization, dimensions, scents, finishes and fulfillment terms before presenting them as available stock. `Product.price` is nullable; enter real prices only after confirmation. `studio.productionTime` is also nullable. Product-specific field overrides live in `productFields()`.
 
 Current supplied products offer gift-card personalization. The name field explicitly identifies the sender in Arabic, Hebrew and English. Stored template/wrapping-color values are retained for compatibility but ignored by the preview and excluded from inquiry messages.
 
@@ -105,4 +105,4 @@ Keep the typed `Product`, `Personalization`, `GiftDraft`, and `BasketItem` shape
 
 ## Assets and licensing
 
-The 19 earlier generated photos have been removed from published assets and remain only in Git history. The 13 quote-mug, five Stanley tumbler, eight ready-made cup, and nine Country Candle photographs were supplied by the user and copied unchanged; see `docs/QUOTE-MUGS.md`, `docs/STANLEY-BOTTLES.md`, and `docs/READY-MUGS.md`, and `docs/COUNTRY-CANDLES.md` for their mapping and checksums. Exact prompts are in `docs/ASSET-PROMPTS.md` and `docs/CATALOG-ASSETS.md`. Heebo and Tajawal are bundled under the SIL Open Font License in `public/fonts/OFL.txt` and `public/fonts/Tajawal-OFL.txt`. Lucide icons are distributed with their package license. Competitor websites informed interaction patterns only; their content, code and assets were not copied.
+The 19 earlier generated photos have been removed from published assets and remain only in Git history. The 13 quote-mug, five Stanley tumbler, eight ready-made cup, nine Country Candle, and nine CrossRoads Candle photographs were supplied by the user and copied unchanged; see `docs/QUOTE-MUGS.md`, `docs/STANLEY-BOTTLES.md`, `docs/READY-MUGS.md`, `docs/COUNTRY-CANDLES.md`, and `docs/CROSSROADS-CANDLES.md` for their mapping and checksums. Exact prompts are in `docs/ASSET-PROMPTS.md` and `docs/CATALOG-ASSETS.md`. Heebo and Tajawal are bundled under the SIL Open Font License in `public/fonts/OFL.txt` and `public/fonts/Tajawal-OFL.txt`. Lucide icons are distributed with their package license. Competitor websites informed interaction patterns only; their content, code and assets were not copied.

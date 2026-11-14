@@ -9,7 +9,7 @@ const slides = [
   { label:'A LITTLE LIGHT. A LOT OF JOY.', title:'دفء ولحظات جميلة.', text:'شموع Country Candles', image:'country-candles/01.jpg', to:'/category/candles/country-candles', button:'اكتشفوا الشموع', color:'#EAE2F3' },
   { label:'YOUR EVERYDAY FAVORITES.', title:'تصاميم ترافق يومكم.', text:'اختاروا من منتجاتنا وأضيفوا إهداءً لمن تحبّون.', image:'ready-mugs/01.jpg', to:'/category/mugs/ready', button:'اكتشفوا الأكواب الجاهزة', color:'#F6E2E5' },
   { label:'WORDS TO MAKE YOU SMILE.', title:'كلمة جميلة مع كل رشفة.', text:'اختاروا من منتجاتنا وأضيفوا إهداءً لمن تحبّون.', image:'quote-mugs/06.jpg', to:'/category/mugs/quotes', button:'اكتشفوا أكواب جمل', color:'#F3E6D6' },
-  { label:'A LITTLE COLOR, EVERY DAY.', title:'قناني ستانلي بألوان تحبّونها.', text:'اختاروا من منتجاتنا وأضيفوا إهداءً لمن تحبّون.', image:'stanley-bottles/03.jpg', to:'/category/mugs/stanley', button:'اكتشفوا قناني ستانلي', color:'#FAEBD4' }
+  { label:'A LITTLE COLOR, EVERY DAY.', title:'قناني ستانلي بألوان تحبّونها.', text:'اختاروا من منتجاتنا وأضيفوا إهداءً لمن تحبّون.', image:'stanley-bottles/03.jpg', to:'/category/stanley', button:'اكتشفوا قناني ستانلي', color:'#FAEBD4' }
 ];
 function Promotions() {
   const [index, setIndex] = useState(0);

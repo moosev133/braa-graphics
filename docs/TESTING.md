@@ -115,3 +115,10 @@ Verified the restored cream background, plum text, blush announcement bar and pi
 - Archived demo product URLs and favorites no longer expose product cards or photos. Previously saved demo baskets and gifts retain customer text, display unavailable notices, and cannot be submitted as new requests. Existing category hierarchy and stored identifiers remain readable.
 - Arabic, Hebrew and English forms and inquiry text identify the gift-card name as the sender. Design-style and wrapping-color controls are absent, their old values are excluded from inquiries, and the gift-card preview ignores those old values.
 - Production build succeeds. Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings. The established cream, pink and plum palette is preserved; no message was sent through WhatsApp.
+
+## CrossRoads Candles and standalone Stanley category — November 15, 2026
+
+- Added nine original supplied CrossRoads Candle photos under `/category/candles/crossroads-candles`. Candles “All” contains 18 products: nine Country Candles and nine CrossRoads Candles. The public catalog contains 44 supplied products, with no generated product images.
+- Promoted قناني ستانلي to its own main category at `/category/stanley`, outside Cups. Its five product IDs and internal category ID remain unchanged. The former `/category/mugs/stanley` path resolves to the same category and redirects to the canonical path, retaining query parameters.
+- All 41 tests pass. Checks cover original-image integrity, category counts and isolation, standalone Stanley ancestry, legacy path resolution, multilingual copy and inquiry details, public-page rendering, and continued absence of demo photos and removed gift-card controls.
+- Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings. The existing layout, palette and personalization behavior are preserved.

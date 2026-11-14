@@ -12,6 +12,15 @@ export const catalogCategories: CatalogCategory[] = [
     "description": "اختاروا ما يناسبكم وأضيفوا لمستكم الخاصة."
   },
   {
+    "id": "mugs-stanley",
+    "slug": "stanley",
+    "title": "قناني ستانلي",
+    "short": "قناني ستانلي",
+    "image": "stanley-bottles/01.jpg",
+    "color": "#F5DEE4",
+    "description": "خمسة تصاميم بألوان هادئة وتفاصيل جميلة. اختاروا تصميمكم المفضّل."
+  },
+  {
     "id": "albums",
     "slug": "albums",
     "title": "ألبومات الصور",
@@ -73,6 +82,16 @@ export const catalogCategories: CatalogCategory[] = [
     "image": "country-candles/01.jpg",
     "color": "#FAE8CA",
     "description": "اكتشفوا مجموعة Country Candles واختاروا شمعتكم المفضّلة.",
+    "parentId": "candles"
+  },
+  {
+    "id": "candles-crossroads",
+    "slug": "crossroads-candles",
+    "title": "CrossRoads Candles",
+    "short": "CrossRoads Candles",
+    "image": "crossroads-candles/01.jpg",
+    "color": "#FAE8CA",
+    "description": "اكتشفوا مجموعة CrossRoads Candles واختاروا شمعتكم المفضّلة.",
     "parentId": "candles"
   },
   {
@@ -139,16 +158,6 @@ export const catalogCategories: CatalogCategory[] = [
     "image": "quote-mugs/01.jpg",
     "color": "#F5DEE4",
     "description": "كلمة تضحككم، عبارة تلهمكم، وكوب يرافق يومكم. اختاروا من 13 تصميمًا.",
-    "parentId": "mugs"
-  },
-  {
-    "id": "mugs-stanley",
-    "slug": "stanley",
-    "title": "قناني ستانلي",
-    "short": "قناني ستانلي",
-    "image": "stanley-bottles/01.jpg",
-    "color": "#F5DEE4",
-    "description": "خمسة تصاميم بألوان هادئة وتفاصيل جميلة. اختاروا تصميمكم المفضّل.",
     "parentId": "mugs"
   },
   {
@@ -491,6 +500,7 @@ export function catalogTrail(id: string): CatalogCategory[] {
 }
 export const catalogPath = (id: string) => '/category/' + catalogTrail(id).map(category => category.slug).join('/');
 export const legacyCategoryIds: Record<string,string> = {
+  'mugs/stanley':'mugs-stanley',
   stationery:'notebooks', prints:'frames', jewelry:'handmade', beauty:'candles',
   cases:'product-phone-cases', clothing:'product-clothing', events:'paper-favors', boxes:'paper-gift-boxes',
 };

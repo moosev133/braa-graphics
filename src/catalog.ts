@@ -2,6 +2,7 @@ import { quoteMugs } from './quote-mugs';
 import { stanleyBottles } from './stanley-bottles';
 import { readyMugs } from './ready-mugs';
 import { countryCandles } from './country-candles';
+import { crossroadsCandles } from './crossroads-candles';
 import { additionalCategories, additionalProducts, productAssignments, readyProductIds } from './catalog-update';
 export const studio = {
   name: 'BRAA GRAPHIX', tagline: 'INSPIRE AND CAPTIVATE',
@@ -69,7 +70,7 @@ const legacyProducts: Product[] = legacyCategories.flatMap(category=>seeds[categ
   price:null,isNew:index===0||index===2,occasion:occasionFor(title),
 })));
 // Keep old metadata for saved drafts; only supplied products are publicly listed.
-export const allProducts: Product[] = [...legacyProducts, ...additionalProducts, ...quoteMugs, ...stanleyBottles, ...readyMugs, ...countryCandles];
+export const allProducts: Product[] = [...legacyProducts, ...additionalProducts, ...quoteMugs, ...stanleyBottles, ...readyMugs, ...countryCandles, ...crossroadsCandles];
 export const isListedProduct = (product: Product | undefined): boolean => product?.imageKind === 'provided' && product.catalogCategoryIds.length > 0;
 export const products = allProducts.filter(isListedProduct);
 export const featuredIds = ['quote-mug-01','ready-mug-03','stanley-bottle-02','country-candle-01'];

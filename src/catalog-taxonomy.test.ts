@@ -7,23 +7,32 @@ import { translate } from './i18n';
 describe('nested catalog browsing', () => {
   it('shows all supplied cups and candles, then only the chosen subcategory', () => {
     const browse = (category: string) => filterProducts(products,'',category,'',false);
-    expect(browse('mugs')).toHaveLength(26);
+    expect(browse('mugs')).toHaveLength(21);
     expect(browse('mugs-quotes')).toHaveLength(13);
     expect(browse('mugs-ready')).toHaveLength(8);
     expect(browse('mugs-stanley')).toHaveLength(5);
-    expect(browse('candles')).toEqual(browse('candles-country'));
+    expect(browse('candles')).toHaveLength(18);
+    expect(browse('candles')).toEqual([...browse('candles-country'),...browse('candles-crossroads')]);
+    expect(browse('candles-crossroads')).toHaveLength(9);
     expect(browse('candles-country')).toHaveLength(9);
     expect(browse('printing')).toEqual([]);
     expect(browse('mugs-printing')).toEqual([]);
     expect(catalogChildren('printing').map(node => node.id)).toEqual(['printing-boards','printing-paper','printing-products']);
   });
-  it('keeps the three supplied cup collections separate', () => {
+  it('keeps Stanley independent from cups and preserves cup subcategories', () => {
     expect(inCatalogCategory(productById('quote-mug-01')!, 'mugs-ready')).toBe(false);
     expect(inCatalogCategory(productById('ready-mug-01')!, 'mugs-ready')).toBe(true);
     expect(inCatalogCategory(productById('stanley-bottle-01')!, 'mugs-stanley')).toBe(true);
     expect(inCatalogCategory(productById('stanley-bottle-01')!, 'mugs-quotes')).toBe(false);
+    expect(inCatalogCategory(productById('stanley-bottle-01')!, 'mugs')).toBe(false);
+    expect(catalogRoots.some(node=>node.id==='mugs-stanley')).toBe(true);
+    expect(catalogChildren('mugs').map(node=>node.id)).not.toContain('mugs-stanley');
+    expect(catalogTrail('mugs-stanley').map(node=>node.id)).toEqual(['mugs-stanley']);
   });
   it('supports direct links, ancestor breadcrumbs, and old category links', () => {
+    expect(catalogPath('mugs-stanley')).toBe('/category/stanley');
+    expect(resolveCatalogPath('mugs/stanley')?.id).toBe('mugs-stanley');
+    expect(catalogPath('candles-crossroads')).toBe('/category/candles/crossroads-candles');
     expect(catalogPath('board-wood')).toBe('/category/printing/boards/wood');
     expect(catalogTrail('board-wood').map(node => node.id)).toEqual(['printing','printing-boards','board-wood']);
     for (const node of catalogCategories) expect(resolveCatalogPath(catalogPath(node.id).replace('/category/',''))?.id).toBe(node.id);
@@ -33,9 +42,9 @@ describe('nested catalog browsing', () => {
     expect(new Set(catalogCategories.map(node => catalogPath(node.id))).size).toBe(catalogCategories.length);
   });
   it('retains the requested category hierarchy without orphaned product assignments', () => {
-    expect(catalogRoots).toHaveLength(11);
+    expect(catalogRoots).toHaveLength(12);
     expect(catalogChildren('printing-products')).toHaveLength(14);
-    expect(catalogCategories).toHaveLength(49);
+    expect(catalogCategories).toHaveLength(50);
     expect(products.every(p => p.imageKind === 'provided')).toBe(true);
     for (const p of products) for (const id of p.catalogCategoryIds) expect(catalogCategories.some(node => node.id === id), id).toBe(true);
   });
