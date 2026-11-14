@@ -9,18 +9,24 @@ import { StoreProvider } from './state';
 import { imagePath, products, supportsPhoto } from './catalog';
 import { filterProducts, blankPersonalization, inquiryMessage } from './order';
 import { quoteMugs } from './quote-mugs';
+import { stanleyBottles } from './stanley-bottles';
 import { setLocale } from './i18n';
-import manifest from '../docs/quote-mugs-images.json';
+import quoteManifest from '../docs/quote-mugs-images.json';
+import stanleyManifest from '../docs/stanley-bottles-images.json';
 
 function renderPage(path) {
   return renderToStaticMarkup(<StaticRouter location={path}><StoreProvider><Routes><Route path="/category/*" element={<Catalog />} /><Route path="/product/:productId" element={<ProductPage />} /></Routes></StoreProvider></StaticRouter>);
 }
 
-describe('user-supplied quote mugs', () => {
-  it('includes all 13 original JPEGs in Cups and Quote mugs, without changing their bytes', () => {
-    const collection = filterProducts(products,'','mugs-quotes','',false);
-    expect(collection).toHaveLength(13);
-    expect(new Set(collection.map(p => p.image)).size).toBe(13);
+describe.each([
+  {name:'quote mugs', category:'mugs-quotes', slug:'quotes', title:'أكواب جمل', items:quoteMugs, manifest:quoteManifest},
+  {name:'Stanley tumblers', category:'mugs-stanley', slug:'stanley', title:'قناني ستانلي', items:stanleyBottles, manifest:stanleyManifest},
+])('user-supplied $name', ({category,slug,title,items,manifest}) => {
+  it('includes every original JPEG in Cups and its own subcategory without changing their bytes', () => {
+    const collection = filterProducts(products,'',category,'',false);
+    expect(collection.map(p => p.id)).toEqual(items.map(p => p.id));
+    expect(collection).toHaveLength(manifest.length);
+    expect(new Set(collection.map(p => p.image)).size).toBe(manifest.length);
     const cups = filterProducts(products,'','mugs','',false);
     for (const product of collection) {
       expect(cups).toContain(product);
@@ -34,24 +40,26 @@ describe('user-supplied quote mugs', () => {
   });
   it('renders the complete collection and shows the supplied photo first on product pages', () => {
     setLocale('ar');
-    const html = renderPage('/category/mugs/quotes');
-    expect((html.match(/class="product-card"/g) || []).length).toBe(13);
-    expect(html).toContain('أكواب جمل');
+    const html = renderPage('/category/mugs/'+slug);
+    expect((html.match(/class="product-card"/g) || []).length).toBe(items.length);
+    expect(html).toContain(title);
     expect(html).not.toContain('class="demo-label"');
-    for (const product of quoteMugs) expect(html).toContain(imagePath(product.image));
-    const page = renderPage('/product/quote-mug-01');
+    for (const product of items) expect(html).toContain(imagePath(product.image));
+    const cups = renderPage('/category/mugs');
+    expect(cups).toContain('href="/category/mugs/'+slug+'"');
+    const page = renderPage('/product/'+items[0].id);
     expect(page).toContain('class="product-photo"');
     expect(page).toContain('class="active"><svg');
-    expect(page).toContain('/images/quote-mugs/01.jpg');
+    expect(page).toContain(imagePath(items[0].image));
     expect(page).toContain('صورة المنتج');
     expect(page).not.toContain('class="design-preview');
     expect(page).not.toContain('type="file"');
   });
   it('keeps the chosen design identifiable in Arabic, Hebrew, and English inquiries', () => {
     for (const locale of ['ar','he','en']) {
-      const message = inquiryMessage([{id:'test',productId:'quote-mug-13',custom:{...blankPersonalization(),name:'نور & Alex'}}],'BG-QUOTE','',locale);
+      const message = inquiryMessage([{id:'test',productId:items.at(-1).id,custom:{...blankPersonalization(),name:'نور & Alex'}}],'BG-PHOTO','',locale);
       expect(message).toContain('نور & Alex');
-      expect(message).toContain('BG-QUOTE');
+      expect(message).toContain('BG-PHOTO');
       expect(message).not.toContain('undefined');
     }
   });

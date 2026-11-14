@@ -25,7 +25,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 
 ## Included
 
-- 11 main categories and 47 browsable category nodes, with All/subcategory navigation at every level. The 107 active product records have individual product pages; all 75 historical product IDs still resolve for saved drafts and baskets.
+- 11 main categories and 48 browsable category nodes, with All/subcategory navigation at every level. The 112 active product records have individual product pages; all 75 historical product IDs still resolve for saved drafts and baskets.
 - Original cream, blush pink and plum palette, preserving the established layout and English wordmark. Keep these colors until the owner supplies the replacement palette.
 - Arabic by default, with Arabic / Hebrew / English language selectors in desktop navigation, the mobile announcement bar, and the mobile menu. Choice persists on this browser.
 - Automatic RTL/LTR layout, local Tajawal / Heebo fonts, keyboard controls and reduced-motion support.
@@ -38,7 +38,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 - Saved browser-local drafts, gift contents and inquiry basket.
 - Reviewable WhatsApp message with reference, product details, gift contents, greeting, quantities, options and attachment reminders. Long requests can be copied or downloaded without truncation.
 - Graphic design services, portfolio placeholder, about, contact and privacy information.
-- 13 user-supplied mug JPEGs in Cups → Quote mugs, preserved unchanged and displayed on individual product pages.
+- 18 user-supplied JPEGs in Cups → Quote mugs (13) and Cups → Stanley tumblers (5), preserved unchanged and displayed on individual product pages.
 - 19 original generated WebP images, each shown as illustrative content. No fabricated reviews, inventory, client portfolio or prices.
 
 ## Configuration and source map
@@ -57,7 +57,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 | `src/locales/translations.json` | Arabic, Hebrew and English application copy; canonical saved option values remain unchanged |
 | `src/LanguageSwitcher.tsx` | Accessible Arabic / Hebrew / English selector |
 | `src/styles.css` | Design system and responsive styles |
-| `public/images/` | Original illustrative WebPs and user-supplied quote-mug JPEGs |
+| `public/images/` | Original illustrative WebPs and user-supplied mug and tumbler JPEGs |
 | `docs/ASSET-PROMPTS.md` | Exact built-in Imagegen prompts and asset notes |
 | `docs/RESEARCH.md` | Reference research and original design decisions |
 | `docs/TESTING.md` | Executed checks and limits |
@@ -66,7 +66,7 @@ The production build is in `dist/`. Serve it over HTTP; opening `index.html` dir
 
 The original brief and November 4 catalog screenshot define the current content. The current text wordmark is a temporary identifier, not a recreation of the official logo. Supply the real logo in `public/images/` and set `studio.logo` in `src/catalog.ts` to its root-relative path. Supply the brand introduction post and real product photographs for final visual reconciliation.
 
-The Quote mugs collection uses the 13 product images supplied by the user. Earlier catalog entries are seed concepts. Confirm the actual offered products, compatibility, supported customization, dimensions, scents, finishes and fulfillment terms before presenting them as available stock. `Product.price` is nullable; enter real prices only after confirmation. `studio.productionTime` is also nullable. Product-specific field overrides live in `productFields()`.
+The Quote mugs and Stanley tumblers collections use the 18 product images supplied by the user. Earlier catalog entries are seed concepts. Confirm the actual offered products, compatibility, supported customization, dimensions, scents, finishes and fulfillment terms before presenting them as available stock. `Product.price` is nullable; enter real prices only after confirmation. `studio.productionTime` is also nullable. Product-specific field overrides live in `productFields()`.
 
 Ready-made cups and notebooks, incense burners, jewelry and perfume offer packaging/card personalization only. They do not promise engraving or perfume formulation. Device models are data-driven request options, not verified compatibility. All request options require studio approval.
 
@@ -105,4 +105,4 @@ Keep the typed `Product`, `Personalization`, `GiftDraft`, and `BasketItem` shape
 
 ## Assets and licensing
 
-The 19 illustrative photographs were generated specifically for this project using built-in Imagegen. The 13 quote-mug photographs were supplied by the user and copied unchanged; see `docs/QUOTE-MUGS.md` for their mapping and checksums. Exact prompts are in `docs/ASSET-PROMPTS.md` and `docs/CATALOG-ASSETS.md`. Heebo and Tajawal are bundled under the SIL Open Font License in `public/fonts/OFL.txt` and `public/fonts/Tajawal-OFL.txt`. Lucide icons are distributed with their package license. Competitor websites informed interaction patterns only; their content, code and assets were not copied.
+The 19 illustrative photographs were generated specifically for this project using built-in Imagegen. The 13 quote-mug and five Stanley tumbler photographs were supplied by the user and copied unchanged; see `docs/QUOTE-MUGS.md` and `docs/STANLEY-BOTTLES.md` for their mapping and checksums. Exact prompts are in `docs/ASSET-PROMPTS.md` and `docs/CATALOG-ASSETS.md`. Heebo and Tajawal are bundled under the SIL Open Font License in `public/fonts/OFL.txt` and `public/fonts/Tajawal-OFL.txt`. Lucide icons are distributed with their package license. Competitor websites informed interaction patterns only; their content, code and assets were not copied.

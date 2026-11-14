@@ -132,6 +132,16 @@ export const catalogCategories: CatalogCategory[] = [
     "parentId": "mugs"
   },
   {
+    "id": "mugs-stanley",
+    "slug": "stanley",
+    "title": "قناني ستانلي",
+    "short": "قناني ستانلي",
+    "image": "stanley-bottles/01.jpg",
+    "color": "#F5DEE4",
+    "description": "خمسة تصاميم بألوان هادئة وتفاصيل جميلة. اختاروا تصميمكم المفضّل.",
+    "parentId": "mugs"
+  },
+  {
     "id": "notebooks-ready",
     "slug": "ready",
     "title": "دفاتر جاهزة",

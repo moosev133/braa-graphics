@@ -1,0 +1,37 @@
+[
+  {
+    "photo": 1,
+    "sourceBatch": "F150C3F8-CBBD-45FE-9A35-67B0B66B4B40",
+    "sourceFile": "1-Photo-1.jpg",
+    "file": "public/images/stanley-bottles/01.jpg",
+    "sha256": "938921328e636efc8ff7051d636574a9964285863c5d60449175fb1d3aab25a2"
+  },
+  {
+    "photo": 2,
+    "sourceBatch": "F150C3F8-CBBD-45FE-9A35-67B0B66B4B40",
+    "sourceFile": "2-Photo-2.jpg",
+    "file": "public/images/stanley-bottles/02.jpg",
+    "sha256": "1fce277c8246b869cd7719ee352e32cc090d6605063150a9526bfb64b6c3d606"
+  },
+  {
+    "photo": 3,
+    "sourceBatch": "F150C3F8-CBBD-45FE-9A35-67B0B66B4B40",
+    "sourceFile": "3-Photo-3.jpg",
+    "file": "public/images/stanley-bottles/03.jpg",
+    "sha256": "1c6b136c1bb72b5ee9fe49d75e8a2a2d111a6debf75840e5e42b66db9e267ca1"
+  },
+  {
+    "photo": 4,
+    "sourceBatch": "F150C3F8-CBBD-45FE-9A35-67B0B66B4B40",
+    "sourceFile": "4-Photo-4.jpg",
+    "file": "public/images/stanley-bottles/04.jpg",
+    "sha256": "b52a143f790eaaaadcfc38f06027979b66d30b8bec9492295b2866c30e79cd98"
+  },
+  {
+    "photo": 5,
+    "sourceBatch": "F150C3F8-CBBD-45FE-9A35-67B0B66B4B40",
+    "sourceFile": "5-Photo-5.jpg",
+    "file": "public/images/stanley-bottles/05.jpg",
+    "sha256": "7a92e80fe886214c1a2ce4fae7825ade87af60073cac93ac9d8f6701984a207b"
+  }
+]

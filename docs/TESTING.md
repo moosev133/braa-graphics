@@ -93,3 +93,10 @@ Verified the restored cream background, plum text, blush announcement bar and pi
 - Static React rendering verifies that all 13 photo cards appear without the generated-image label and the product page defaults to its supplied photo. Optional personalization remains limited to the gift card/wrapping.
 - The local collection route returned HTTP 200. Browser visual/interaction QA was unavailable because local browser use is disabled in Work settings; no alternative browser automation was used.
 - Existing colors, product IDs, saved drafts, and nested printing categories are preserved. No WhatsApp message was sent.
+
+## Stanley tumblers collection — November 15, 2026
+
+- Added all five supplied JPEGs unchanged under Cups → قناني ستانلي (`/category/mugs/stanley`), each with its own product page. Source checksums match `docs/stanley-bottles-images.json`.
+- All 27 tests pass. Shared supplied-photo checks cover both collections: parent and child membership, image integrity, collection links and cards, photo-first product pages, and inquiry details in Arabic, Hebrew and English. Existing catalog and saved-product checks also pass.
+- Static React rendering verifies the new subcategory link and its five supplied-photo cards. Browser visual/interaction QA remains unavailable because local browser use is disabled in Work settings.
+- The original pink styling and all existing category/product IDs are unchanged. No WhatsApp message was sent.
